@@ -1,0 +1,31 @@
+// get all musicians
+GET http://localhost:5000/api/v1/musicians
+
+###
+
+// get single musician
+GET http://localhost:5000/api/v1/musicians/63b47b8858e7ed26f40c41b5
+
+###
+
+// add a musician
+POST http://localhost:5000/api/v1/musicians
+Content-Type: application/xml
+Authorization: token xxx
+
+<request>
+    <name>sample</name>
+    <time>Wed, 21 Oct 2015 18:27:50 GMT</time>
+</request>
+
+###
+
+// edit a musician
+PATCH http://localhost:5000/api/v1/musicians/""
+
+
+###
+
+// delete a musician
+DELETE http://localhost:5000/api/v1/musicians/""
+###

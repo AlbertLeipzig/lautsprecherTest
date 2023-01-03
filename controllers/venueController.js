@@ -1,0 +1,62 @@
+const Venue = require('../models/VenueModel');
+
+const { server200, server404, server500 } = require('../methods/methods');
+
+const getAllVenues = async (req, res) => {
+  try {
+    const venues = await Venue.find({});
+    server200(venues);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const getSingleVenue = async (req, res) => {
+  try {
+    const { id: venueId } = req.params;
+    const venue = await Venue.findOne({ _id: venueId });
+    venue ? server200(res, Venue) : server404(res, venueId);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const addVenue = async (req, res) => {
+  try {
+    const newVenue = await Venue.create(req.body);
+    server200(res, newVenue);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const updateVenue = async (req, res) => {
+  try {
+    const { id: venueId } = req.params;
+    const venue = await Venue.findOneAndUpdate({ _id: venueId }, req.params, {
+      new: true,
+      runValidators: true,
+    });
+    venue ? server200(res, venue) : server404(res, venueId);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const deleteVenue = async (req, res) => {
+  try {
+    const { id: venueId } = req.params;
+    const venue = await Venue.findOneAndRemove({ _id: venueId });
+    venue ? server200(res, venue) : server404(res, venueId);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+module.exports = {
+  getAllVenues,
+  getSingleVenue,
+  addVenue,
+  updateVenue,
+  deleteVenue,
+};

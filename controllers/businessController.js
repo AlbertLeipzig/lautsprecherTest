@@ -1,0 +1,66 @@
+const Business = require('../models/businessModel');
+
+const { server200, server404, server500 } = require('../methods/methods');
+
+const getAllBusiness = async (req, res) => {
+  try {
+    const business = await Business.find({});
+    server200(business);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const getSingleBusiness = async (req, res) => {
+  try {
+    const { id: businessId } = req.params;
+    const business = await Business.findOne({ _id: businessId });
+    business ? server200(res, band) : server404(res, businessId);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const addBusiness = async (req, res) => {
+  try {
+    const newBusiness = await Business.create(req.body);
+    server200(res, newBusiness);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const updateBusiness = async (req, res) => {
+  try {
+    const { id: businessId } = req.params;
+    const business = await Business.findOneAndUpdate(
+      { _id: businessId },
+      req.params,
+      {
+        new: true,
+        runValidators: true,
+      }
+    );
+    business ? server200(res, band) : server404(res, businessId);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const deleteBusiness = async (req, res) => {
+  try {
+    const { id: businessId } = req.params;
+    const business = await Business.findOneAndRemove({ _id: businessId });
+    business ? server200(res, business) : server404(res, businessId);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+module.exports = {
+  getAllBusiness,
+  getSingleBusiness,
+  addBusiness,
+  updateBusiness,
+  deleteBusiness,
+};
