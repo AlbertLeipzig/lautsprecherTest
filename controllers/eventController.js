@@ -5,7 +5,7 @@ const { server200, server404, server500 } = require('../methods/methods');
 const getAllEvents = async (req, res) => {
   try {
     const events = await Event.find({});
-    server200(events);
+    events ? server200(res, events) : server404(res, "placeholderId")
   } catch (error) {
     server500(res, error);
   }
@@ -33,7 +33,7 @@ const addEvent = async (req, res) => {
 const updateEvent = async (req, res) => {
   try {
     const { id: eventId } = req.params;
-    const event = await Event.findOneAndUpdate({ _id: eventId }, req.params, {
+    const event = await Event.findOneAndUpdate({ _id: eventId }, req.body, {
       new: true,
       runValidators: true,
     });

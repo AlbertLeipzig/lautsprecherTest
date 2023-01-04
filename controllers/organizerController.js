@@ -5,7 +5,8 @@ const { server200, server404, server500 } = require('../methods/methods');
 const getAllOrganizers = async (req, res) => {
   try {
     const organizers = await Organizer.find({});
-    server200(organizers);
+
+    organizers ? server200(res, organizers) : server404(res, 'placeholderId');
   } catch (error) {
     server500(res, error);
   }
@@ -33,9 +34,9 @@ const addOrganizer = async (req, res) => {
 const updateOrganizer = async (req, res) => {
   try {
     const { id: organizerId } = req.params;
-    const organizer = await organizer.findOneAndUpdate(
+    const organizer = await Organizer.findOneAndUpdate(
       { _id: organizerId },
-      req.params,
+      req.body,
       {
         new: true,
         runValidators: true,

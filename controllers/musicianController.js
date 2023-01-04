@@ -1,26 +1,10 @@
 const Musician = require('../models/musicianModel');
-/* const { server200, server404, server500 } = require('../methods/methods'); */
-
-// methods
-
-const server200 = (res, data) => {
-  return res.status(200).json({ data });
-};
-
-const server404 = (res, id) => {
-  return res.status(404).json({ msg: `No document with id ${id} found` });
-};
-
-const server500 = (res, error) => {
-  return res.status(500).json({ error });
-};
-
-// routes
+const { server200, server404, server500 } = require('../methods/methods');
 
 const getAllMusicians = async (req, res) => {
   try {
     const musicians = await Musician.find({});
-    server200(res, musicians);
+    musicians ? server200(res, musicians) : server404(res, 'placeholderId');
   } catch (error) {
     server500(res, error);
   }

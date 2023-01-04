@@ -17,6 +17,7 @@ const mainArticleNameSchema = {
 
 const mainDateSchema = {
   type: Date,
+  default: Date.now,
 };
 
 const mainEmailSchema = {
@@ -36,7 +37,6 @@ const mainEmailSchema = {
 
 const mainArticleIdSchema = {
   type: String,
-  required: true,
   minlength: [24, `an ID must contain 24 characters`],
   maxlength: [24, `an ID must contain 24 characters`],
 };

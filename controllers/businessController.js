@@ -5,11 +5,26 @@ const { server200, server404, server500 } = require('../methods/methods');
 const getAllBusiness = async (req, res) => {
   try {
     const business = await Business.find({});
-    server200(business);
+    business ? server200(res, business) : server404(res, 'placeholderId');
   } catch (error) {
     server500(res, error);
   }
 };
+
+/* 
+
+const getAllBusiness = async (req, res) => {
+  const business = await Business.find({});
+  if (business) {
+    server200(res, business);
+  } else if (!business) {
+    server404(res, 'placeholderId');
+  } else {
+    server500(res, error);
+  }
+};
+
+ */
 
 const getSingleBusiness = async (req, res) => {
   try {
@@ -35,13 +50,13 @@ const updateBusiness = async (req, res) => {
     const { id: businessId } = req.params;
     const business = await Business.findOneAndUpdate(
       { _id: businessId },
-      req.params,
+      req.body,
       {
         new: true,
         runValidators: true,
       }
     );
-    business ? server200(res, band) : server404(res, businessId);
+    business ? server200(res, business) : server404(res, businessId);
   } catch (error) {
     server500(res, error);
   }

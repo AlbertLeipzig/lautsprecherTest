@@ -21,12 +21,12 @@ app.use(express.json());
 
 //routes
 
-app.use(`${baseApi}/musicians`, musicianRoutes);
 app.use(`${baseApi}/bands`, bandRoutes);
-app.use(`${baseApi}/events`, eventRoutes);
-app.use(`${baseApi}/venues`, venueRoutes);
-app.use(`${baseApi}/organizers`, organizerRoutes);
 app.use(`${baseApi}/business`, businessRoutes);
+app.use(`${baseApi}/events`, eventRoutes);
+app.use(`${baseApi}/musicians`, musicianRoutes);
+app.use(`${baseApi}/organizers`, organizerRoutes);
+app.use(`${baseApi}/venues`, venueRoutes);
 
 // start server
 

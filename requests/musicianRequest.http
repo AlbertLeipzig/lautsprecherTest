@@ -4,7 +4,7 @@ GET http://localhost:5000/api/v1/musicians
 ###
 
 // get single musician
-GET http://localhost:5000/api/v1/musicians/63b47b8858e7ed26f40c41b5
+GET http://localhost:5000/api/v1/musicians/6215401d9853e0c413e459cf
 
 ###
 

@@ -5,7 +5,8 @@ const { server200, server404, server500 } = require('../methods/methods');
 const getAllBands = async (req, res) => {
   try {
     const bands = await Band.find({});
-    server200(bands);
+
+    bands ? server200(res, bands) : server404(res, 'placeholderId');
   } catch (error) {
     server500(res, error);
   }
@@ -33,7 +34,7 @@ const addBand = async (req, res) => {
 const updateBand = async (req, res) => {
   try {
     const { id: bandId } = req.params;
-    const band = await Band.findOneAndUpdate({ _id: bandId }, req.params, {
+    const band = await Band.findOneAndUpdate({ _id: bandId }, req.body, {
       new: true,
       runValidators: true,
     });
@@ -52,7 +53,6 @@ const deleteBand = async (req, res) => {
     server500(res, error);
   }
 };
-
 
 module.exports = {
   getAllBands,

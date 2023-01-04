@@ -16,4 +16,4 @@ const organizerSchema = new mongoose.Schema({
   events: [mainArticleIdSchema],
 });
 
-module.exports = mongoose.model('Organize', organizerSchema);
+module.exports = mongoose.model('Organizer', organizerSchema);
