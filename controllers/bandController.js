@@ -25,7 +25,15 @@ const getSingleBand = async (req, res) => {
 const addBand = async (req, res) => {
   try {
     const newBand = await Band.create(req.body);
-    server200(res, newBand);
+
+    // look into db to see if band exists
+
+    const bandName = req.body.name;
+    const band = await Band.findOne({ name: bandName });
+
+    band
+      ? server500(res, `band can't be added, contact admin`)
+      : server200(res, newBand);
   } catch (error) {
     server500(res, error);
   }

@@ -25,7 +25,15 @@ const getSingleOrganizer = async (req, res) => {
 const addOrganizer = async (req, res) => {
   try {
     const newOrganizer = await Organizer.create(req.body);
-    server200(res, newOrganizer);
+
+    // look into db to see if organizer exists
+
+    const organizerName = req.body.name;
+    const organizer = await Organizer.findOne({ name: organizerName });
+
+    organizer
+      ? server500(res, `organizer can't be added, contact admin`)
+      : server200(res, newOrganizer);
   } catch (error) {
     server500(res, error);
   }

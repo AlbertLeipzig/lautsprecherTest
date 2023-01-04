@@ -24,8 +24,15 @@ const getSingleVenue = async (req, res) => {
 const addVenue = async (req, res) => {
   try {
     const newVenue = await Venue.create(req.body);
-    console.log(newVenue);
-    server200(res, newVenue);
+
+    // look into db to see if venue exists
+
+    const venueName = req.body.name;
+    const venue = await Venue.findOne({ name: venueName });
+
+    venue
+      ? server500(res, `venue can't be added, contact admin`)
+      : server200(res, newVenue);
   } catch (error) {
     server500(res, error);
   }

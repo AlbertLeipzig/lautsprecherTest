@@ -23,7 +23,15 @@ const getSingleMusician = async (req, res) => {
 const addMusician = async (req, res) => {
   try {
     const newMusician = await Musician.create(req.body);
-    server200(res, newMusician);
+
+    // look into db to see if musician exists
+
+    const musicianName = req.body.name;
+    const musician = await Musician.findOne({ name: musicianName });
+
+    musician
+      ? server500(res, `musician can't be added, contact admin`)
+      : server200(res, newMusician);
   } catch (error) {
     server500(res, error);
   }

@@ -4,6 +4,14 @@ const mongoose = require('mongoose');
 
 const mailValidatorPattern = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+.[a-zA-Z0-9.-]+$/;
 
+const linkValidatorPattern =
+  /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([/\w .-]*)*\/?$/;
+
+/* 
+alternative link pattern
+(http[s]?:\/\/)?[^\s(["<,>]*\.[^\s[",><]* 
+*/
+
 // main schemas
 
 const mainArticleNameSchema = {
@@ -17,7 +25,6 @@ const mainArticleNameSchema = {
 
 const mainDateSchema = {
   type: Date,
-  default: Date.now,
 };
 
 const mainEmailSchema = {
@@ -57,6 +64,13 @@ const mainInstrumentSchema = {
 
 const mainLinkSchema = {
   type: String,
+  trim: true,
+  validate: {
+    validator: function (value) {
+      return linkValidatorPattern.test(value);
+    },
+    message: (props) => `${props.value} is not a valid link!`,
+  },
   maxlength: [20, `a link must contain max 20 characters`],
 };
 
