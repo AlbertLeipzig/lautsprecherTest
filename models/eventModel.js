@@ -18,7 +18,7 @@ const eventSchema = new mongoose.Schema({
   price: mainPriceSchema,
   image: mainImageSchema,
   tags: [mainTagSchema],
-  link: mainLinkSchema,
+  link: [mainLinkSchema],
 });
 
 module.exports = mongoose.model('Event', eventSchema);
