@@ -15,7 +15,7 @@ const getAllOrganizers = async (req, res) => {
 const getSingleOrganizer = async (req, res) => {
   try {
     const { id: organizerId } = req.params;
-    const organizer = await Organizer.findOne({ _id: organizerId });
+    const organizer = await Organizer.findById(organizerId);
     organizer ? server200(res, organizer) : server404(res, organizerId);
   } catch (error) {
     server500(res, error);
@@ -59,7 +59,7 @@ const updateOrganizer = async (req, res) => {
 const deleteOrganizer = async (req, res) => {
   try {
     const { id: organizerId } = req.params;
-    const organizer = await organizer.findOneAndRemove({ _id: organizerId });
+    const organizer = await organizer.findByIdAndDelete(organizerId);
     organizer ? server200(res, organizer) : server404(res, organizerId);
   } catch (error) {
     server500(res, error);

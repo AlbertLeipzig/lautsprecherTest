@@ -14,7 +14,7 @@ const getAllEvents = async (req, res) => {
 const getSingleEvent = async (req, res) => {
   try {
     const { id: eventId } = req.params;
-    const event = await Event.findOne({ _id: eventId });
+    const event = await Event.findById(eventId);
     event ? server200(res, event) : server404(res, eventId);
   } catch (error) {
     server500(res, error);
@@ -54,7 +54,7 @@ const updateEvent = async (req, res) => {
 const deleteEvent = async (req, res) => {
   try {
     const { id: eventId } = req.params;
-    const event = await Event.findOneAndRemove({ _id: eventId });
+    const event = await Event.findByIdAndDelete(eventId);
     event ? server200(res, event) : server404(res, eventId);
   } catch (error) {
     server500(res, error);

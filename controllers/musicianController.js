@@ -13,7 +13,7 @@ const getAllMusicians = async (req, res) => {
 const getSingleMusician = async (req, res) => {
   try {
     const { id: musicianId } = req.params;
-    const musician = await Musician.findOne({ _id: musicianId });
+    const musician = await Musician.findById(musicianId);
     musician ? server200(res, musician) : server404(res, musicianId);
   } catch (error) {
     server500(res, error);
@@ -57,7 +57,7 @@ const updateMusician = async (req, res) => {
 const deleteMusician = async (req, res) => {
   try {
     const { id: musicianId } = req.params;
-    const musician = await Musician.findOneAndDelete({ _id: musicianId });
+    const musician = await Musician.findByIdAndDelete(musicianId);
     musician ? server200(res, musician) : server404(res, musicianId);
   } catch (error) {
     server500(res, error);

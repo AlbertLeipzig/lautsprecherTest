@@ -15,7 +15,7 @@ const getAllBands = async (req, res) => {
 const getSingleBand = async (req, res) => {
   try {
     const { id: bandId } = req.params;
-    const band = await Band.findOne({ _id: bandId });
+    const band = await Band.findById(bandId);
     band ? server200(res, band) : server404(res, bandId);
   } catch (error) {
     server500(res, error);
@@ -28,12 +28,7 @@ const addBand = async (req, res) => {
 
     // look into db to see if band exists
 
-    const bandName = req.body.name;
-    const band = await Band.findOne({ name: bandName });
-
-    band
-      ? server500(res, `band can't be added, contact admin`)
-      : server200(res, newBand);
+    server200(res, newBand);
   } catch (error) {
     server500(res, error);
   }
@@ -55,7 +50,7 @@ const updateBand = async (req, res) => {
 const deleteBand = async (req, res) => {
   try {
     const { id: bandId } = req.params;
-    const band = await Band.findOneAndRemove({ _id: bandId });
+    const band = await Band.findByIdAndDelete(bandId);
     band ? server200(res, band) : server404(res, bandId);
   } catch (error) {
     server500(res, error);

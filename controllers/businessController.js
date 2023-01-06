@@ -29,7 +29,7 @@ const getAllBusiness = async (req, res) => {
 const getSingleBusiness = async (req, res) => {
   try {
     const { id: businessId } = req.params;
-    const business = await Business.findOne({ _id: businessId });
+    const business = await Business.findById(businessId);
     business ? server200(res, band) : server404(res, businessId);
   } catch (error) {
     server500(res, error);
@@ -75,7 +75,7 @@ const updateBusiness = async (req, res) => {
 const deleteBusiness = async (req, res) => {
   try {
     const { id: businessId } = req.params;
-    const business = await Business.findOneAndRemove({ _id: businessId });
+    const business = await Business.findByIdAndDelete(businessId);
     business ? server200(res, business) : server404(res, businessId);
   } catch (error) {
     server500(res, error);

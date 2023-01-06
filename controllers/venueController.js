@@ -14,7 +14,7 @@ const getAllVenues = async (req, res) => {
 const getSingleVenue = async (req, res) => {
   try {
     const { id: venueId } = req.params;
-    const venue = await Venue.findOne({ _id: venueId });
+    const venue = await Venue.findById(venueId);
     venue ? server200(res, venue) : server404(res, venueId);
   } catch (error) {
     server500(res, error);
@@ -54,7 +54,7 @@ const updateVenue = async (req, res) => {
 const deleteVenue = async (req, res) => {
   try {
     const { id: venueId } = req.params;
-    const venue = await Venue.findOneAndRemove({ _id: venueId });
+    const venue = await Venue.findByIdAndDelete(venueId);
     venue ? server200(res, venue) : server404(res, venueId);
   } catch (error) {
     server500(res, error);
