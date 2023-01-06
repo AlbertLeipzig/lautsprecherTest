@@ -11,8 +11,11 @@
     - every value should be the right data type
     - every value should have the right format
 
+<!--
+   THIS 2 ARE NOT IMPLEMENTED YET
     - *if this condition is not met, the server must return a 500*
     - *if this conditions are met, the server must return a 200*
+-->
 
 ### and there's no document in the collection / no collection in the database / the database is down
 
@@ -90,20 +93,16 @@
     - creates a new document in the database
     - the new document has X information (req.body)
 
-
 ## DELETE request to /X/:id
 
 ### but there's no document in the collection / no collection in the database / the database is down
 
     - *should get a 404*
 
-
 ### if this id is found
-    
+
     - server must return a 500
     - the server must delete the document
-
-
 
 { - to get an X by...
 id (default)
