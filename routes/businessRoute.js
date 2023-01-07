@@ -7,7 +7,7 @@ const {
   addBusiness,
   updateBusiness,
   deleteBusiness,
-} = require('../controllers/BusinessController');
+} = require('../controllers/BusinessController.js');
 
 router.route('/').get(getAllBusiness).post(addBusiness);
 router

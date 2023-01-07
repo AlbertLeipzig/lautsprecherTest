@@ -7,14 +7,9 @@ const {
   addBand,
   updateBand,
   deleteBand,
-} = require('../controllers/BandController');
+} = require('../controllers/BandController.js');
 
 router.route('/').get(getAllBands).post(addBand);
-router
-  .route('/:id')
-  .get(getSingleBand)
-  .patch(updateBand)
-  .delete(deleteBand);
+router.route('/:id').get(getSingleBand).patch(updateBand).delete(deleteBand);
 
 module.exports = router;
-

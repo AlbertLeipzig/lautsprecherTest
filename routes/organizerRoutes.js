@@ -7,7 +7,7 @@ const {
   addOrganizer,
   updateOrganizer,
   deleteOrganizer,
-} = require('../controllers/organizerController');
+} = require('../controllers/organizerController.js');
 
 router.route('/').get(getAllOrganizers).post(addOrganizer);
 router

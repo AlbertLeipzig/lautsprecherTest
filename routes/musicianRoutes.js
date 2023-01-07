@@ -7,7 +7,7 @@ const {
   addMusician,
   updateMusician,
   deleteMusician,
-} = require('../controllers/musicianController');
+} = require('../controllers/musicianController.js');
 
 router.route('/').get(getAllMusicians).post(addMusician);
 router

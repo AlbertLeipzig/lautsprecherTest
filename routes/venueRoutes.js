@@ -7,7 +7,7 @@ const {
   addVenue,
   updateVenue,
   deleteVenue,
-} = require('../controllers/VenueController');
+} = require('../controllers/VenueController.js');
 
 router.route('/').get(getAllVenues).post(addVenue);
 router
