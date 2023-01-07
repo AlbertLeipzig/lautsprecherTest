@@ -2,13 +2,14 @@
   "name": "lautsprechertest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
     "test": "test --watchAll --coverage",
     "dev": "nodemon server.js",
+    "start": "node server.js",
     "deploy": "node server.js"
   },
   "keywords": [],
