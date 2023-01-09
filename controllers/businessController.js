@@ -48,8 +48,6 @@ const addBusiness = async (req, res) => {
     business
       ? server500(res, `business can't be added, contact admin`)
       : server200(res, newBusiness);
-
-    server200(res, newBusiness);
   } catch (error) {
     server500(res, error);
   }

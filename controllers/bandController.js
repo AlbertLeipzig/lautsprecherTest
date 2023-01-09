@@ -21,6 +21,37 @@ const getSingleBand = async (req, res) => {
     server500(res, error);
   }
 };
+/* 
+implement controllers to get [X] by
+    id (default)
+    firstName
+    lastName
+    date
+    (email ?)
+    tag
+    price
+ */
+
+const getTest = async (req, res) => {
+  try {
+    let parameters = {};
+    const { id: bandId } = req.params;
+    const band = await Band.findById(bandId);
+    console.log(band);
+    res.status(200).json({ name: band.bandName });
+  } catch (error) {
+    server500(res, error);
+  }
+
+  /* 
+  try {
+    const { id: bandId } = req.params;
+    const band = await Band.findById(bandId);
+    band ? server200(res, band) : server404(res, bandId);
+  } catch (error) {
+    server500(res, error);
+  } */
+};
 
 const addBand = async (req, res) => {
   try {
@@ -63,4 +94,5 @@ module.exports = {
   addBand,
   updateBand,
   deleteBand,
+  getTest,
 };
