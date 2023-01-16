@@ -33,3 +33,5 @@ price
 // SENIOR DEV
 
 i) getTest failed
+ii) getSingleBusiness "band not found" WTF
+iii) getSingleMusician "musician not found"

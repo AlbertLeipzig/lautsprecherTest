@@ -1,16 +1,15 @@
-const express = require('express');
+import express from 'express';
 const router = express.Router();
 
-const {
+import {
   getAllBands,
   getSingleBand,
   addBand,
   updateBand,
   deleteBand,
-  getTest,
-} = require('../controllers/BandController.js');
+} from '../controllers/BandController.js';
 
 router.route('/').get(getAllBands).post(addBand);
-router.route('/:id').get(getTest).patch(updateBand).delete(deleteBand);
+router.route('/:id').get(getSingleBand).patch(updateBand).delete(deleteBand);
 
-module.exports = router;
+export default router;

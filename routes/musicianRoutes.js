@@ -1,13 +1,13 @@
-const express = require('express');
+import express from 'express';
 const router = express.Router();
 
-const {
+import {
   getAllMusicians,
   getSingleMusician,
   addMusician,
   updateMusician,
   deleteMusician,
-} = require('../controllers/musicianController.js');
+} from '../controllers/musicianController.js';
 
 router.route('/').get(getAllMusicians).post(addMusician);
 router
@@ -16,4 +16,4 @@ router
   .patch(updateMusician)
   .delete(deleteMusician);
 
-module.exports = router;
+export default router;

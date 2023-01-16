@@ -1,12 +1,13 @@
-const mongoose = require('mongoose');
-const {
+import mongoose from 'mongoose';
+import {
   mainArticleNameSchema,
+  mainAddressSchema,
   mainEmailSchema,
   mainImageSchema,
   mainTagSchema,
   mainLinkSchema,
   mainArticleIdSchema,
-} = require('./mainModel');
+} from './mainModel.js';
 
 const venueSchema = new mongoose.Schema({
   name: mainArticleNameSchema,
@@ -15,5 +16,9 @@ const venueSchema = new mongoose.Schema({
   tag: mainTagSchema,
   link: mainLinkSchema,
   id: mainArticleIdSchema,
+  address: mainAddressSchema,
 });
-module.exports = mongoose.model('Venue', venueSchema);
+
+const venueModel = mongoose.model('Venue', venueSchema);
+
+export default venueModel;

@@ -1,13 +1,13 @@
-const express = require('express');
+import express from 'express';
 const router = express.Router();
 
-const {
+import {
   getAllBusiness,
   getSingleBusiness,
   addBusiness,
   updateBusiness,
   deleteBusiness,
-} = require('../controllers/BusinessController.js');
+} from '../controllers/BusinessController.js';
 
 router.route('/').get(getAllBusiness).post(addBusiness);
 router
@@ -16,4 +16,4 @@ router
   .patch(updateBusiness)
   .delete(deleteBusiness);
 
-module.exports = router;
+export default router;

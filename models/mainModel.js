@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 // testing patterns
 
@@ -13,6 +13,28 @@ alternative link pattern
 */
 
 // main schemas
+
+const mainAddressSchema = {
+  street: {
+    type: String,
+    required: [true, 'an address must contain a street'],
+    minlength: [2, `an address's street must contain at least 2 characters`],
+    maxlength: [20, `an address's street must contain max 20 characters`],
+    trim: true,
+  },
+  number: {
+    type: String,
+    required: [true, 'an address must contain a number'],
+    minlength: [1, `an address's number must contain at least 1 character`],
+    maxlength: [3, `an address's number must contain max 3 characters`],
+    trim: true,
+  },
+};
+const mainArticleIdSchema = {
+  type: String,
+  minlength: [24, `an ID must contain 24 characters`],
+  maxlength: [24, `an ID must contain 24 characters`],
+};
 
 const mainArticleNameSchema = {
   type: String,
@@ -41,12 +63,6 @@ const mainEmailSchema = {
   },
   minlength: [2, `an email adress must contain at least 5 characters`],
   maxlength: [20, `an email adress must contain max 20 characters`],
-};
-
-const mainArticleIdSchema = {
-  type: String,
-  minlength: [24, `an ID must contain 24 characters`],
-  maxlength: [24, `an ID must contain 24 characters`],
 };
 
 const mainImageSchema = {
@@ -105,8 +121,9 @@ const mainTagSchema = {
   maxlength: [10, `a tag must contain max 10 characters`],
 };
 
-module.exports = {
+export {
   mainPersonNameSchema,
+  mainAddressSchema,
   mainEmailSchema,
   mainImageSchema,
   mainTagSchema,

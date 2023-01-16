@@ -1,5 +1,6 @@
-const Musician = require('../models/musicianModel');
-const { server200, server404, server500 } = require('../methods/methods');
+import Musician from '../models/musicianModel.js';
+
+import { server200, server404, server500 } from '../methods/methods.js';
 
 const getAllMusicians = async (req, res) => {
   try {
@@ -23,15 +24,15 @@ const getSingleMusician = async (req, res) => {
 const addMusician = async (req, res) => {
   try {
     const newMusician = await Musician.create(req.body);
-
+    res.status(200).json(newMusician);
     // look into db to see if musician exists
 
-    const musicianName = req.body.name;
+    /*     const musicianName = req.body.name;
     const musician = await Musician.findOne({ name: musicianName });
 
     musician
       ? server500(res, `musician can't be added, contact admin`)
-      : server200(res, newMusician);
+      : server200(res, newMusician); */
   } catch (error) {
     server500(res, error);
   }
@@ -57,14 +58,16 @@ const updateMusician = async (req, res) => {
 const deleteMusician = async (req, res) => {
   try {
     const { id: musicianId } = req.params;
-    const musician = await Musician.findById(musicianId);
-    musician ? await Musician.deleteOne(musician) : server404(res, musicianId);
+    const musician = await Musician.findByIdAndDelete(musicianId);
+    musician ? server200(res, musician) : server404(res, musicianId);
+    /* server200(res, musician) */
+    /* musician ? await Musician.deleteOne(musician) : server404(res, musicianId); */
   } catch (error) {
     server500(res, error);
   }
 };
 
-module.exports = {
+export {
   getAllMusicians,
   getSingleMusician,
   addMusician,
