@@ -4,7 +4,7 @@ const { server200, server404, server500 } = require('../methods/methods');
 const getAllMusicians = async (req, res) => {
   try {
     const musicians = await Musician.find({});
-    musicians ? server200(res, musicians) : server404(res, 'placeholderId');
+    server200(res, musicians);
   } catch (error) {
     server500(res, error);
   }
@@ -57,8 +57,8 @@ const updateMusician = async (req, res) => {
 const deleteMusician = async (req, res) => {
   try {
     const { id: musicianId } = req.params;
-    const musician = await Musician.findByIdAndDelete(musicianId);
-    musician ? server200(res, musician) : server404(res, musicianId);
+    const musician = await Musician.findById(musicianId);
+    musician ? await Musician.deleteOne(musician) : server404(res, musicianId);
   } catch (error) {
     server500(res, error);
   }

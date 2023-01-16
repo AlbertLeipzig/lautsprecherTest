@@ -4,7 +4,7 @@ const { server200, server404, server500 } = require('../methods/methods');
 
 const getAllBands = async (req, res) => {
   try {
-    const bands = await Band.find({});
+    const bands = await Band.find();
 
     bands ? server200(res, bands) : server404(res, 'placeholderId');
   } catch (error) {

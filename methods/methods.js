@@ -1,5 +1,5 @@
 const server200 = (res, data) => {
-  return res.status(200).json({ data });
+  return res.status(200).json(data);
 };
 
 const server404 = (res, id) => {

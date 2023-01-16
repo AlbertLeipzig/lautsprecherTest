@@ -25,6 +25,7 @@ const mainArticleNameSchema = {
 
 const mainDateSchema = {
   type: Date,
+  default: Date.now(),
 };
 
 const mainEmailSchema = {

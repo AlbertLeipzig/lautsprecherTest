@@ -32,5 +32,4 @@ price
 
 // SENIOR DEV
 
-i) why does it returns a 500 when added a new document?
-ii) getTest failed
+i) getTest failed

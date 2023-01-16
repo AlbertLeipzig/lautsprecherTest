@@ -7,7 +7,7 @@ const {
   mainArticleIdSchema,
   mainPersonIdSchema,
   mainPriceSchema,
-  mainDateSchema
+  mainDateSchema,
 } = require('./mainModel');
 
 const eventSchema = new mongoose.Schema({
