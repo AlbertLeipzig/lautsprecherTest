@@ -1,6 +1,6 @@
-const Business = require('../models/businessModel');
+import Business from '../models/businessModel.js';
 
-const { server200, server404, server500 } = require('../methods/methods');
+import { server200, server404, server500 } from '../methods/methods.js';
 
 const getAllBusiness = async (req, res) => {
   try {
@@ -11,43 +11,22 @@ const getAllBusiness = async (req, res) => {
   }
 };
 
-/* 
-
-const getAllBusiness = async (req, res) => {
-  const business = await Business.find({});
-  if (business) {
-    server200(res, business);
-  } else if (!business) {
-    server404(res, 'placeholderId');
-  } else {
-    server500(res, error);
-  }
-};
-
- */
-
 const getSingleBusiness = async (req, res) => {
   try {
     const { id: businessId } = req.params;
-    const business = await Business.findById(businessId);
+    const business = await Business.findById({ _id: businessId });
     business ? server200(res, band) : server404(res, businessId);
   } catch (error) {
-    server500(res, error);
+    res.status(500).json({ error: error.message });
   }
 };
 
 const addBusiness = async (req, res) => {
   try {
-    
     const newBusiness = await Business.create(req.body);
 
+    res.status(200).json({ newBusiness });
     // look into db to see if business exists
-
-    const businessName = req.body.name;
-    const business = await Business.findOne({ name: businessName });
-
-    
-
 
     /* business
       ? server500(res, `business can't be added, contact admin`)
@@ -84,7 +63,7 @@ const deleteBusiness = async (req, res) => {
   }
 };
 
-module.exports = {
+export {
   getAllBusiness,
   getSingleBusiness,
   addBusiness,

@@ -1,16 +1,18 @@
-const express = require('express');
+import express from 'express';
+
 const app = express();
-const cors = require('cors');
-require('dotenv').config();
+import cors from 'cors';
+import dotenv from 'dotenv';
+dotenv.config();
+
 const PORT = process.env.PORT || 5000;
-const connectDb = require('./db/dbConnection');
-const baseApi = '/api/v1';
-const musicianRoutes = require('./routes/musicianRoutes');
-const bandRoutes = require('./routes/bandRoutes');
-const eventRoutes = require('./routes/eventRoutes');
-const venueRoutes = require('./routes/venueRoutes');
-const organizerRoutes = require('./routes/organizerRoutes');
-const businessRoutes = require('./routes/businessRoute');
+import dbConnection from './db/dbConnection.js';
+import musicianRoutes from './routes/musicianRoutes.js';
+import bandRoutes from './routes/bandRoutes.js';
+import eventRoutes from './routes/eventRoutes.js';
+import venueRoutes from './routes/venueRoutes.js';
+import organizerRoutes from './routes/organizerRoutes.js';
+import businessRoutes from './routes/businessRoute.js';
 
 // connectDB
 
@@ -22,6 +24,7 @@ app.use(cors());
 app.use(express.json());
 
 //routes
+const baseApi = '/api/v1';
 
 app.use(`${baseApi}/bands`, bandRoutes);
 app.use(`${baseApi}/business`, businessRoutes);
@@ -34,7 +37,7 @@ app.use(`${baseApi}/venues`, venueRoutes);
 
 const startServer = async () => {
   try {
-    await connectDb(mongoUri);
+    await dbConnection(mongoUri);
     app.listen(PORT, console.log(`server running on port ${PORT}`));
   } catch (error) {
     console.error({ error });

@@ -1,11 +1,11 @@
-const mongoose = require('mongoose');
-const {
+import mongoose from 'mongoose';
+import {
   mainPersonNameSchema,
   mainEmailSchema,
   mainImageSchema,
   mainLinkSchema,
   mainArticleIdSchema,
-} = require('./mainModel');
+} from './mainModel.js';
 
 const organizerSchema = new mongoose.Schema({
   firstName: mainPersonNameSchema,
@@ -16,4 +16,6 @@ const organizerSchema = new mongoose.Schema({
   events: [mainArticleIdSchema],
 });
 
-module.exports = mongoose.model('Organizer', organizerSchema);
+const organizerModel = mongoose.model('Organizer', organizerSchema);
+
+export default organizerModel;

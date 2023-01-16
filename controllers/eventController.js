@@ -1,6 +1,6 @@
-const Event = require('../models/eventModel');
+import Event from '../models/eventModel.js';
 
-const { server200, server404, server500 } = require('../methods/methods');
+import { server200, server404, server500 } from '../methods/methods.js';
 
 const getAllEvents = async (req, res) => {
   try {
@@ -24,15 +24,15 @@ const getSingleEvent = async (req, res) => {
 const addEvent = async (req, res) => {
   try {
     const newEvent = await Event.create(req.body);
-
+    server200(res, newEvent);
     // look into db to see if event exists
 
-    const eventName = req.body.name;
+    /* const eventName = req.body.name;
     const event = await Event.findOne({ name: eventName });
 
     event
       ? server500(res, `event can't be added, contact admin`)
-      : server200(res, newEvent);
+      : server200(res, newEvent); */
   } catch (error) {
     server500(res, error);
   }
@@ -61,10 +61,4 @@ const deleteEvent = async (req, res) => {
   }
 };
 
-module.exports = {
-  getAllEvents,
-  getSingleEvent,
-  addEvent,
-  updateEvent,
-  deleteEvent,
-};
+export { getAllEvents, getSingleEvent, addEvent, updateEvent, deleteEvent };

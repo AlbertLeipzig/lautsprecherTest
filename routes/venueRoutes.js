@@ -1,19 +1,15 @@
-const express = require('express');
+import express from 'express';
 const router = express.Router();
 
-const {
+import {
   getAllVenues,
   getSingleVenue,
   addVenue,
   updateVenue,
   deleteVenue,
-} = require('../controllers/VenueController.js');
+} from '../controllers/VenueController.js';
 
 router.route('/').get(getAllVenues).post(addVenue);
-router
-  .route('/:id')
-  .get(getSingleVenue)
-  .patch(updateVenue)
-  .delete(deleteVenue);
+router.route('/:id').get(getSingleVenue).patch(updateVenue).delete(deleteVenue);
 
-module.exports = router;
+export default router;

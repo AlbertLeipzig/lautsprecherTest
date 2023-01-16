@@ -1,6 +1,6 @@
-const Venue = require('../models/VenueModel');
+import Venue from '../models/VenueModel.js';
 
-const { server200, server404, server500 } = require('../methods/methods');
+import { server200, server404, server500 } from '../methods/methods.js';
 
 const getAllVenues = async (req, res) => {
   try {
@@ -24,15 +24,15 @@ const getSingleVenue = async (req, res) => {
 const addVenue = async (req, res) => {
   try {
     const newVenue = await Venue.create(req.body);
-
+    server200(res, newVenue);
     // look into db to see if venue exists
 
-    const venueName = req.body.name;
+    /* const venueName = req.body.name;
     const venue = await Venue.findOne({ name: venueName });
 
     venue
       ? server500(res, `venue can't be added, contact admin`)
-      : server200(res, newVenue);
+      : server200(res, newVenue); */
   } catch (error) {
     server500(res, error);
   }
@@ -61,10 +61,4 @@ const deleteVenue = async (req, res) => {
   }
 };
 
-module.exports = {
-  getAllVenues,
-  getSingleVenue,
-  addVenue,
-  updateVenue,
-  deleteVenue,
-};
+export { getAllVenues, getSingleVenue, addVenue, updateVenue, deleteVenue };

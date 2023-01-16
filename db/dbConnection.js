@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 mongoose.set('strictQuery', false);
-const connectDb = (uri) => {
+const dbConnection = (uri) => {
   return mongoose.connect(uri);
 };
 
-module.exports = connectDb;
+export default dbConnection;

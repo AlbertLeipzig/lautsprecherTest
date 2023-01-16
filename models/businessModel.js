@@ -1,12 +1,12 @@
-const mongoose = require('mongoose');
-const {
+import mongoose from 'mongoose';
+import {
   mainArticleNameSchema,
   mainEmailSchema,
   mainImageSchema,
   mainTagSchema,
   mainLinkSchema,
-  mainPersonIdSchema
-} = require('./mainModel');
+  mainPersonIdSchema,
+} from './mainModel.js';
 const businessSchema = new mongoose.Schema({
   name: mainArticleNameSchema,
   owner: mainPersonIdSchema,
@@ -16,4 +16,5 @@ const businessSchema = new mongoose.Schema({
   image: mainImageSchema,
 });
 
-module.exports = mongoose.model('Business', businessSchema);
+const businessModel = mongoose.model('Business', businessSchema);
+export default businessModel;

@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const {
+import mongoose from 'mongoose';
+import {
   mainArticleNameSchema,
   mainImageSchema,
   mainTagSchema,
@@ -8,7 +8,7 @@ const {
   mainPersonIdSchema,
   mainPriceSchema,
   mainDateSchema,
-} = require('./mainModel');
+} from './mainModel.js';
 
 const eventSchema = new mongoose.Schema({
   name: mainArticleNameSchema,
@@ -21,4 +21,6 @@ const eventSchema = new mongoose.Schema({
   link: [mainLinkSchema],
 });
 
-module.exports = mongoose.model('Event', eventSchema);
+const eventModel = mongoose.model('Event', eventSchema);
+
+export default eventModel;

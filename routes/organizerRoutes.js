@@ -1,13 +1,13 @@
-const express = require('express');
+import express from 'express'
 const router = express.Router();
 
-const {
+import {
   getAllOrganizers,
   getSingleOrganizer,
   addOrganizer,
   updateOrganizer,
   deleteOrganizer,
-} = require('../controllers/organizerController.js');
+} from '../controllers/organizerController.js'
 
 router.route('/').get(getAllOrganizers).post(addOrganizer);
 router
@@ -16,4 +16,4 @@ router
   .patch(updateOrganizer)
   .delete(deleteOrganizer);
 
-module.exports = router;
+export default router;

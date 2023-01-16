@@ -1,6 +1,6 @@
-const Band = require('../models/bandModel');
+import Band from '../models/bandModel.js';
 
-const { server200, server404, server500 } = require('../methods/methods');
+import { server200, server404, server500 } from '../methods/methods.js';
 
 const getAllBands = async (req, res) => {
   try {
@@ -32,18 +32,7 @@ implement controllers to get [X] by
     price
  */
 
-const getTest = async (req, res) => {
-  try {
-    let parameters = {};
-    const { id: bandId } = req.params;
-    const band = await Band.findById(bandId);
-    console.log(band);
-    res.status(200).json({ name: band.bandName });
-  } catch (error) {
-    server500(res, error);
-  }
-
-  /* 
+/* 
   try {
     const { id: bandId } = req.params;
     const band = await Band.findById(bandId);
@@ -51,8 +40,8 @@ const getTest = async (req, res) => {
   } catch (error) {
     server500(res, error);
   } */
-};
 
+  
 const addBand = async (req, res) => {
   try {
     const newBand = await Band.create(req.body);
@@ -88,11 +77,4 @@ const deleteBand = async (req, res) => {
   }
 };
 
-module.exports = {
-  getAllBands,
-  getSingleBand,
-  addBand,
-  updateBand,
-  deleteBand,
-  getTest,
-};
+export { getAllBands, getSingleBand, addBand, updateBand, deleteBand };

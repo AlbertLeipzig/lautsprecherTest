@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const {
+import mongoose from 'mongoose';
+import {
   mainArticleNameSchema,
   mainEmailSchema,
   mainImageSchema,
@@ -7,7 +7,7 @@ const {
   mainLinkSchema,
   mainArticleIdSchema,
   mainPersonIdSchema,
-} = require('./mainModel');
+} from './mainModel.js';
 const bandSchema = new mongoose.Schema({
   name: mainArticleNameSchema,
   musicians: [mainPersonIdSchema],
@@ -20,4 +20,6 @@ const bandSchema = new mongoose.Schema({
   links: [mainLinkSchema],
 });
 
-module.exports = mongoose.model('Band', bandSchema);
+const bandModel = mongoose.model('Band', bandSchema);
+
+export default bandModel;
