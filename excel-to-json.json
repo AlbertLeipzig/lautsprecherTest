@@ -1481,7 +1481,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Joseph Haydn: Die Schöpfung, Oratorium für Chor, Solisten und Orchester",
+      "name": "Joseph Haydn: Die Schöpfung",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 3, "month": 1 },
@@ -1491,7 +1491,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Joseph Haydn: Die Schöpfung, Oratorium für Chor, Solisten und Orchester",
+      "name": "Joseph Haydn: Die Schöpfung",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 4, "month": 1 },
@@ -1501,7 +1501,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Ludwig van Beethoven (1770 - 1827): 9. Sinfonie in d-Moll op. 125",
+      "name": "9. Sinfonie in d-Moll op. 125",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 9, "month": 1 },
@@ -1641,7 +1641,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Salonorchester CAPPUCCINO, Albrecht Winter Leitung",
+      "name": "Salonorchester CAPPUCCINO",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 11, "month": 1 },
@@ -1651,7 +1651,7 @@
       "tags": "klassik"
     },
     {
-      "name": "The Music of König der Löwen - Live in Concert",
+      "name": "The Music of König der Löwen",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 11, "month": 1 },
@@ -1661,7 +1661,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Salonorchester CAPPUCCINO, Albrecht Winter Leitung",
+      "name": "Salonorchester CAPPUCCINO",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 12, "month": 1 },
@@ -1681,7 +1681,7 @@
       "tags": "klassik"
     },
     {
-      "name": "63c66f9114cfb99cb94f57b0-FÜHRUNG",
+      "name": "Gewandhaus-FÜHRUNG",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 12, "month": 1 },
@@ -1701,17 +1701,7 @@
       "tags": "klassik"
     },
     {
-      "name": "After Work Concert",
-      "musicians": "asdfasdfasdfasdfasdfasdf",
-      "bands": "asdfasdfasdfasdfasdfasdf",
-      "date": { "day": 13, "month": 1 },
-      "venue": "63c66f9114cfb99cb94f57b0",
-      "price": 0,
-      "organizer": "asdfasdfasdfasdfasdfasdf",
-      "tags": "klassik"
-    },
-    {
-      "name": "63c66f9114cfb99cb94f57b0-FÜHRUNG",
+      "name": "Gewandhaus, David Robertson Dirigent",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 16, "month": 1 },
@@ -1721,7 +1711,7 @@
       "tags": "klassik"
     },
     {
-      "name": "63c66f9114cfb99cb94f57b0orchester, David Robertson Dirigent",
+      "name": "Gewandhaus, David Robertson Dirigent",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 16, "month": 1 },
@@ -1731,7 +1721,17 @@
       "tags": "klassik"
     },
     {
-      "name": "63c66f9114cfb99cb94f57b0orchester, David Robertson Dirigent",
+      "name": "Gewandhaus, David Robertson Dirigent",
+      "musicians": "asdfasdfasdfasdfasdfasdf",
+      "bands": "asdfasdfasdfasdfasdfasdf",
+      "date": { "day": 16, "month": 1 },
+      "venue": "63c66f9114cfb99cb94f57b0",
+      "price": 0,
+      "organizer": "asdfasdfasdfasdfasdfasdf",
+      "tags": "klassik"
+    },
+    {
+      "name": "Gewandhause, David Robertson Dirigent",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 17, "month": 1 },
@@ -1761,7 +1761,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Neues-SalonOrchester-Leipzig, Sebastian Ude Leitung/Primarius",
+      "name": "Neues-SalonOrchester-Leipzig",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 20, "month": 1 },
@@ -1771,7 +1771,7 @@
       "tags": "klassik"
     },
     {
-      "name": "63c66f9114cfb99cb94f57b0-FÜHRUNG",
+      "name": "Gewandhaus-FÜHRUNG",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 23, "month": 1 },
@@ -1781,7 +1781,7 @@
       "tags": "klassik"
     },
     {
-      "name": "63c66f9114cfb99cb94f57b0orchester, Andris Nelsons Dirigent",
+      "name": "Gewandhaus, Andris Nelsons Dirigent",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 23, "month": 1 },
@@ -1791,7 +1791,7 @@
       "tags": "klassik"
     },
     {
-      "name": "63c66f9114cfb99cb94f57b0orchester, Andris Nelsons Dirigent",
+      "name": "Gewandhaus, Andris Nelsons Dirigent",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 24, "month": 1 },
@@ -1811,7 +1811,7 @@
       "tags": "klassik"
     },
     {
-      "name": "63c66f9114cfb99cb94f57b0orchester, Andris Nelsons Dirigent",
+      "name": "Gewandhaus, Andris Nelsons Dirigent",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 26, "month": 1 },
