@@ -67,10 +67,30 @@ const deleteOrganizer = async (req, res) => {
   }
 };
 
+const addManyOrganizers = async (req, res) => {
+  try {
+    const organizers = await Organizer.insertMany(req.body);
+    server200(res, organizers);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const deleteManyOrganizers = async (req, res) => {
+  try {
+    const organizers = await Organizer.deleteMany({});
+    server200(res, organizers);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
 export {
   getAllOrganizers,
   getSingleOrganizer,
   addOrganizer,
   updateOrganizer,
   deleteOrganizer,
+  addManyOrganizers,
+  deleteManyOrganizers,
 };

@@ -41,7 +41,6 @@ implement controllers to get [X] by
     server500(res, error);
   } */
 
-  
 const addBand = async (req, res) => {
   try {
     const newBand = await Band.create(req.body);
@@ -77,4 +76,33 @@ const deleteBand = async (req, res) => {
   }
 };
 
-export { getAllBands, getSingleBand, addBand, updateBand, deleteBand };
+const addManyBands = async (req, res) => {
+  try {
+    
+    const bandArray = req.body;
+    const newBands = await Band.insertMany(bandArray);
+
+    server200(res, newBands);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const deleteManyBands = async (req, res) => {
+  try {
+    const bands = await Band.deleteMany({});
+    server200(res, bands);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+export {
+  getAllBands,
+  getSingleBand,
+  addBand,
+  updateBand,
+  deleteBand,
+  addManyBands,
+  deleteManyBands,
+};

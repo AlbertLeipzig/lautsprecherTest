@@ -32,6 +32,5 @@ price
 
 // SENIOR DEV
 
-i) getTest failed
-ii) getSingleBusiness "band not found" WTF
-iii) getSingleMusician "musician not found"
+i) getSingleBusiness "band not found" WTF
+ii) getSingleMusician "musician not found"

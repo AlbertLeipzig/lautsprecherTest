@@ -1,0 +1,184 @@
+{
+  "Venues": [
+    {
+      "name": "Cafe Grundman",
+      "email": "mail@mail.com",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipN-p97qnbEU0eHNLHVT0c2pjacIOeybaINoEHL-=s680-w680-h510",
+      " link": "https://www.cafe-grundmann.de/",
+      "address": {"street" : "August-Bebel-Straße", "number" :  2}
+    },
+    {
+      "name": "Club Velvet",
+      "email": "info@clubvelvet.de",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOcf60isbp-AWZN-T1NU5uSFm4mHJRCe1jHffwN=s680-w680-h510",
+      " link": "https://www.clubvelvet.de/",
+      "address": {"street" : "August-Bebel-Straße", "number" :  2}
+    },
+    {
+      "name": "Darkflower",
+      "email": "mail@mail.com",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNgwk4BR77M4J19dyBr7nd6vUJ4W4kNImJWbSBy=s680-w680-h510",
+      " link": "https://darkflower.club/",
+      "address": {"street" : "Hainstraße", "number" : 12}
+    },
+    {
+      "name": "Distillery",
+      "email": "mail@mail.com",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPwK1doWjVCR7ebPBRFPVq9rmzfC_O2hGFj3YQ=s680-w680-h510",
+      " link": "https://www.distillery.de/ex/dates",
+      "address": {"street" :"Kurt-Eisner-Straße", "number" : 91}
+    },
+    {
+      "name": "Felsenkeller",
+      "email": "info@felsenkeller-leipzig.com",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOZexiunru9bUQ0MLdE2kqlBpuei57bXE60tTlr=s680-w680-h510",
+      " link": "https://www.felsenkeller-leipzig.com/",
+      "address": {"street" : "Karl-Heine-Straße", "number" : 32}
+    },
+    {
+      "name": "Gewandhaus",
+      "email": "ticket@gewandhaus.de",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOFFlBylv5DkB5GMutmt-TPirkqBpddQ1XIpgy4=s680-w680-h510",
+      " link": "https://www.gewandhausorchester.de/",
+      "address": {"street" : "Augustusplatz", "number" : 8}
+    },
+    {
+      "name": "Horns Erben",
+      "email": "test@mail.de",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNwl3GmLfNeojD-fXNt3zcFHuoLzGcMIJ6Fvwk-=s680-w680-h510",
+      " link": "https://horns-erben.de/",
+      "address": {"street" : "Arndtstraße", "number" :  33}
+    },
+    {
+      "name": "Ilses Erika",
+      "email": "test@mail.de",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipN_m8EC6u_Bm-PHCm22vdLvKC-_VTWPfmI3GeaH=s680-w680-h510",
+      " link": "https://www.ilseserika.de",
+      "address": {"street" : "Bernhard-Göring-Straße", "number" : 152}
+    },
+    {
+      "name": "Institut für Zukunft",
+      "email": "lostinsound@ifz.me",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipM5uPcM8zlTfxzPbAnZFoSnBz1DIJh2QHG39kpk=s680-w680-h510",
+      " link": "https://ifz.me/",
+      "address": {"street" : "An den Tierkliniken", "number" :  38}
+    },
+    {
+      "name": "Mendelssohn Haus",
+      "email": "buero@mendelssohn-stiftung.de",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipPOnyYDkud8gHxJGvrp9nDgOmN2on2DYvQmLEBr=w240-h172-n-k-no-nu",
+      " link": "https://www.mendelssohn-stiftung.de/de/",
+      "address": {"street" : "Goldschmidtstraße", "number" : 12}
+    },
+    {
+      "name": "Musikalische Komödie",
+      "email": "service@oper-leipzig.de",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipM-lrmFCEHPD3LlMrPw3cu9bkhBbRdBUbBoRpwf=s680-w680-h510",
+      " link": "https://www.oper-leipzig.de/de/musikalischekomoediespielstaette",
+      "address": {"street" : "Dreilindenstraße", "number" :  30}
+    },
+    {
+      "name": "Musikhochschule",
+      "email": "kbb@hmt-leipzig.de",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipP9juLOSeuH3i_qB6Qe6x3483BjNOyBY-0w5eTe=s680-w680-h510",
+      " link": "https://www.hmt-leipzig.de/",
+      "address": {"street" : "Grassistraße", "number" : 8}
+    },
+    {
+      "name": "naTo",
+      "email": "info@nato-leipzig.de",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipMlD1p-QXulOwbv5vULF69QVNqIHENXmswGy2ob=s680-w680-h510",
+      " link": "https://www.nato-leipzig.de/",
+      "address": {"street" : "Karl-Liebknecht-Straße", "number" :  46}
+    },
+    {
+      "name": "Nikolaikirche",
+      "email": "mail@mail.com",
+       " link": "https://www.nikolaikirche.de/",
+      "address": {"street" : "Nikolaikirchhof", "number" : 3}
+    },
+    {
+      "name": "Noell's Ballroom",
+      "email": "info@noels-ballroom.com",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNg8WiqBLs1gipOpr-KQTfr1y98mkFUfAlAZwL-=s680-w680-h510",
+      " link": "https://noels-ballroom.de/",
+      "address": {"street" : "Kurt-Eisner-Straße", "number" :  43}
+    },
+    {
+      "name": "Oper Leipzig",
+      "email": "service@oper-leipzig.de",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPnOlpkD9uNcMMIrStZhWCLPz8H_BaVnBo9hq11=s680-w680-h510",
+      " link": "https://www.oper-leipzig.de/de/",
+      "address": {"street" : "Augustusplatz", "number" : 12}
+    },
+    {
+      "name": "Ost Passage Theater",
+      "email": "mail@mail.com",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPwUf6-sMAw9nDnQDxLcZjpMNNFw3I3go-LppD5=s680-w680-h510",
+      " link": "https://ost-passage-theater.de/",
+      "address": {"street" : "Konradstraße", "number" :  27}
+    },
+    {
+      "name": "Peterskirche",
+      "email": " info@kirche-leipzig-sued.de",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipMQBH1eBJbe2QArLlCQSLeNBWn6gi3G3mIt0eIv=s680-w680-h510",
+      " link": "https://www.kirche-leipzig-sued.de/peterskirche.html",
+      "address": {"street" : "Schletterstraße", "number" :  5}
+    },
+    {
+      "name": "Polnisches Institut",
+      "email": "lipsk@instytutpolski.pl",
+      " link": "https://instytutpolski.pl/leipzig/",
+      "address": {"street" : "Markt", "number" :  10}
+    },
+    {
+      "name": "Schaubühne Lindenfels",
+      "email": "service@schaubuehne.com",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipM_Md1F6P35raQJtC9hXF02Vi__kUfRSs6QaGLR=s680-w680-h510",
+      " link": "https://www.schaubuehne.com/",
+      "address": {"street" : "Karl-Heine-Straße", "number" :  50}
+    },
+    {
+      "name": "Tankbar",
+      "email": "mail@mail.com",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipM9CTFHqNUDmqFFQvunvWejuOPd_iRIkjL5Llpx=s680-w680-h510",
+      " link": "https://tankbar-leipzig.de/",
+      "address": {"street" : "Jahnallee", "number" :  52}
+    },
+    {
+      "name": "Theater der Junge Welt",
+      "email": "kontakt@tdjw.de",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipO5bej9liFQilrghJKiesnDMX4MkGCKUnggwXxG=s680-w680-h510",
+      " link": "https://www.theaterderjungenweltleipzig.de/",
+      "address": { "street": "Lindenauer Markt", "number": 21 }
+    },
+    {
+      "name": "Thomaskirche",
+      "email": "test@mail.com",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipM5n_vlWiWkpzxkVWWHGjglyeS7TaiMjZU4vDL6=s680-w680-h510",
+      " link": "https://www.thomaskirche.org/",
+      "address": { "street": "Thomaskirchhof", "number": 18 }
+    },
+    {
+      "name": "Tonelli's",
+      "email": "mail@mail.com",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipMfUS6rbzpHaZ-nLu7tLRZZ02tb-3rTE-ZucOho=s680-w680-h510",
+      " link": "https://www.tonellis.de/",
+      "address": { "street": "Neumarkt", "number": 9 }
+    },
+    {
+      "name": "UT Connewitz",
+      "email": "mail@mail.com",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipOiS3ufg5TYmkQ3mjkV5iNP0Gaj11CLl9yBQa1r=w240-h172-n-k-no-nu",
+      " link": "https://utconnewitz.de/",
+      "address": { "street": "Wolfgang-Heinze-Straße", "number": 12 }
+    },
+    {
+      "name": "WERK2",
+      "email": "info@werk-2.de",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipPG82MZoRcx3bw88fNkM4SVxGS2mhqUcRI1N8tp=w240-h172-n-k-no-nu",
+      " link": "https://www.werk-2.de/",
+      "address": { "street": "Kochstraße", "number": 132 }
+    }
+  ]
+}

@@ -19,7 +19,7 @@ const mainAddressSchema = {
     type: String,
     required: [true, 'an address must contain a street'],
     minlength: [2, `an address's street must contain at least 2 characters`],
-    maxlength: [20, `an address's street must contain max 20 characters`],
+    maxlength: [40, `an address's street must contain max 40 characters`],
     trim: true,
   },
   number: {
@@ -42,7 +42,7 @@ const mainArticleNameSchema = {
   tolowercase: true,
   trim: true,
   minlength: [2, `an article's name must contain at least 2 characters`],
-  maxlength: [20, `an article's name must contain max 20 characters`],
+  maxlength: [40, `an article's name must contain max 40 characters`],
 };
 
 const mainDateSchema = {
@@ -62,14 +62,14 @@ const mainEmailSchema = {
     message: (props) => `${props.value} is not a valid email adress!`,
   },
   minlength: [2, `an email adress must contain at least 5 characters`],
-  maxlength: [20, `an email adress must contain max 20 characters`],
+  maxlength: [50, `an email adress must contain max 50 characters`],
 };
 
 const mainImageSchema = {
   type: String,
   trim: true,
   minlength: [2, `an image url must contain at least 2 characters`],
-  maxlength: [50, `an image url must contain max 50 characters`],
+  maxlength: [100, `an image url must contain max 100 characters`],
 };
 
 const mainInstrumentSchema = {

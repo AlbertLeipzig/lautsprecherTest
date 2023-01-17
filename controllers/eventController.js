@@ -61,4 +61,30 @@ const deleteEvent = async (req, res) => {
   }
 };
 
-export { getAllEvents, getSingleEvent, addEvent, updateEvent, deleteEvent };
+const addManyEvents = async (req, res) => {
+  try {
+    const newEvents = await Event.insertMany(req.body);
+    server200(res, newEvents);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const deleteManyEvents = async (req, res) => {
+  try {
+    const events = await Event.deleteMany({});
+    server200(res, events);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+export {
+  getAllEvents,
+  getSingleEvent,
+  addEvent,
+  updateEvent,
+  deleteEvent,
+  addManyEvents,
+  deleteManyEvents,
+};

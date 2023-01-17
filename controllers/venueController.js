@@ -61,4 +61,30 @@ const deleteVenue = async (req, res) => {
   }
 };
 
-export { getAllVenues, getSingleVenue, addVenue, updateVenue, deleteVenue };
+const addManyVenues = async (req, res) => {
+  try {
+    const newVenues = await Venue.insertMany(req.body);
+    server200(res, newVenues);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const deleteManyVenues = async (req, res) => {
+  try {
+    const venues = await Venue.deleteMany();
+    server200(res, venues);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+export {
+  getAllVenues,
+  getSingleVenue,
+  addVenue,
+  updateVenue,
+  deleteVenue,
+  addManyVenues,
+  deleteManyVenues,
+};

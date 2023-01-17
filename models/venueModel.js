@@ -6,7 +6,6 @@ import {
   mainImageSchema,
   mainTagSchema,
   mainLinkSchema,
-  mainArticleIdSchema,
 } from './mainModel.js';
 
 const venueSchema = new mongoose.Schema({
@@ -15,7 +14,6 @@ const venueSchema = new mongoose.Schema({
   image: mainImageSchema,
   tag: mainTagSchema,
   link: mainLinkSchema,
-  id: mainArticleIdSchema,
   address: mainAddressSchema,
 });
 

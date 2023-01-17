@@ -67,10 +67,30 @@ const deleteMusician = async (req, res) => {
   }
 };
 
+const addManyMusicians = async (req, res) => {
+  try {
+    const newMusicians = await Musician.insertMany(req.body);
+    server200(res, newMusicians);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const deleteManyMusicians = async (req, res) => {
+  try {
+    const musicians = await Musician.deleteMany();
+    server200(res, musicians);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
 export {
   getAllMusicians,
   getSingleMusician,
   addMusician,
   updateMusician,
   deleteMusician,
+  addManyMusicians,
+  deleteManyMusicians,
 };
