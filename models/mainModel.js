@@ -32,8 +32,7 @@ const mainAddressSchema = {
 };
 const mainArticleIdSchema = {
   type: String,
-  minlength: [24, `an ID must contain 24 characters`],
-  maxlength: [24, `an ID must contain 24 characters`],
+  length: [24, `an ID must contain 24 characters`],
 };
 
 const mainArticleNameSchema = {
@@ -46,8 +45,22 @@ const mainArticleNameSchema = {
 };
 
 const mainDateSchema = {
-  type: Date,
-  default: Date.now(),
+  day: {
+    type: Number,
+    trim: true,
+    required: [true, 'a date must contain a day'],
+    min: [, `a date's day must be between 1 and 31`],
+    max: [31, `a date's day must be between 1 and 31`],
+    default: new Date().getDate(),
+  },
+  month: {
+    type: Number,
+    trim: true,
+    required: [true, 'a date must contain a month'],
+    min: [0, `a date's month must be between 0 and 11`],
+    max: [11, `a date's month must be between 0 and 11`],
+    default: new Date().getMonth(),
+  },
 };
 
 const mainEmailSchema = {
@@ -95,8 +108,7 @@ const mainPersonIdSchema = {
   type: String,
   required: true,
   trim: true,
-  minlength: [24, `an ID must contain 24 characters`],
-  maxlength: [24, `an ID must contain 24 characters`],
+  length: [24, `an ID must contain 24 characters`],
 };
 
 const mainPersonNameSchema = {

@@ -12,10 +12,12 @@ import {
 
 const eventSchema = new mongoose.Schema({
   name: mainArticleNameSchema,
-  organizer: mainPersonIdSchema,
+  musicians : [mainPersonIdSchema],
+  bands : [mainArticleIdSchema],
   date: mainDateSchema,
   venue: mainArticleIdSchema,
   price: mainPriceSchema,
+  organizer: mainPersonIdSchema,
   image: mainImageSchema,
   tags: [mainTagSchema],
   link: [mainLinkSchema],
