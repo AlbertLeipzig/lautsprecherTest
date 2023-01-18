@@ -34,3 +34,4 @@ price
 
 i) getSingleBusiness "band not found" WTF
 ii) getSingleMusician "musician not found"
+iii) write condition, so at least one of fields A or B is present in a schema

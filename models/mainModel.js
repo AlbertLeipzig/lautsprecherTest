@@ -63,6 +63,11 @@ const mainDateSchema = {
   },
 };
 
+const mainDescriptionSchema = {
+  type: String,
+  maxlength: [500, `a description must contain max 500 characters`],
+};
+
 const mainEmailSchema = {
   type: String,
   tolowercase: true,
@@ -120,17 +125,19 @@ const mainPersonNameSchema = {
   maxlength: [20, `a person's name must contain max 20 characters`],
 };
 
+// ATENTION! priceSchema defines the schema for every entry in mainPriceSchema
+
 const priceSchema = {
   type: mongoose.Decimal128,
   trim: true,
   maxlength: [5, `a price must contain max 5 characters`],
-}
+};
 
 const mainPriceSchema = {
   vorverkauf: priceSchema,
-  abendkasse : priceSchema,
-  ab : priceSchema,
-  ermaessigt : priceSchema,
+  abendkasse: priceSchema,
+  ab: priceSchema,
+  ermaessigt: priceSchema,
 };
 
 const mainTagSchema = {
@@ -143,6 +150,7 @@ const mainTagSchema = {
 export {
   mainPersonNameSchema,
   mainAddressSchema,
+  mainDescriptionSchema,
   mainEmailSchema,
   mainImageSchema,
   mainTagSchema,

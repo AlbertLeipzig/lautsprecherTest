@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 import {
   mainArticleNameSchema,
+  mainDescriptionSchema,
   mainImageSchema,
   mainTagSchema,
   mainLinkSchema,
@@ -11,9 +12,12 @@ import {
 } from './mainModel.js';
 
 const eventSchema = new mongoose.Schema({
+  /* name must be changed to title with $rename */
   name: mainArticleNameSchema,
-  musicians : [mainPersonIdSchema],
-  bands : [mainArticleIdSchema],
+  subtitle: mainArticleNameSchema,
+  description: mainDescriptionSchema,
+  musicians: [mainPersonIdSchema],
+  bands: [mainArticleIdSchema],
   date: [mainDateSchema],
   venue: mainArticleIdSchema,
   price: mainPriceSchema,
