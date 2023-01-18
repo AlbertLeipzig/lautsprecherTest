@@ -13,6 +13,7 @@ import eventRoutes from './routes/eventRoutes.js';
 import venueRoutes from './routes/venueRoutes.js';
 import organizerRoutes from './routes/organizerRoutes.js';
 import businessRoutes from './routes/businessRoute.js';
+import singleUserRoutes from './routes/singleUserRoutes.js';
 
 // connectDB
 
@@ -32,6 +33,7 @@ app.use(`${baseApi}/events`, eventRoutes);
 app.use(`${baseApi}/musicians`, musicianRoutes);
 app.use(`${baseApi}/organizers`, organizerRoutes);
 app.use(`${baseApi}/venues`, venueRoutes);
+app.use(`${baseApi}/user`, singleUserRoutes);
 
 // start server
 

@@ -2,15 +2,6 @@ import Business from '../models/businessModel.js';
 
 import { server200, server404, server500 } from '../methods/methods.js';
 
-const getAllBusiness = async (req, res) => {
-  try {
-    const business = await Business.find({});
-    business ? server200(res, business) : server404(res, 'placeholderId');
-  } catch (error) {
-    server500(res, error);
-  }
-};
-
 const getSingleBusiness = async (req, res) => {
   try {
     const { id: businessId } = req.params;
@@ -21,22 +12,16 @@ const getSingleBusiness = async (req, res) => {
   }
 };
 
-const addBusiness = async (req, res) => {
+const addSingleBusiness = async (req, res) => {
   try {
     const newBusiness = await Business.create(req.body);
-
     res.status(200).json({ newBusiness });
-    // look into db to see if business exists
-
-    /* business
-      ? server500(res, `business can't be added, contact admin`)
-      : server200(res, newBusiness); */
   } catch (error) {
     server500(res, error);
   }
 };
 
-const updateBusiness = async (req, res) => {
+const updateSingleBusiness = async (req, res) => {
   try {
     const { id: businessId } = req.params;
     const business = await Business.findOneAndUpdate(
@@ -53,7 +38,7 @@ const updateBusiness = async (req, res) => {
   }
 };
 
-const deleteBusiness = async (req, res) => {
+const deleteSingleBusiness = async (req, res) => {
   try {
     const { id: businessId } = req.params;
     const business = await Business.findByIdAndDelete(businessId);
@@ -63,10 +48,31 @@ const deleteBusiness = async (req, res) => {
   }
 };
 
+const getAllBusiness = async (req, res) => {
+  try {
+    const business = await Business.find({});
+    business ? server200(res, business) : server404(res, 'placeholderId');
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
 const addManyBusiness = async (req, res) => {
   try {
     const newBusiness = await Business.insertMany(req.body);
     res.status(200).json({ newBusiness });
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const updateManyBusiness = async (req, res) => {
+  try {
+    const business = await Business.update(req.body.filter, req.body.update, {
+      new: true,
+      runValidators: true,
+    });
+    server200(res, business);
   } catch (error) {
     server500(res, error);
   }
@@ -82,11 +88,12 @@ const deleteManyBusiness = async (req, res) => {
 };
 
 export {
-  getAllBusiness,
   getSingleBusiness,
-  addBusiness,
-  updateBusiness,
-  deleteBusiness,
+  addSingleBusiness,
+  updateSingleBusiness,
+  deleteSingleBusiness,
+  getAllBusiness,
   addManyBusiness,
+  updateManyBusiness,
   deleteManyBusiness,
 };

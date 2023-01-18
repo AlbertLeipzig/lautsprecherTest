@@ -2,18 +2,22 @@ import express from 'express';
 const router = express.Router();
 
 import {
-  getAllMusicians,
   getSingleMusician,
-  addMusician,
-  updateMusician,
-  deleteMusician,
+  addSingleMusician,
+  updateSingleMusician,
+  deleteSingleMusician,
+  getAllMusicians,
+  addManyMusicians,
+  updateManyMusicians,
+  deleteManyMusicians,
 } from '../controllers/musicianController.js';
 
-router.route('/').get(getAllMusicians).post(addMusician);
+router.route('/').get(getAllMusicians).post(addSingleMusician);
+router.route("/many").post(addManyMusicians).patch(updateManyMusicians).delete(deleteManyMusicians)
 router
   .route('/:id')
   .get(getSingleMusician)
-  .patch(updateMusician)
-  .delete(deleteMusician);
+  .patch(updateSingleMusician)
+  .delete(deleteSingleMusician);
 
 export default router;

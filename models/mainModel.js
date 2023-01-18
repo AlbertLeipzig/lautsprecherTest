@@ -41,7 +41,7 @@ const mainArticleNameSchema = {
   tolowercase: true,
   trim: true,
   minlength: [2, `an article's name must contain at least 2 characters`],
-  maxlength: [40, `an article's name must contain max 40 characters`],
+  maxlength: [60, `an article's name must contain max 60 characters`],
 };
 
 const mainDateSchema = {
@@ -89,7 +89,7 @@ const mainInstrumentSchema = {
   type: String,
   tolowercase: true,
   trim: true,
-  maxlength: [12, `a instrument's name must contain max 12 characters`],
+  maxlength: [20, `a instrument's name must contain max 20 characters`],
 };
 
 const mainLinkSchema = {
@@ -101,7 +101,7 @@ const mainLinkSchema = {
     },
     message: (props) => `${props.value} is not a valid link!`,
   },
-  maxlength: [20, `a link must contain max 20 characters`],
+  maxlength: [40, `a link must contain max 40 characters`],
 };
 
 const mainPersonIdSchema = {
@@ -120,10 +120,17 @@ const mainPersonNameSchema = {
   maxlength: [20, `a person's name must contain max 20 characters`],
 };
 
-const mainPriceSchema = {
+const priceSchema = {
   type: mongoose.Decimal128,
   trim: true,
   maxlength: [5, `a price must contain max 5 characters`],
+}
+
+const mainPriceSchema = {
+  vorverkauf: priceSchema,
+  abendkasse : priceSchema,
+  ab : priceSchema,
+  ermaessigt : priceSchema,
 };
 
 const mainTagSchema = {

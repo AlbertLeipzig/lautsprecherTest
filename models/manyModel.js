@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+
 import {
   mainArticleNameSchema,
   mainImageSchema,
@@ -10,11 +11,11 @@ import {
   mainDateSchema,
 } from './mainModel.js';
 
-const eventSchema = new mongoose.Schema({
+const singleEvent = new mongoose.Schema({
   name: mainArticleNameSchema,
-  musicians : [mainPersonIdSchema],
-  bands : [mainArticleIdSchema],
-  date: [mainDateSchema],
+  musicians: [mainPersonIdSchema],
+  bands: [mainArticleIdSchema],
+  date: mainDateSchema,
   venue: mainArticleIdSchema,
   price: mainPriceSchema,
   organizer: mainPersonIdSchema,
@@ -23,6 +24,10 @@ const eventSchema = new mongoose.Schema({
   link: [mainLinkSchema],
 });
 
-const eventModel = mongoose.model('Event', eventSchema);
+const manyEventSchema = new mongoose.Schema({
+  events: [singleEvent],
+});
 
-export default eventModel;
+const manyEventModel = mongoose.model('ManyEvent', manyEventSchema);
+
+export default manyEventModel;

@@ -2,18 +2,26 @@ import express from 'express';
 const router = express.Router();
 
 import {
-  getAllBusiness,
   getSingleBusiness,
-  addBusiness,
-  updateBusiness,
-  deleteBusiness,
+  addSingleBusiness,
+  updateSingleBusiness,
+  deleteSingleBusiness,
+  getAllBusiness,
+  addManyBusiness,
+  updateManyBusiness,
+  deleteManyBusiness,
 } from '../controllers/BusinessController.js';
 
-router.route('/').get(getAllBusiness).post(addBusiness);
+router.route('/').get(getAllBusiness).post(addSingleBusiness);
+router
+  .route('/many')
+  .post(addManyBusiness)
+  .patch(updateManyBusiness)
+  .delete(deleteManyBusiness);
 router
   .route('/:id')
   .get(getSingleBusiness)
-  .patch(updateBusiness)
-  .delete(deleteBusiness);
+  .patch(updateSingleBusiness)
+  .delete(deleteSingleBusiness);
 
 export default router;

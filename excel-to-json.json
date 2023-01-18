@@ -60,14 +60,14 @@
       "organizer": "asdfasdfasdfasdfasdfasdf"
     },
     {
-      "name": "Salsaparty",
-      "musicians": "asdfasdfasdfasdfasdfasdf",
-      "bands": "asdfasdfasdfasdfasdfasdf",
-      "date": { "day": 2, "month": 1 },
-      "venue": "63c671d26b473304096f4cf4",
-      "price": 5,
-      "organizer": "asdfasdfasdfasdfasdfasdf",
-      "tags": "salsa"
+        "name": "Salsaparty",
+        "musicians": "asdfasdfasdfasdfasdfasdf",
+        "bands": "asdfasdfasdfasdfasdfasdf",
+        "date": { "day": 2, "month": 1 },
+        "venue": "63c671d26b473304096f4cf4",
+        "price": 5,
+        "organizer": "asdfasdfasdfasdfasdfasdf",
+        "tags": "salsa"
     },
     {
       "name": "Darkest Nights",
@@ -239,7 +239,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Geburstagskonzert zu Ehren von Felix Mendelssohn Bartholdy",
+      "name": "Geburstagskonzert Felix Mendelssohn",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 3, "month": 1 },
@@ -249,7 +249,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Auf Mendelssohns Spuren durch die Musikstadt Leipzig",
+      "name": "Auf Mendelssohns Spuren",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 4, "month": 1 },
@@ -279,7 +279,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Auf Mendelssohns Spuren durch die Musikstadt Leipzig",
+      "name": "Auf Mendelssohns Spuren",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 11, "month": 1 },
@@ -329,7 +329,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Taschenlampentour durchs nächtliche Museum",
+      "name": "Taschenlampentour",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 14, "month": 1 },
@@ -369,7 +369,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Auf Mendelssohns Spuren durch die Musikstadt Leipzig",
+      "name": "Auf Mendelssohns Spuren",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 18, "month": 1 },
@@ -379,7 +379,7 @@
       "tags": "klassik"
     },
     {
-      "name": "\"Never again\" Klavierabend mit Werken ukrainischer Komponisten",
+      "name": "Klavierabend mit Werken ukrainischer Komponisten",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 18, "month": 1 },
@@ -389,7 +389,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Hochachtungsvoll zugeeignet - Mendelssohn gewidmete Kammermusik",
+      "name": "Hochachtungsvoll zugeeignet",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 19, "month": 1 },
@@ -419,7 +419,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Auf Mendelssohns Spuren durch die Musikstadt Leipzig",
+      "name": "Auf Mendelssohns Spuren",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 25, "month": 1 },
@@ -449,7 +449,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Schallplattenauktion im Ilses Erika mit Ben Ebelt & Max Kinski",
+      "name": "Schallplattenauktion im Ilses Erika",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 28, "month": 1 },
@@ -479,7 +479,7 @@
       "tags": "open mic"
     },
     {
-      "name": "THE COOL GREENHOUSE (UK) live @ 63c67066ceb5d786f1be3aa1",
+      "name": "THE COOL GREENHOUSE",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 8, "month": 1 },
@@ -489,7 +489,7 @@
       "tags": "indie"
     },
     {
-      "name": "FRIDAY ON MY MIND - die Mutter aller Partys w/ DEAD DISCO",
+      "name": "FRIDAY ON MY MIND",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 9, "month": 1 },
@@ -499,7 +499,7 @@
       "tags": "disco"
     },
     {
-      "name": "Take Me Out Leipzig - Indie aus der Goldenen Zeit // mit eavo",
+      "name": "Take Me Out Leipzig - Indie aus der Goldenen Zeit",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 10, "month": 1 },
@@ -509,7 +509,7 @@
       "tags": "indie"
     },
     {
-      "name": "BACK 2 THE FUTURE - Hits from 1962 to 2022!",
+      "name": "BACK 2 THE FUTURE",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 11, "month": 1 },
@@ -519,7 +519,7 @@
       "tags": "retro"
     },
     {
-      "name": "ILSES QUIZ MIT QUIZ MISS PHYLIS - ein Club Quiz mit Charme",
+      "name": "ILSES QUIZ MIT QUIZ MISS PHYLIS",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 14, "month": 1 },
@@ -529,7 +529,7 @@
       "tags": "indie"
     },
     {
-      "name": "FRIDAY ON MY MIND - die Mutter aller Partys w/ Indie.Tonne",
+      "name": "FRIDAY ON MY MIND",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 16, "month": 1 },
@@ -559,7 +559,7 @@
       "tags": "pop"
     },
     {
-      "name": "WEBSTER'S POPQUIZ - der große Jahresrückblick auf 2022",
+      "name": "WEBSTER'S POPQUIZ",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 21, "month": 1 },
@@ -568,7 +568,7 @@
       "organizer": "asdfasdfasdfasdfasdfasdf"
     },
     {
-      "name": "JOHN MOODS live @ 63c67066ceb5d786f1be3aa1",
+      "name": "JOHN MOODS live",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 22, "month": 1 },
@@ -578,7 +578,7 @@
       "tags": "indie"
     },
     {
-      "name": "FRIDAY ON MY MIND - die Mutter aller Partys w/ TONEY THE LONELY",
+      "name": "FRIDAY ON MY MIND",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 23, "month": 1 },
@@ -588,7 +588,7 @@
       "tags": "indie"
     },
     {
-      "name": "YOU WILL HAVE RAVED - Techno, House, Electro, Trance",
+      "name": "YOU WILL HAVE RAVED",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 24, "month": 1 },
@@ -824,7 +824,7 @@
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 2, "month": 1 },
       "venue": "63c67229974aa32ac97da8d9",
-      "price": "ausverkauft",
+      "price": 0,
       "organizer": "asdfasdfasdfasdfasdfasdf"
     },
     {
@@ -833,7 +833,7 @@
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 3, "month": 1 },
       "venue": "63c67229974aa32ac97da8d9",
-      "price": "ausverkauft",
+      "price": 0,
       "organizer": "asdfasdfasdfasdfasdfasdf"
     },
     {
@@ -891,7 +891,7 @@
       "organizer": "asdfasdfasdfasdfasdfasdf"
     },
     {
-      "name": "Lesebühne Schkeuditzer Kreuz: Live Poetry Show, Support: Benjamin Kindervatter",
+      "name": "Lesebühne Schkeuditzer Kreuz:",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 15, "month": 1 },
@@ -909,7 +909,7 @@
       "organizer": "asdfasdfasdfasdfasdfasdf"
     },
     {
-      "name": "Jugendjazzorchester Sachsen trifft Johannes Herrlich: \"Butters Idea\" - Swing That Thing",
+      "name": "Jugendjazzorchester Sachsen trifft Johannes Herrlich:",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 17, "month": 1 },
@@ -1261,7 +1261,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Orgelvesper mit Nikolaikantor Markus Kaufmann",
+      "name": "Orgelvesper mit Nikolaikantor",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 4, "month": 1 },
@@ -1271,7 +1271,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Orgelvesper mit Nikolaikantor Markus Kaufmann",
+      "name": "Orgelvesper mit Nikolaikantor",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 11, "month": 1 },
@@ -1281,7 +1281,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Orgelvesper mit Nikolaikantor Markus Kaufmann",
+      "name": "Orgelvesper mit Nikolaikantor",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 18, "month": 1 },
@@ -1351,7 +1351,7 @@
       "tags": "klassik"
     },
     {
-      "name": "Hausführung 63c6709dc1df06c379d07e2c",
+      "name": "Hausführung Gewandhaus",
       "musicians": "asdfasdfasdfasdfasdfasdf",
       "bands": "asdfasdfasdfasdfasdfasdf",
       "date": { "day": 19, "month": 1 },

@@ -2,15 +2,6 @@ import Venue from '../models/VenueModel.js';
 
 import { server200, server404, server500 } from '../methods/methods.js';
 
-const getAllVenues = async (req, res) => {
-  try {
-    const venues = await Venue.find({});
-    venues ? server200(res, venues) : server404(res, 'placeholderId');
-  } catch (error) {
-    server500(res, error);
-  }
-};
-
 const getSingleVenue = async (req, res) => {
   try {
     const { id: venueId } = req.params;
@@ -21,24 +12,16 @@ const getSingleVenue = async (req, res) => {
   }
 };
 
-const addVenue = async (req, res) => {
+const addSingleVenue = async (req, res) => {
   try {
     const newVenue = await Venue.create(req.body);
     server200(res, newVenue);
-    // look into db to see if venue exists
-
-    /* const venueName = req.body.name;
-    const venue = await Venue.findOne({ name: venueName });
-
-    venue
-      ? server500(res, `venue can't be added, contact admin`)
-      : server200(res, newVenue); */
   } catch (error) {
     server500(res, error);
   }
 };
 
-const updateVenue = async (req, res) => {
+const updateSingleVenue = async (req, res) => {
   try {
     const { id: venueId } = req.params;
     const venue = await Venue.findOneAndUpdate({ _id: venueId }, req.body, {
@@ -51,7 +34,7 @@ const updateVenue = async (req, res) => {
   }
 };
 
-const deleteVenue = async (req, res) => {
+const deleteSingleVenue = async (req, res) => {
   try {
     const { id: venueId } = req.params;
     const venue = await Venue.findByIdAndDelete(venueId);
@@ -61,10 +44,31 @@ const deleteVenue = async (req, res) => {
   }
 };
 
+const getAllVenues = async (req, res) => {
+  try {
+    const venues = await Venue.find({});
+    venues ? server200(res, venues) : server404(res, 'placeholderId');
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
 const addManyVenues = async (req, res) => {
   try {
     const newVenues = await Venue.insertMany(req.body);
     server200(res, newVenues);
+  } catch (error) {
+    server500(res, error);
+  }
+};
+
+const updateManyVenues = async (req, res) => {
+  try {
+    const venues = await Venue.updateMany(req.body.filter, req.body.update, {
+      new: true,
+      runValidators: true,
+    });
+    server200(res, venues);
   } catch (error) {
     server500(res, error);
   }
@@ -80,11 +84,12 @@ const deleteManyVenues = async (req, res) => {
 };
 
 export {
-  getAllVenues,
   getSingleVenue,
-  addVenue,
-  updateVenue,
-  deleteVenue,
+  addSingleVenue,
+  updateSingleVenue,
+  deleteSingleVenue,
+  getAllVenues,
   addManyVenues,
+  updateManyVenues,
   deleteManyVenues,
 };

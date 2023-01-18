@@ -2,14 +2,18 @@ import express from 'express';
 const router = express.Router();
 
 import {
-  getAllBands,
   getSingleBand,
-  addBand,
-  updateBand,
-  deleteBand,
+  addSingleBand,
+  updateSingleBand,
+  deleteSingleBand,
+  getAllBands,
+  addManyBands,
+  updateManyBands,
+  deleteManyBands,
 } from '../controllers/BandController.js';
 
-router.route('/').get(getAllBands).post(addBand);
-router.route('/:id').get(getSingleBand).patch(updateBand).delete(deleteBand);
+router.route('/').get(getAllBands).post(addSingleBand);
+router.route("/many").post(addManyBands).patch(updateManyBands).delete(deleteManyBands);
+router.route('/:id').get(getSingleBand).patch(updateSingleBand).delete(deleteSingleBand);
 
 export default router;

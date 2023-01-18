@@ -1,19 +1,27 @@
-import express from 'express'
+import express from 'express';
 const router = express.Router();
 
 import {
-  getAllOrganizers,
   getSingleOrganizer,
-  addOrganizer,
-  updateOrganizer,
-  deleteOrganizer,
-} from '../controllers/organizerController.js'
+  addSingleOrganizer,
+  updateSingleOrganizer,
+  deleteSingleOrganizer,
+  getAllOrganizers,
+  addManyOrganizers,
+  updateManyOrganizers,
+  deleteManyOrganizers,
+} from '../controllers/organizerController.js';
 
-router.route('/').get(getAllOrganizers).post(addOrganizer);
+router.route('/').get(getAllOrganizers).post(addSingleOrganizer);
+router
+  .route('/many')
+  .post(addManyOrganizers)
+  .patch(updateManyOrganizers)
+  .delete(deleteManyOrganizers);
 router
   .route('/:id')
   .get(getSingleOrganizer)
-  .patch(updateOrganizer)
-  .delete(deleteOrganizer);
+  .patch(updateSingleOrganizer)
+  .delete(deleteSingleOrganizer);
 
 export default router;
