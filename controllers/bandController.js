@@ -14,6 +14,7 @@ const getSingleBand = async (req, res) => {
 
 const addSingleBand = async (req, res) => {
   try {
+
     const newBand = await Band.create(req.body);
 
     // look into db to see if band exists
