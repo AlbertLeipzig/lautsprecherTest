@@ -42,7 +42,7 @@ const startServer = async () => {
     await dbConnection(mongoUri);
     app.listen(PORT, console.log(`server running on port ${PORT}`));
   } catch (error) {
-    console.error({ error });
+    console.error(error.response.data);
   }
 };
 

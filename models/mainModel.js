@@ -17,6 +17,7 @@ alternative link pattern
 const mainAddressSchema = {
   street: {
     type: String,
+    tolowercase: true,
     required: [true, 'an address must contain a street'],
     minlength: [2, `an address's street must contain at least 2 characters`],
     maxlength: [40, `an address's street must contain max 40 characters`],
@@ -130,6 +131,7 @@ const mainPersonNameSchema = {
 const priceSchema = {
   type: mongoose.Decimal128,
   trim: true,
+  min: [0, `a price must be greater than 0`],
   maxlength: [5, `a price must contain max 5 characters`],
 };
 
