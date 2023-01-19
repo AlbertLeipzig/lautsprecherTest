@@ -14,6 +14,13 @@ const getSingleOrganizer = async (req, res) => {
 
 const addSingleOrganizer = async (req, res) => {
   try {
+    const organizerEmail = await Organizer.distinct('email', { email: req.body.name });
+    if (organizerEmail.length) {
+      return res.status(400).json({
+        status: 'fail',
+        message: 'You are already registered',
+      });
+    }
     const newOrganizer = await Organizer.create(req.body);
     server200(res, newOrganizer);
   } catch (error) {

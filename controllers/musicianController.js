@@ -14,6 +14,14 @@ const getSingleMusician = async (req, res) => {
 
 const addSingleMusician = async (req, res) => {
   try {
+    const musicianEmail = await Musician.distinct('email', { email: req.body.name });
+    if (musicianEmail.length) {
+      return res.status(400).json({
+        status: 'fail',
+        message: 'You are already registered',
+      });
+    }
+
     const newMusician = await Musician.create(req.body);
     res.status(200).json(newMusician);
   } catch (error) {

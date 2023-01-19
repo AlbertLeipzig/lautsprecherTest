@@ -14,6 +14,15 @@ const getSingleUser = async (req, res) => {
 
 const addSingleUser = async (req, res) => {
   try {
+
+    const userEmail = await User.distinct('email', { email: req.body.name });
+    if (userEmail.length) {
+      return res.status(400).json({
+        status: 'fail',
+        message: 'You are already registered',
+      });
+    }
+
     const newUser = await User.create(req.body);
     server200(res, newUser);
   } catch (error) {

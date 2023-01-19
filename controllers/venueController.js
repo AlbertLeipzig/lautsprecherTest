@@ -4,6 +4,13 @@ import { server200, server404, server500 } from '../methods/methods.js';
 
 const getSingleVenue = async (req, res) => {
   try {
+    const venueAddress = await Venue.distinct('address', { address: req.body.name });
+    if (venueAddress.length) {
+      return res.status(400).json({
+        status: 'fail',
+        message: 'You are already registered',
+      });
+    }
     const { id: venueId } = req.params;
     const venue = await Venue.findById(venueId);
     venue ? server200(res, venue) : server404(res, venueId);
