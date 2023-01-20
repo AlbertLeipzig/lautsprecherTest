@@ -14,12 +14,25 @@ const getSingleBand = async (req, res) => {
 
 const addSingleBand = async (req, res) => {
   try {
+    const { name } = req.body;
+    const { confirmationStatus } = req.body;
+    const existingBand = await Band.findOne({ name: name });
 
-    const newBand = await Band.create(req.body);
-
-    // look into db to see if band exists
-
-    server200(res, newBand);
+    if (!existingBand) {
+      const newBand = await Band.create(req.body);
+      server200(res, newBand);
+    } else if (existingBand && confirmationStatus === undefined) {
+      res.status(200).json({
+        message: 'You are trying to add a band that already exists.',
+      });
+    } else if (existingBand && confirmationStatus) {
+      updateSingleBand(req, res);
+    } else {
+      res.status(400).json({
+        status: 'fail',
+        message: 'Band already exists',
+      });
+    }
   } catch (error) {
     server500(res, error);
   }
@@ -27,8 +40,10 @@ const addSingleBand = async (req, res) => {
 
 const updateSingleBand = async (req, res) => {
   try {
-    const { id: bandId } = req.params;
-    const band = await Band.findOneAndUpdate({ _id: bandId }, req.body, {
+    const bandId = req.params.id;
+    const name = req.body.name;
+    const filter = bandId || name;
+    const band = await Band.findOneAndUpdate(filter, req.body, {
       new: true,
       runValidators: true,
     });
