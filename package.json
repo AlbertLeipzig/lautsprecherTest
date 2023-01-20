@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "output" : "public",
   "type": "module",
   "engines": {
     "node": "14.x"
@@ -11,7 +12,7 @@
     "test": "test --watchAll --coverage",
     "server": "nodemon ./server.js",
     "start": "node server.js",
-    "deploy": "node server.js"
+    "build" : "mc-scripts build"
   },
   "keywords": [],
   "author": "albertleipzig <albertclemvill@gmail.com>",
