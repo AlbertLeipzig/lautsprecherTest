@@ -4,7 +4,9 @@ import { server200, server404, server500 } from '../methods/methods.js';
 
 const getSingleVenue = async (req, res) => {
   try {
-    const venueAddress = await Venue.distinct('address', { address: req.body.name });
+    const venueAddress = await Venue.distinct('address', {
+      address: req.body.name,
+    });
     if (venueAddress.length) {
       return res.status(400).json({
         status: 'fail',
@@ -21,8 +23,25 @@ const getSingleVenue = async (req, res) => {
 
 const addSingleVenue = async (req, res) => {
   try {
-    const newVenue = await Venue.create(req.body);
-    server200(res, newVenue);
+    const { name, confirmationStatus } = req.body;
+    const existingVenue = await Venue.find({ name: name });
+
+    if (!existingVenue) {
+      const newVenue = await Venue.create(req.body);
+      server200(res, newVenue);
+    } else if (existingVenue && confirmationStatus === undefined) {
+      res.status(200).json({
+        message: 'You are trying to add a venue that already exists.',
+        payload: existingVenue,
+      });
+    } else if (existingVenue && confirmationStatus) {
+      updateSingleVenue(req, res);
+    } else {
+      res.status(400).json({
+        status: 'fail',
+        message: 'Venue already exists',
+      });
+    }
   } catch (error) {
     server500(res, error);
   }
@@ -30,8 +49,10 @@ const addSingleVenue = async (req, res) => {
 
 const updateSingleVenue = async (req, res) => {
   try {
-    const { id: venueId } = req.params;
-    const venue = await Venue.findOneAndUpdate({ _id: venueId }, req.body, {
+    const venueId = req.params.id;
+    const name = req.body.name;
+    const filter = venueId || name;
+    const venue = await Venue.findOneAndUpdate(filter, req.body, {
       new: true,
       runValidators: true,
     });

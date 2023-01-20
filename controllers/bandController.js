@@ -14,9 +14,8 @@ const getSingleBand = async (req, res) => {
 
 const addSingleBand = async (req, res) => {
   try {
-    const { name } = req.body;
-    const { confirmationStatus } = req.body;
-    const existingBand = await Band.findOne({ name: name });
+    const { name, confirmationStatus } = req.body;
+    const existingBand = await Band.find({ name: name });
 
     if (!existingBand) {
       const newBand = await Band.create(req.body);
@@ -24,6 +23,7 @@ const addSingleBand = async (req, res) => {
     } else if (existingBand && confirmationStatus === undefined) {
       res.status(200).json({
         message: 'You are trying to add a band that already exists.',
+        payload : existingBand
       });
     } else if (existingBand && confirmationStatus) {
       updateSingleBand(req, res);

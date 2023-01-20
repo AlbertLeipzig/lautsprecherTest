@@ -14,7 +14,6 @@ const getSingleUser = async (req, res) => {
 
 const addSingleUser = async (req, res) => {
   try {
-
     const userEmail = await User.distinct('email', { email: req.body.name });
     if (userEmail.length) {
       return res.status(400).json({
@@ -23,8 +22,28 @@ const addSingleUser = async (req, res) => {
       });
     }
 
-    const newUser = await User.create(req.body);
-    server200(res, newUser);
+    const { firstName, lastName, confirmationStatus } = req.body;
+    const existingUser = await User.find({
+      firstName: firstName,
+      lastName: lastName,
+    });
+
+    if (!existingUser) {
+      const newUser = await User.create(req.body);
+      server200(res, newUser);
+    } else if (existingUser && confirmationStatus === undefined) {
+      res.status(200).json({
+        message: 'You are trying to add a user that already exists.',
+        payload : existingUser
+      });
+    } else if (existingUser && confirmationStatus) {
+      updateSingleUser(req, res);
+    } else {
+      res.status(400).json({
+        status: 'fail',
+        message: 'User already exists',
+      });
+    }
   } catch (error) {
     server500(res, error);
   }
@@ -32,7 +51,7 @@ const addSingleUser = async (req, res) => {
 
 const updateSingleUser = async (req, res) => {
   try {
-    const { id: userId } = req.params;
+    const userId = req.params.id;
     const user = await User.findOneAndUpdate({ _id: userId }, req.body, {
       new: true,
       runValidators: true,

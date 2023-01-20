@@ -14,15 +14,39 @@ const getSingleOrganizer = async (req, res) => {
 
 const addSingleOrganizer = async (req, res) => {
   try {
-    const organizerEmail = await Organizer.distinct('email', { email: req.body.name });
+    const organizerEmail = await Organizer.distinct('email', {
+      email: req.body.name,
+    });
     if (organizerEmail.length) {
       return res.status(400).json({
         status: 'fail',
         message: 'You are already registered',
       });
     }
-    const newOrganizer = await Organizer.create(req.body);
-    server200(res, newOrganizer);
+
+    const { firstName, lastName, confirmationStatus } = req.body;
+
+    const existingOrganizer = await Organizer.find({
+      firstName: firstName,
+      lastName: lastName,
+    });
+
+    if (!existingOrganizer) {
+      const newOrganizer = await Organizer.create(req.body);
+      server200(res, newOrganizer);
+    } else if (existingOrganizer && confirmationStatus === undefined) {
+      res.status(200).json({
+        message: 'You are trying to add a organizer that already exists.',
+        payload : existingOrganizer
+      });
+    } else if (existingOrganizer && confirmationStatus) {
+      updateSingleOrganizer(req, res);
+    } else {
+      res.status(400).json({
+        status: 'fail',
+        message: 'Organizer already exists',
+      });
+    }
   } catch (error) {
     server500(res, error);
   }
@@ -31,14 +55,12 @@ const addSingleOrganizer = async (req, res) => {
 const updateSingleOrganizer = async (req, res) => {
   try {
     const { id: organizerId } = req.params;
-    const organizer = await Organizer.findOneAndUpdate(
-      { _id: organizerId },
-      req.body,
-      {
-        new: true,
-        runValidators: true,
-      }
-    );
+    const { firstName, lastName } = req.body;
+    const filter = organizerId || firstName || lastName;
+    const organizer = await Organizer.findOneAndUpdate(filter, req.body, {
+      new: true,
+      runValidators: true,
+    });
     organizer ? server200(res, organizer) : server404(res, organizerId);
   } catch (error) {
     server500(res, error);

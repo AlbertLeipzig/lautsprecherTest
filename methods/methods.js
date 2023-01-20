@@ -10,6 +10,4 @@ const server500 = (res, error) => {
   return res.status(500).json({ error });
 };
 
-
-
 export { server200, server404, server500 };
