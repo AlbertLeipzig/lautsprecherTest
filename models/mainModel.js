@@ -8,9 +8,11 @@ const linkValidatorPattern =
   /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([/\w .-]*)*\/?$/;
 
 /* 
-alternative link pattern
-(http[s]?:\/\/)?[^\s(["<,>]*\.[^\s[",><]* 
-*/
+  alternative link pattern
+  (http[s]?:\/\/)?[^\s(["<,>]*\.[^\s[",><]* 
+  */
+
+const dateValidatorPattern = /^\d{4}-\d{2}-\d{2}$/;
 
 // main schemas
 
@@ -46,22 +48,15 @@ const mainArticleNameSchema = {
 };
 
 const mainDateSchema = {
-  day: {
-    type: Number,
-    trim: true,
-    required: [true, 'a date must contain a day'],
-    min: [, `a date's day must be between 1 and 31`],
-    max: [31, `a date's day must be between 1 and 31`],
-    default: new Date().getDate(),
-  },
-  month: {
-    type: Number,
-    trim: true,
-    required: [true, 'a date must contain a month'],
-    min: [0, `a date's month must be between 0 and 11`],
-    max: [11, `a date's month must be between 0 and 11`],
-    default: new Date().getMonth(),
-  },
+  type: String,
+  required: [true, 'a date must contain a date'],
+  trim: true,
+  /*  validate: {
+    validator: function (value) {
+      return dateValidatorPattern.test(value);
+    },
+    message: (props) => `${props.value} is not a valid date!`,
+  }, */
 };
 
 const mainDescriptionSchema = {

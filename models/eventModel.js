@@ -11,6 +11,13 @@ import {
   mainDateSchema,
 } from './mainModel.js';
 
+// custom validator that checks if either band or musician is present
+const atLeastOne = (musicians, bands) => {
+  musicians.length + bands.length > 0;
+};
+
+
+
 const eventSchema = new mongoose.Schema({
   /* name must be changed to title with $rename */
   name: mainArticleNameSchema,
@@ -25,6 +32,8 @@ const eventSchema = new mongoose.Schema({
   image: mainImageSchema,
   tags: [mainTagSchema],
   link: [mainLinkSchema],
+ 
+
 });
 
 const eventModel = mongoose.model('Event', eventSchema);

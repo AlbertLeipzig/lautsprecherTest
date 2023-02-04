@@ -14,8 +14,25 @@ const getSingleBusiness = async (req, res) => {
 
 const addSingleBusiness = async (req, res) => {
   try {
+    const { name, confirmationStatus } = req.body;
+    const existingBusiness = await Business.find({ name: name });
+
+    if (!existingBusiness) {
     const newBusiness = await Business.create(req.body);
     res.status(200).json({ newBusiness });
+  } else if (existingBusiness && confirmationStatus === undefined) {
+    res.status(200).json({
+      message: 'You are trying to add a business that already exists.',
+      payload: existingBusiness,
+    });
+  } else if (existingBusiness && confirmationStatus) {
+    updateSingleBusiness(req, res);
+  } else {
+    res.status(400).json({
+      status: 'fail',
+      message: 'Business already exists',
+    });
+  }
   } catch (error) {
     server500(res, error);
   }

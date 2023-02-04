@@ -13,17 +13,37 @@ const getSingleMusician = async (req, res) => {
 };
 
 const addSingleMusician = async (req, res) => {
+  const musicianEmail = await Musician.distinct('email', {
+    email: req.body.name,
+  });
+  if (musicianEmail.length) {
+    return res.status(400).json({
+      status: 'fail',
+      message: 'You are already registered',
+    });
+  }
   try {
-    const musicianEmail = await Musician.distinct('email', { email: req.body.name });
-    if (musicianEmail.length) {
-      return res.status(400).json({
+    const { firstName, lastName, confirmationStatus } = req.body;
+    const existingMusician = await Musician.find({
+      firstName: firstName,
+      lastName: lastName,
+    });
+    if (!existingMusician) {
+      const newMusician = await Musician.create(req.body);
+      res.status(200).json(newMusician);
+    } else if (existingMusician && confirmationStatus === undefined) {
+      res.status(200).json({
+        message: 'You are trying to add a musician that already exists.',
+        payload: existingMusician,
+      });
+    } else if (existingMusician && confirmationStatus) {
+      updateSingleMusician(req, res);
+    } else {
+      res.status(400).json({
         status: 'fail',
-        message: 'You are already registered',
+        message: 'Musician already exists',
       });
     }
-
-    const newMusician = await Musician.create(req.body);
-    res.status(200).json(newMusician);
   } catch (error) {
     server500(res, error);
   }
@@ -31,15 +51,13 @@ const addSingleMusician = async (req, res) => {
 
 const updateSingleMusician = async (req, res) => {
   try {
-    const { id: musicianId } = req.params;
-    const musician = await Musician.findOneAndUpdate(
-      { _id: musicianId },
-      req.body,
-      {
-        new: true,
-        runValidators: true,
-      }
-    );
+    const musicianId = req.params.id;
+    const { firstName, lastName } = req.body;
+    const filter = musicianId || firstName || lastName;
+    const musician = await Musician.findOneAndUpdate(filter, req.body, {
+      new: true,
+      runValidators: true,
+    });
     musician ? server200(res, musician) : server404(res, musicianId);
   } catch (error) {
     server500(res, error);
