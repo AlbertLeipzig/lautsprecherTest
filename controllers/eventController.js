@@ -12,14 +12,31 @@ const getSingleEvent = async (req, res) => {
   }
 };
 
+const atLeastOne = (event) => {
+  const { musicians, bands } = event;
+  return musicians.length + bands.length > 0;
+};
+
 const addSingleEvent = async (req, res) => {
   try {
     const { name, confirmationStatus } = req.body;
     const existingEvent = await Event.find({ name: name });
 
-    if (!existingEvent) {
+    const newEvent = await Event.create(req.body);
+    atLeastOne(newEvent)
+      ? server200(res, newEvent)
+      : res.status(400).json({
+          status: 'fail',
+          message: 'Event must have at least one musician or band',
+        });
+    /* if (!existingEvent) {
       const newEvent = await Event.create(req.body);
-      server200(res, newEvent);
+      atLeastOne(newEvent)
+        ? server200(res, newEvent)
+        : res.status(400).json({
+            status: 'fail',
+            message: 'Event must have at least one musician or band',
+          });
     } else if (existingEvent && confirmationStatus === undefined) {
       res.status(200).json({
         message: 'You are trying to add an event that already exists.',
@@ -32,7 +49,7 @@ const addSingleEvent = async (req, res) => {
         status: 'fail',
         message: 'Event already exists',
       });
-    }
+    } */
   } catch (error) {
     server500(res, error);
   }
@@ -44,7 +61,7 @@ const updateSingleEvent = async (req, res) => {
     const eventName = req.params.name;
     const filter = eventId || eventName;
     const event = await Event.findOneAndUpdate(filter, req.body, {
-      new: true,
+      /* new: true, */
       runValidators: true,
     });
     event ? server200(res, event) : server404(res, eventId);
@@ -85,7 +102,7 @@ const addManyEvents = async (req, res) => {
 const updateManyEvents = async (req, res) => {
   try {
     const events = await Event.updateMany(req.body.filter, req.body.update, {
-      new: true,
+      /* new: true, */
       runValidators: true,
     });
     server200(res, events);
