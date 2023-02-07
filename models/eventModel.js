@@ -20,7 +20,7 @@ const atLeastOne = (musicians, bands) => {
 
 const eventSchema = new mongoose.Schema({
   /* name must be changed to title with $rename */
-  name: mainArticleNameSchema,
+  title: mainArticleNameSchema,
   subtitle: mainArticleNameSchema,
   description: mainDescriptionSchema,
   musicians: [mainPersonIdSchema],
