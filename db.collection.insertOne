@@ -1,4 +1,0 @@
-use("playground")
-db.bands.findOne(
-   {_id : "62153d5a9853e0c413e45946"}
-)
