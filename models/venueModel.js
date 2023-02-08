@@ -4,7 +4,6 @@ import {
   mainAddressSchema,
   mainEmailSchema,
   mainImageSchema,
-  mainTagSchema,
   mainLinkSchema,
 } from './mainModel.js';
 
@@ -12,8 +11,7 @@ const venueSchema = new mongoose.Schema({
   name: mainArticleNameSchema,
   email: mainEmailSchema,
   image: mainImageSchema,
-  tag: mainTagSchema,
-  link: mainLinkSchema,
+  links: mainLinkSchema,
   address: mainAddressSchema,
 });
 
