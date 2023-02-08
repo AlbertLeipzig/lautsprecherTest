@@ -13,7 +13,7 @@ const bandSchema = new mongoose.Schema({
   musicians: [mainPersonIdSchema],
   // we need a validation to have at least email or contactPerson, although is possible to have both
   email: mainEmailSchema,
-  contactPerson: mainPersonIdSchema,
+  /* contactPerson: mainPersonIdSchema, */
   image: mainImageSchema,
   tags: [mainTagSchema],
   events: [mainArticleIdSchema],

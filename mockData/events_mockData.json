@@ -2,601 +2,958 @@
   {
     "title": "Killer Joe",
     "subtitle": "Object of Beauty, The",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0"],
+    "venue": "63e36326e697415a5059c71b",
     "date": "11/26/2022",
     "image": "http://dummyimage.com/169x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Another Happy Day",
     "subtitle": "Little World of Don Camillo, The (Petit monde de Don Camillo, Le)",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71b",
     "date": "10/13/2022",
     "image": "http://dummyimage.com/134x100.png/5fa2dd/ffffff",
-    "tags": [{}],
-    "links": [{}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Angry Red Planet, The",
     "subtitle": "Angus",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71b",
     "date": "5/18/2022",
     "image": "http://dummyimage.com/178x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "India's Daughter",
     "subtitle": "Woman, a Gun and a Noodle Shop, A (San qiang pai an jing qi)",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71b",
     "date": "1/16/2023",
     "image": "http://dummyimage.com/202x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Trancers II",
     "subtitle": "Kosmos",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71b",
     "date": "9/13/2022",
     "image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Lonely Place to Die, A",
     "subtitle": "Paimen, piika ja emäntä",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71c",
     "date": "4/20/2022",
     "image": "http://dummyimage.com/171x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Northanger Abbey",
     "subtitle": "Young Americans, The",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71c",
     "date": "8/7/2022",
     "image": "http://dummyimage.com/148x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Pulling Strings",
     "subtitle": "Kickboxer 2: The Road Back",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71c",
     "date": "4/18/2022",
     "image": "http://dummyimage.com/111x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Paris, France",
     "subtitle": "Company of Heroes",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71c",
     "date": "12/17/2022",
     "image": "http://dummyimage.com/164x100.png/ff4444/ffffff",
-    "tags": [{}, {}],
-    "links": [{}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Knot, The",
     "subtitle": "Law, The (a.k.a. Where the Hot Wind Blows!) (Legge, La)",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71c",
     "date": "4/20/2022",
     "image": "http://dummyimage.com/154x100.png/dddddd/000000",
-    "tags": [{}, {}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Harvest",
     "subtitle": "One Shot",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71c",
     "date": "1/23/2023",
     "image": "http://dummyimage.com/145x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Paint Your Wagon",
     "subtitle": "Undisputed",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71c",
     "date": "5/13/2022",
     "image": "http://dummyimage.com/193x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Failan",
     "subtitle": "American Boy: A Profile of: Steven Prince",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "1/9/2023",
     "image": "http://dummyimage.com/163x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Daughters of Darkness (Les lèvres rouges)",
     "subtitle": "Where the Day Takes You",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a0", "63e361cde697415a5059c6a1"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "11/11/2022",
     "image": "http://dummyimage.com/137x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}],
-    "links": [{}, {}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Nature of the Beast, The",
     "subtitle": "Zero de conduite (Zero for Conduct) (Zéro de conduite: Jeunes diables au collège)",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": [
+      "63e361cde697415a5059c6a2",
+      "63e361cde697415a5059c6a3",
+      "63e361cde697415a5059c6a3"
+    ],
+    "venue": "63e36326e697415a5059c71d",
     "date": "7/13/2022",
     "image": "http://dummyimage.com/191x100.png/cc0000/ffffff",
-    "tags": [],
-    "links": [{}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Made in Britain",
     "subtitle": "Kept Husbands",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "6/26/2022",
     "image": "http://dummyimage.com/203x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Out at the Wedding",
     "subtitle": "Pickle, The",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "11/22/2022",
     "image": "http://dummyimage.com/125x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Too Early, Too Late (Trop tôt, trop tard)",
     "subtitle": "Demoted",
+    "organizer": "63e36365e697415a5059c752",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "10/24/2022",
     "image": "http://dummyimage.com/156x100.png/ff4444/ffffff",
-    "tags": [{}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Lords of Dogtown",
     "subtitle": "Asterix & Obelix: Mission Cleopatra (Astérix & Obélix: Mission Cléopâtre)",
+    "organizer": "63e36365e697415a5059c74a",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "5/25/2022",
     "image": "http://dummyimage.com/177x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Everything Put Together",
     "subtitle": "No Retreat, No Surrender 2: Raging Thunder",
+    "organizer": "63e36365e697415a5059c74a",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "7/25/2022",
     "image": "http://dummyimage.com/195x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}],
-    "links": []
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Blade",
     "subtitle": "Prinsessa (Starring Maja)",
+    "organizer": "63e36365e697415a5059c74a",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "9/21/2022",
     "image": "http://dummyimage.com/222x100.png/cc0000/ffffff",
-    "tags": [{}],
-    "links": []
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Lust for Gold",
     "subtitle": "Jiro Dreams of Sushi",
+    "organizer": "63e36365e697415a5059c74a",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "5/8/2022",
     "image": "http://dummyimage.com/198x100.png/ff4444/ffffff",
-    "tags": [{}, {}],
-    "links": [{}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Bridal Party in Hardanger, The (Brudeferden i Hardanger)",
     "subtitle": "Europa Europa (Hitlerjunge Salomon)",
+    "organizer": "63e36365e697415a5059c74a",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "10/27/2022",
     "image": "http://dummyimage.com/137x100.png/ff4444/ffffff",
-    "tags": [],
-    "links": [{}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Film About a Woman Who...",
     "subtitle": "Symphonie pastorale, La",
+    "organizer": "63e36365e697415a5059c74a",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "6/12/2022",
     "image": "http://dummyimage.com/248x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Pride and Prejudice",
     "subtitle": "Sky Murder",
+    "organizer": "63e36365e697415a5059c74a",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "7/8/2022",
     "image": "http://dummyimage.com/188x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}],
-    "links": [{}, {}, {}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Passing Fancy (Dekigokoro)",
     "subtitle": "Silmido",
+    "organizer": "63e36365e697415a5059c74a",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "11/18/2022",
     "image": "http://dummyimage.com/239x100.png/ff4444/ffffff",
-    "tags": [{}],
-    "links": []
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Chocolat",
     "subtitle": "Outside the Law (Hors-la-loi)",
+    "organizer": "63e36365e697415a5059c746",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "2/2/2023",
     "image": "http://dummyimage.com/102x100.png/dddddd/000000",
-    "tags": [],
-    "links": []
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Vacation from Marriage",
     "subtitle": "We Feed the World",
+    "organizer": "63e36365e697415a5059c746",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "9/18/2022",
     "image": "http://dummyimage.com/180x100.png/5fa2dd/ffffff",
-    "tags": [],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Blackballed: The Bobby Dukes Story",
     "subtitle": "Desperate Journey",
+    "organizer": "63e36365e697415a5059c746",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "1/12/2023",
     "image": "http://dummyimage.com/167x100.png/dddddd/000000",
-    "tags": [{}],
-    "links": [{}]
+    "links": [{ "main": "https://github.com/" }]
   },
   {
     "title": "Bitter Sweetheart",
     "subtitle": "Putin's Kiss",
+    "organizer": "63e36365e697415a5059c746",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "12/28/2022",
     "image": "http://dummyimage.com/196x100.png/dddddd/000000",
-    "tags": [],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Girl Walks Into a Bar",
     "subtitle": "Tell Them Anything You Want: A Portrait of Maurice Sendak",
+    "organizer": "63e36365e697415a5059c746",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71e",
     "date": "4/17/2022",
     "image": "http://dummyimage.com/163x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "L'Italien",
     "subtitle": "On the Ice",
+    "organizer": "63e36365e697415a5059c746",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "7/23/2022",
     "image": "http://dummyimage.com/201x100.png/cc0000/ffffff",
-    "tags": [{}],
-    "links": [{}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Underworld",
     "subtitle": "Ten Inch Hero",
+    "organizer": "63e36365e697415a5059c746",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "3/30/2022",
     "image": "http://dummyimage.com/250x100.png/dddddd/000000",
-    "tags": [{}, {}, {}],
-    "links": [{}, {}, {}, {}, {}]
   },
   {
     "title": "Apartment Zero",
     "subtitle": "Gang Related",
+    "organizer": "63e36365e697415a5059c746",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "12/16/2022",
     "image": "http://dummyimage.com/165x100.png/cc0000/ffffff",
-    "tags": [],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Tungsten",
     "subtitle": "Black Mirror",
+    "organizer": "63e36365e697415a5059c742",
+    "musicians": ["63e361cde697415a5059c6a6", "63e361cde697415a5059c6a8"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "10/20/2022",
     "image": "http://dummyimage.com/121x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}, {}, {}, {}]
   },
   {
     "title": "Always Outnumbered",
     "subtitle": "Jason X",
+    "organizer": "63e36365e697415a5059c742",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c721",
     "date": "6/30/2022",
     "image": "http://dummyimage.com/148x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Thale",
     "subtitle": "Woman in White, The",
+    "organizer": "63e36365e697415a5059c742",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c721",
     "date": "9/8/2022",
     "image": "http://dummyimage.com/211x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Garbage Warrior",
     "subtitle": "Italian for Beginners (Italiensk for begyndere)",
+    "organizer": "63e36365e697415a5059c742",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "8/11/2022",
     "image": "http://dummyimage.com/199x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}, {}],
-    "links": []
   },
   {
     "title": "Edge, The",
     "subtitle": "Blood and Sand",
+    "organizer": "63e36365e697415a5059c742",
+    "bands": [],
+    "venue": "63e36326e697415a5059c71d",
     "date": "11/5/2022",
     "image": "http://dummyimage.com/201x100.png/cc0000/ffffff",
-    "tags": [{}],
-    "links": [{}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Journey to the Far Side of the Sun (a.k.a. Doppelgänger)",
     "subtitle": "Villa Rides!",
+    "organizer": "63e36365e697415a5059c742",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "12/30/2022",
     "image": "http://dummyimage.com/238x100.png/dddddd/000000",
-    "tags": [{}, {}, {}],
-    "links": [{}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Murmur of the Heart (Le souffle au coeur)",
     "subtitle": "Inseparable",
+    "organizer": "63e36365e697415a5059c740",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "12/21/2022",
     "image": "http://dummyimage.com/123x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}, {}],
-    "links": [{}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Last Sunset, The",
     "subtitle": "After Earth",
+    "organizer": "63e36365e697415a5059c740",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "7/1/2022",
     "image": "http://dummyimage.com/153x100.png/ff4444/ffffff",
-    "tags": [{}],
-    "links": [{}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Story of Seabiscuit, The",
     "subtitle": "Another Day, Another Time: Celebrating the Music of Inside Llewyn Davis",
+    "organizer": "63e36365e697415a5059c740",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "12/8/2022",
     "image": "http://dummyimage.com/237x100.png/ff4444/ffffff",
-    "tags": [{}],
-    "links": [{}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Flow",
     "subtitle": "Early Spring (Soshun)",
+    "organizer": "63e36365e697415a5059c740",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "2/15/2022",
     "image": "http://dummyimage.com/138x100.png/cc0000/ffffff",
-    "tags": [],
-    "links": [{}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Shutter",
     "subtitle": "The Shadow of the Eagle",
+    "organizer": "63e36365e697415a5059c740",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "10/5/2022",
     "image": "http://dummyimage.com/182x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": []
   },
   {
     "title": "Being Flynn",
     "subtitle": "American Promise",
+    "organizer": "63e36365e697415a5059c740",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "5/25/2022",
     "image": "http://dummyimage.com/103x100.png/5fa2dd/ffffff",
-    "tags": [{}],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Orphan",
     "subtitle": "Cabin in the Sky",
+    "organizer": "63e36365e697415a5059c740",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "4/10/2022",
     "image": "http://dummyimage.com/211x100.png/ff4444/ffffff",
-    "tags": [{}],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Thy Womb (Sinapupunan)",
     "subtitle": "Risky Business",
+    "organizer": "63e36365e697415a5059c73c",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "6/22/2022",
     "image": "http://dummyimage.com/212x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Quills",
     "subtitle": "Black Robe",
+    "organizer": "63e36365e697415a5059c73c",
+    "bands": ["63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "7/18/2022",
     "image": "http://dummyimage.com/213x100.png/dddddd/000000",
-    "tags": [],
-    "links": []
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Professional, The (Le professionnel)",
     "subtitle": "Jezebel",
+    "organizer": "63e36365e697415a5059c73c",
+    "bands": ["63e37374b039713218981043", "63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "3/23/2022",
     "image": "http://dummyimage.com/110x100.png/dddddd/000000",
-    "tags": [{}],
-    "links": []
   },
   {
     "title": "Milius",
     "subtitle": "Red Heat",
+    "organizer": "63e36365e697415a5059c73c",
+    "bands": ["63e37374b039713218981041", "63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "11/10/2022",
     "image": "http://dummyimage.com/164x100.png/dddddd/000000",
-    "tags": [{}, {}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "It's Not Me, I Swear! (C'est pas moi, je le jure!)",
     "subtitle": "In Your Hands",
+    "organizer": "63e36365e697415a5059c73c",
+    "bands": ["63e37374b039713218981041", "63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "12/4/2022",
     "image": "http://dummyimage.com/115x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}],
-    "links": [{}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "And God Created Woman (Et Dieu... créa la femme)",
     "subtitle": "This Could Be The Night",
+    "organizer": "63e36365e697415a5059c73c",
+    "bands": ["63e37374b039713218981041", "63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "8/23/2022",
     "image": "http://dummyimage.com/213x100.png/5fa2dd/ffffff",
-    "tags": [],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Cirque du Soleil: Worlds Away",
     "subtitle": "Cat Ballou",
+    "organizer": "63e36365e697415a5059c73c",
+    "bands": ["63e37374b039713218981041", "63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "1/26/2023",
     "image": "http://dummyimage.com/201x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Don Quixote",
     "subtitle": "Lady in a Cage",
+    "organizer": "63e36365e697415a5059c738",
+    "bands": ["63e37374b039713218981041", "63e37374b039713218981042"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "4/3/2022",
     "image": "http://dummyimage.com/176x100.png/dddddd/000000",
-    "tags": [{}, {}, {}],
-    "links": [{}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Boy of the Streets",
     "subtitle": "Incredible Hulk, The",
+    "organizer": "63e36365e697415a5059c738",
+    "bands": ["63e37374b03971321898103f", "63e37374b039713218981040"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "10/20/2022",
     "image": "http://dummyimage.com/127x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Vermont Is For Lovers",
     "subtitle": "Royal Flash",
+    "organizer": "63e36365e697415a5059c738",
+    "bands": ["63e37374b03971321898103f", "63e37374b039713218981040"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "8/31/2022",
     "image": "http://dummyimage.com/183x100.png/dddddd/000000",
-    "tags": [{}],
-    "links": [{}, {}, {}, {}, {}]
   },
   {
     "title": "Police Story 2 (Ging chaat goo si juk jaap)",
     "subtitle": "Bomber",
+    "organizer": "63e36365e697415a5059c738",
+    "bands": ["63e37374b03971321898103f", "63e37374b039713218981040"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "4/21/2022",
     "image": "http://dummyimage.com/187x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Most Likely to Succeed",
     "subtitle": "Mr. Destiny",
+    "organizer": "63e36365e697415a5059c738",
+    "bands": ["63e37374b03971321898103f", "63e37374b039713218981040"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "5/5/2022",
     "image": "http://dummyimage.com/134x100.png/dddddd/000000",
-    "tags": [{}],
-    "links": [{}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "BFFs",
     "subtitle": "Hysteria",
+    "organizer": "63e36365e697415a5059c738",
+    "bands": ["63e37374b03971321898103f"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "3/8/2022",
     "image": "http://dummyimage.com/150x100.png/dddddd/000000",
-    "tags": [],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Liebelei",
     "subtitle": "Pretty Village, Pretty Flame (Lepa sela lepo gore)",
+    "organizer": "63e36365e697415a5059c738",
+    "bands": ["63e37374b03971321898103f"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "12/11/2022",
     "image": "http://dummyimage.com/195x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Chris Rock: Bring the Pain",
     "subtitle": "Complicit",
+    "organizer": "63e36365e697415a5059c734",
+    "bands": ["63e37374b03971321898103f"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "9/23/2022",
     "image": "http://dummyimage.com/112x100.png/cc0000/ffffff",
-    "tags": [],
-    "links": [{}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Wolves",
     "subtitle": "Days of Being Wild (A Fei jingjyuhn)",
+    "organizer": "63e36365e697415a5059c734",
+    "bands": ["63e37374b03971321898103f"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "1/4/2023",
     "image": "http://dummyimage.com/213x100.png/ff4444/ffffff",
-    "tags": [{}, {}],
-    "links": [{}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Swingers",
     "subtitle": "Thale",
+    "organizer": "63e36365e697415a5059c734",
+    "bands": ["63e37374b03971321898103f"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "2/14/2022",
     "image": "http://dummyimage.com/223x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Interview with a Hitman",
     "subtitle": "Comic-Con Episode IV: A Fan's Hope",
+    "organizer": "63e36365e697415a5059c734",
+    "bands": ["63e37374b03971321898103e"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "6/1/2022",
     "image": "http://dummyimage.com/133x100.png/cc0000/ffffff",
-    "tags": [{}],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "On the Beach",
     "subtitle": "The Little Polar Bear: Lars and the Little Tiger",
+    "organizer": "63e36365e697415a5059c734",
+    "musicians": ["63e361cee697415a5059c703"],
+    "bands": ["63e37374b03971321898103e"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "1/19/2023",
     "image": "http://dummyimage.com/142x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "In the Folds of the Flesh",
     "subtitle": "One, The",
+    "organizer": "63e36365e697415a5059c734",
+    "musicians": ["63e361cee697415a5059c703"],
+    "bands": ["63e37374b03971321898103e"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "6/29/2022",
     "image": "http://dummyimage.com/243x100.png/ff4444/ffffff",
-    "tags": [{}],
-    "links": []
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Holy Girl, The (Niña santa, La)",
     "subtitle": "I Wanna Hold Your Hand",
+    "organizer": "63e36365e697415a5059c734",
+    "musicians": ["63e361cee697415a5059c703"],
+    "bands": ["63e37374b03971321898103e"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "2/8/2022",
     "image": "http://dummyimage.com/236x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Lazybones",
     "subtitle": "King Kong Escapes (Kingu Kongu no gyakushû)",
+    "organizer": "63e36365e697415a5059c730",
+    "musicians": ["63e361cee697415a5059c703"],
+    "bands": ["63e37374b03971321898103e"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "3/28/2022",
     "image": "http://dummyimage.com/130x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Blood of the Vampire",
     "subtitle": "Hot Coffee",
+    "organizer": "63e36365e697415a5059c730",
+    "musicians": ["63e361cee697415a5059c703"],
+    "bands": ["63e37374b03971321898103c"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "7/19/2022",
     "image": "http://dummyimage.com/194x100.png/dddddd/000000",
-    "tags": [{}],
-    "links": [{}, {}]
   },
   {
     "title": "Snow White: A Tale of Terror",
     "subtitle": "An Alligator Named Daisy",
+    "organizer": "63e36365e697415a5059c730",
+    "musicians": ["63e361cee697415a5059c703"],
+    "bands": ["63e37374b03971321898103c"],
+    "venue": "63e36326e697415a5059c71d",
     "date": "6/10/2022",
     "image": "http://dummyimage.com/236x100.png/cc0000/ffffff",
-    "tags": [],
-    "links": [{}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Alien Trespass",
     "subtitle": "Vision Quest",
+    "organizer": "63e36365e697415a5059c730",
+    "bands": ["63e37374b03971321898103c"],
+    "venue": "63e36326e697415a5059c71d",
+    "musicians": ["63e361cee697415a5059c703"],
     "date": "1/10/2023",
     "image": "http://dummyimage.com/204x100.png/dddddd/000000",
-    "tags": [{}, {}, {}],
-    "links": []
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Midnight in Paris",
     "subtitle": "My Man Godfrey",
+    "organizer": "63e36365e697415a5059c730",
+    "bands": ["63e37374b03971321898103c"],
+    "venue": "63e36326e697415a5059c71d",
+    "musicians": ["63e361cee697415a5059c703"],
     "date": "4/8/2022",
     "image": "http://dummyimage.com/217x100.png/dddddd/000000",
-    "tags": [{}, {}],
-    "links": [{}, {}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Bye-Bye",
     "subtitle": "Someone Like You (Unnaipol Oruvan)",
+    "organizer": "63e36365e697415a5059c730",
+    "bands": ["63e37374b03971321898103d"],
+    "venue": "63e36326e697415a5059c71d",
+    "musicians": ["63e361cee697415a5059c703"],
     "date": "3/11/2022",
     "image": "http://dummyimage.com/171x100.png/dddddd/000000",
-    "tags": [],
-    "links": []
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   },
   {
     "title": "Viva Villa!",
     "subtitle": "Wings of Eagles, The",
+    "organizer": "63e36365e697415a5059c730",
+    "bands": ["63e37374b03971321898103c"],
+    "venue": "63e36326e697415a5059c71d",
+    "musicians": ["63e361cee697415a5059c703"],
     "date": "10/16/2022",
     "image": "http://dummyimage.com/213x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}, {}, {}]
+    "links": [
+      {
+        "main": "https://github.com/",
+        "other": "https://jsonformatter.curiousconcept.com/#"
+      }
+    ]
   }
 ]

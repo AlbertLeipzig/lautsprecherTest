@@ -44,7 +44,7 @@ const mainArticleNameSchema = {
   tolowercase: true,
   trim: true,
   minlength: [2, `an article's name must contain at least 2 characters`],
-  maxlength: [60, `an article's name must contain max 60 characters`],
+  maxlength: [120, `an article's name must contain max 120 characters`],
 };
 
 const mainDateSchema = {
@@ -94,15 +94,23 @@ const mainInstrumentSchema = {
 };
 
 const mainLinkSchema = {
-  type: String,
-  trim: true,
-  validate: {
-    validator: function (value) {
-      return linkValidatorPattern.test(value);
+  street: {
+    type: String,
+    trim: true,
+    validate: {
+      validator: function (value) {
+        return linkValidatorPattern.test(value);
+      },
+      message: (props) => `${props.value} is not a valid link!`,
     },
-    message: (props) => `${props.value} is not a valid link!`,
+    maxlength: [40, `a link must contain max 40 characters`],
   },
-  maxlength: [40, `a link must contain max 40 characters`],
+  number: {
+    type: Number,
+    trim: true,
+    min: [0, `a street number must be greater than 0`],
+    maxlength: [3, `a street number must contain max 3 characters`],
+  },
 };
 
 const mainPersonIdSchema = {

@@ -2,8 +2,6 @@
   {
     "firstName": "Antoinette",
     "lastName": "Sealand",
-    "instruments": [],
-    "links": [],
     "email": "asealand0@barnesandnoble.com",
     "image": "http://dummyimage.com/145x100.png/dddddd/000000",
     "tags": ["klassik", "funk"]
@@ -12,7 +10,6 @@
     "firstName": "Meg",
     "lastName": "Jehu",
     "instruments": ["violin"],
-    "links": [],
     "email": "mjehu1@nih.gov",
     "image": "http://dummyimage.com/177x100.png/5fa2dd/ffffff",
     "tags": ["klassik", "funk"]
@@ -21,7 +18,6 @@
     "firstName": "Ardelia",
     "lastName": "De Blasiis",
     "instruments": ["trumpet", "flute"],
-    "links": [],
     "email": "adeblasiis2@networkadvertising.org",
     "image": "http://dummyimage.com/242x100.png/cc0000/ffffff",
     "tags": ["klassik", "funk"]
@@ -30,7 +26,6 @@
     "firstName": "Ethelyn",
     "lastName": "MacCrann",
     "instruments": ["violin"],
-    "links": [],
     "email": "emaccrann3@e-recht24.de",
     "image": "http://dummyimage.com/214x100.png/5fa2dd/ffffff",
     "tags": ["klassik", "funk"]
@@ -49,10 +44,8 @@
     "lastName": "Kipping",
     "instruments": ["piano"],
     "links": [{ "main": "https://www.google.com/" }],
-
     "email": "wkipping5@imgur.com",
     "image": "http://dummyimage.com/239x100.png/5fa2dd/ffffff",
-    "tags": []
   },
   {
     "firstName": "Florian",
@@ -80,10 +73,8 @@
     "lastName": "Rudkin",
     "instruments": ["accordion"],
     "links": [{ "main": "https://www.google.com/" }],
-
     "email": "drudkin8@sciencedirect.com",
     "image": "http://dummyimage.com/103x100.png/5fa2dd/ffffff",
-    "tags": []
   },
   {
     "firstName": "Kattie",
@@ -102,7 +93,6 @@
       { "main": "https://www.google.com/" },
       { "twitter": "https://www.google.com/" }
     ],
-
     "email": "jlegrysa@tamu.edu",
     "image": "http://dummyimage.com/186x100.png/dddddd/000000",
     "tags": ["klassik", "funk"]
@@ -111,7 +101,6 @@
     "firstName": "Mandi",
     "lastName": "Santino",
     "instruments": ["accordion"],
-    "links": [],
     "email": "msantinob@eventbrite.com",
     "image": "http://dummyimage.com/106x100.png/cc0000/ffffff",
     "tags": ["klassik", "funk"]
@@ -121,7 +110,6 @@
     "lastName": "Ludlem",
     "instruments": ["dulcimer"],
     "links": [{ "main": "https://www.google.com/" }],
-
     "email": "vludlemc@deviantart.com",
     "image": "http://dummyimage.com/124x100.png/ff4444/ffffff",
     "tags": ["klassik", "funk"]
@@ -134,7 +122,6 @@
       { "main": "https://www.google.com/" },
       { "twitter": "https://www.google.com/" }
     ],
-
     "email": "jpeagramd@walmart.com",
     "image": "http://dummyimage.com/139x100.png/dddddd/000000",
     "tags": ["klassik", "funk"]
@@ -147,7 +134,6 @@
       { "main": "https://www.google.com/" },
       { "twitter": "https://www.google.com/" }
     ],
-
     "email": "mbaldazzie@army.mil",
     "image": "http://dummyimage.com/214x100.png/ff4444/ffffff",
     "tags": ["klassik", "funk"]
@@ -160,7 +146,6 @@
       { "main": "https://www.google.com/" },
       { "twitter": "https://www.google.com/" }
     ],
-
     "email": "mhurdlef@artisteer.com",
     "image": "http://dummyimage.com/136x100.png/cc0000/ffffff",
     "tags": ["klassik", "funk"]
@@ -173,7 +158,6 @@
       { "main": "https://www.google.com/" },
       { "twitter": "https://www.google.com/" }
     ],
-
     "email": "fcalvertg@dyndns.org",
     "image": "http://dummyimage.com/224x100.png/cc0000/ffffff",
     "tags": ["klassik", "funk"]
@@ -186,7 +170,6 @@
       { "main": "https://www.google.com/" },
       { "twitter": "https://www.google.com/" }
     ],
-
     "email": "troomsh@amazon.co.jp",
     "image": "http://dummyimage.com/113x100.png/5fa2dd/ffffff",
     "tags": ["klassik", "funk"]
@@ -208,7 +191,6 @@
       { "main": "https://www.google.com/" },
       { "twitter": "https://www.google.com/" }
     ],
-
     "email": "glydiatej@imdb.com",
     "image": "http://dummyimage.com/194x100.png/cc0000/ffffff",
     "tags": ["klassik", "funk"]
@@ -257,7 +239,6 @@
     "lastName": "Verity",
     "instruments": ["clave"],
     "links": [{ "main": "https://www.google.com/" }],
-
     "email": "mverityn@nature.com",
     "image": "http://dummyimage.com/175x100.png/5fa2dd/ffffff",
     "tags": ["klassik", "funk"]
@@ -316,15 +297,12 @@
   {
     "firstName": "Georgi",
     "lastName": "Minster",
-    "instruments": [],
     "links": [
       { "main": "https://www.google.com/" },
       { "instagram": "https://www.instagram.com/" }
     ],
-
     "email": "gminstert@uiuc.edu",
-    "image": "http://dummyimage.com/195x100.png/5fa2dd/ffffff",
-    "tags": []
+    "image": "http://dummyimage.com/195x100.png/5fa2dd/ffffff"
   },
   {
     "firstName": "Corina",
@@ -339,9 +317,7 @@
   {
     "firstName": "Tedi",
     "lastName": "Ferschke",
-    "instruments": [],
     "links": [{ "main": "https://www.google.com/" }],
-
     "email": "tferschkev@newyorker.com",
     "image": "http://dummyimage.com/245x100.png/cc0000/ffffff",
     "tags": ["klassik", "funk"]
@@ -349,40 +325,29 @@
   {
     "firstName": "Lezley",
     "lastName": "Lillicrop",
-    "instruments": [],
-    "links": [],
     "email": "llillicropw@addtoany.com",
-    "image": "http://dummyimage.com/242x100.png/5fa2dd/ffffff",
-    "tags": []
+    "image": "http://dummyimage.com/242x100.png/5fa2dd/ffffff"
   },
   {
     "firstName": "Gian",
     "lastName": "Kimblin",
-    "instruments": [],
     "links": [{ "main": "https://www.google.com/" }],
-
     "email": "gkimblinx@businessinsider.com",
-    "image": "http://dummyimage.com/182x100.png/ff4444/ffffff",
-    "tags": []
+    "image": "http://dummyimage.com/182x100.png/ff4444/ffffff"
   },
   {
     "firstName": "Daisy",
     "lastName": "Jansson",
-    "instruments": [],
-    "links": [],
     "email": "djanssony@pbs.org",
-    "image": "http://dummyimage.com/237x100.png/ff4444/ffffff",
-    "tags": []
+    "image": "http://dummyimage.com/237x100.png/ff4444/ffffff"
   },
   {
     "firstName": "Giffy",
     "lastName": "Hankard",
     "instruments": ["percussion"],
     "links": [{ "main": "https://www.google.com/" }],
-
     "email": "ghankardz@hc360.com",
-    "image": "http://dummyimage.com/215x100.png/5fa2dd/ffffff",
-    "tags": []
+    "image": "http://dummyimage.com/215x100.png/5fa2dd/ffffff"
   },
   {
     "firstName": "Rudolph",
@@ -401,10 +366,8 @@
     "firstName": "Sherri",
     "lastName": "Gossage",
     "instruments": ["percussion"],
-    "links": [],
     "email": "sgossage11@hc360.com",
-    "image": "http://dummyimage.com/183x100.png/cc0000/ffffff",
-    "tags": []
+    "image": "http://dummyimage.com/183x100.png/cc0000/ffffff"
   },
   {
     "firstName": "Kaleena",
@@ -419,8 +382,6 @@
   {
     "firstName": "Doloritas",
     "lastName": "Garrood",
-    "instruments": [],
-    "links": [],
     "email": "dgarrood13@icq.com",
     "image": "http://dummyimage.com/100x100.png/cc0000/ffffff",
     "tags": ["klassik", "funk"]
@@ -429,7 +390,6 @@
     "firstName": "Margarette",
     "lastName": "Fraczkiewicz",
     "instruments": ["percussion"],
-    "links": [],
     "email": "mfraczkiewicz14@chicagotribune.com",
     "image": "http://dummyimage.com/147x100.png/ff4444/ffffff",
     "tags": ["klassik", "funk"]
@@ -451,47 +411,37 @@
     "firstName": "Gaby",
     "lastName": "Quilligan",
     "instruments": ["percussion"],
-    "links": [],
     "email": "gquilligan16@java.com",
-    "image": "http://dummyimage.com/189x100.png/cc0000/ffffff",
-    "tags": []
+    "image": "http://dummyimage.com/189x100.png/cc0000/ffffff"
   },
   {
     "firstName": "Lucinda",
     "lastName": "Fillimore",
-    "instruments": [],
     "links": [{ "main": "https://www.google.com/" }],
 
     "email": "lfillimore17@diigo.com",
-    "image": "http://dummyimage.com/165x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}, {}, {}, {}, {}]
+    "image": "http://dummyimage.com/165x100.png/dddddd/000000"
   },
   {
     "firstName": "Dolly",
     "lastName": "Siddle",
     "instruments": ["percussion"],
-    "links": [],
     "email": "dsiddle18@xing.com",
-    "image": "http://dummyimage.com/219x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}, {}, {}, {}, {}, {}]
+    "image": "http://dummyimage.com/219x100.png/ff4444/ffffff"
   },
   {
     "firstName": "Leisha",
     "lastName": "Halbord",
     "instruments": ["percussion"],
-    "links": [],
     "email": "lhalbord19@chronoengine.com",
-    "image": "http://dummyimage.com/128x100.png/dddddd/000000",
-    "tags": [{}, {}, {}]
+    "image": "http://dummyimage.com/128x100.png/dddddd/000000"
   },
   {
     "firstName": "Kyla",
     "lastName": "MacGraith",
     "instruments": ["percussion"],
-    "links": [],
     "email": "kmacgraith1a@feedburner.com",
-    "image": "http://dummyimage.com/148x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}, {}, {}, {}, {}]
+    "image": "http://dummyimage.com/148x100.png/ff4444/ffffff"
   },
   {
     "firstName": "Jennilee",
@@ -503,18 +453,15 @@
     ],
 
     "email": "jkolis1b@csmonitor.com",
-    "image": "http://dummyimage.com/210x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}, {}, {}]
+    "image": "http://dummyimage.com/210x100.png/dddddd/000000"
   },
   {
     "firstName": "Alikee",
     "lastName": "Tuxwell",
     "instruments": ["percussion"],
     "links": [{ "main": "https://www.google.com/" }],
-
     "email": "atuxwell1c@bizjournals.com",
-    "image": "http://dummyimage.com/136x100.png/cc0000/ffffff",
-    "tags": [{}, {}]
+    "image": "http://dummyimage.com/136x100.png/cc0000/ffffff"
   },
   {
     "firstName": "Karita",
@@ -524,9 +471,7 @@
       { "main": "https://www.google.com/" },
       { "instagram": "https://www.instagram.com/" }
     ],
-
     "email": "kagnolo1d@nih.gov",
-    "image": "http://dummyimage.com/109x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}, {}]
+    "image": "http://dummyimage.com/109x100.png/cc0000/ffffff"
   }
 ]
