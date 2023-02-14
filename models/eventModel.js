@@ -23,19 +23,18 @@ const eventSchema = new mongoose.Schema({
   title: mainArticleNameSchema,
   subtitle: mainArticleNameSchema,
   description: mainDescriptionSchema,
-  musicians: [mainPersonIdSchema],
-  bands: [mainArticleIdSchema],
   date: [mainDateSchema],
-  venue: mainArticleIdSchema,
   price: mainPriceSchema,
-  organizer: mainPersonIdSchema,
   image: mainImageSchema,
   tags: [mainTagSchema],
   link: [mainLinkSchema],
- 
 
+
+  musicians: [mainPersonIdSchema],
+  bands: [mainArticleIdSchema],
+  venue: mainArticleIdSchema,
+  organizer: mainPersonIdSchema,
 });
 
 const eventModel = mongoose.model('Event', eventSchema);
-
 export default eventModel;
