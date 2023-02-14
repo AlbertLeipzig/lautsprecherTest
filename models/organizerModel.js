@@ -4,7 +4,6 @@ import {
   mainEmailSchema,
   mainImageSchema,
   mainLinkSchema,
-  mainArticleIdSchema,
 } from './mainModel.js';
 
 const organizerSchema = new mongoose.Schema({
@@ -12,8 +11,7 @@ const organizerSchema = new mongoose.Schema({
   lastName: mainPersonNameSchema,
   email: mainEmailSchema,
   image: mainImageSchema,
-  link: [mainLinkSchema],
-  events: [mainArticleIdSchema],
+  links: [mainLinkSchema],
 });
 
 const organizerModel = mongoose.model('Organizer', organizerSchema);

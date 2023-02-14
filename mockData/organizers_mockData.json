@@ -4,32 +4,44 @@
     "lastName": "Kubelka",
     "email": "akubelka0@qq.com",
     "image": "http://dummyimage.com/123x100.png/dddddd/000000",
-    "links": [{}, {}, {}],
-    "events": [{}, {}, {}, {}, {}, {}, {}]
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ]
   },
   {
     "firstName": "Armin",
     "lastName": "Febre",
     "email": "afebre1@hc360.com",
     "image": "http://dummyimage.com/183x100.png/5fa2dd/ffffff",
-    "links": [{}, {}],
-    "events": [{}, {}, {}, {}, {}, {}, {}]
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ]
   },
   {
     "firstName": "Cassy",
     "lastName": "Boulger",
     "email": "cboulger2@sbwire.com",
     "image": "http://dummyimage.com/148x100.png/ff4444/ffffff",
-    "links": [{}, {}],
-    "events": [{}, {}, {}, {}, {}, {}, {}, {}]
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ]
   },
   {
     "firstName": "Craggy",
     "lastName": "Rawson",
     "email": "crawson3@barnesandnoble.com",
     "image": "http://dummyimage.com/217x100.png/ff4444/ffffff",
-    "links": [{}],
-    "events": [{}, {}]
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ]
   },
   {
     "firstName": "Briant",
@@ -44,39 +56,54 @@
     "lastName": "Kiwitz",
     "email": "tkiwitz5@myspace.com",
     "image": "http://dummyimage.com/158x100.png/cc0000/ffffff",
-    "links": [{}],
-    "events": [{}, {}, {}, {}, {}, {}, {}, {}]
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ]
   },
   {
     "firstName": "Addie",
     "lastName": "O'Mullaney",
     "email": "aomullaney6@digg.com",
     "image": "http://dummyimage.com/242x100.png/cc0000/ffffff",
-    "links": [{}, {}, {}],
-    "events": [{}, {}, {}, {}, {}, {}]
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ]
   },
   {
     "firstName": "Brody",
     "lastName": "Liddicoat",
     "email": "bliddicoat7@nationalgeographic.com",
     "image": "http://dummyimage.com/148x100.png/ff4444/ffffff",
-    "links": [{}, {}, {}, {}],
-    "events": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ]
   },
   {
     "firstName": "Marcie",
     "lastName": "Swetenham",
     "email": "mswetenham8@twitpic.com",
     "image": "http://dummyimage.com/163x100.png/5fa2dd/ffffff",
-    "links": [{}, {}],
-    "events": []
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ]
   },
   {
     "firstName": "Brantley",
     "lastName": "Rippingale",
     "email": "brippingale9@rediff.com",
     "image": "http://dummyimage.com/205x100.png/dddddd/000000",
-    "links": [{}, {}],
-    "events": [{}, {}, {}, {}]
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ]
   }
 ]

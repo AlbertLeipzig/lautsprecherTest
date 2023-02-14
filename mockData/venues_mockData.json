@@ -3,160 +3,221 @@
     "name": "Oodoo",
     "email": "mitzcak0@so-net.ne.jp",
     "image": "http://dummyimage.com/178x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}, {}, {}],
-    "address": "4926 Main Place"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Main Place" }
   },
   {
     "name": "Livepath",
     "email": "edemonge1@prlog.org",
     "image": "http://dummyimage.com/234x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}],
-    "links": [{}, {}, {}, {}],
-    "address": "8579 Manufacturers Pass"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Skimia",
     "email": "cgabbatt2@ifeng.com",
     "image": "http://dummyimage.com/104x100.png/dddddd/000000",
-    "tags": [{}, {}, {}],
-    "links": [{}],
-    "address": "853 Logan Road"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Realmix",
     "email": "dmacsweeney3@yale.edu",
     "image": "http://dummyimage.com/109x100.png/5fa2dd/ffffff",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [{}, {}],
-    "address": "7 Helena Hill"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Tazz",
     "email": "eumbers4@goo.gl",
     "image": "http://dummyimage.com/134x100.png/cc0000/ffffff",
-    "tags": [{}],
-    "links": [{}, {}],
-    "address": "7400 Dennis Plaza"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Latz",
     "email": "jrichmond5@tiny.cc",
     "image": "http://dummyimage.com/171x100.png/5fa2dd/ffffff",
-    "tags": [{}],
-    "links": [{}, {}, {}, {}],
-    "address": "79 Moose Park"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Zoomdog",
     "email": "cchantler6@sourceforge.net",
     "image": "http://dummyimage.com/242x100.png/ff4444/ffffff",
-    "tags": [{}],
-    "links": [{}],
-    "address": "60 Westerfield Terrace"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Fanoodle",
     "email": "rivashechkin7@seattletimes.com",
     "image": "http://dummyimage.com/108x100.png/ff4444/ffffff",
-    "tags": [],
-    "links": [{}, {}, {}, {}],
-    "address": "18879 Buell Alley"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Meembee",
     "email": "mcovet8@reuters.com",
     "image": "http://dummyimage.com/150x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}, {}],
-    "links": [],
-    "address": "4669 Graedel Avenue"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Flashspan",
     "email": "wpozer9@amazonaws.com",
     "image": "http://dummyimage.com/130x100.png/ff4444/ffffff",
-    "tags": [],
-    "links": [{}],
-    "address": "4885 Ludington Circle"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Jabbersphere",
     "email": "bburgissa@xrea.com",
     "image": "http://dummyimage.com/116x100.png/5fa2dd/ffffff",
-    "tags": [],
-    "links": [{}, {}, {}, {}],
-    "address": "3 Mallard Hill"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Skinix",
     "email": "phenkmannb@scribd.com",
     "image": "http://dummyimage.com/126x100.png/5fa2dd/ffffff",
-    "tags": [{}],
-    "links": [{}, {}],
-    "address": "3731 Warner Plaza"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Muxo",
     "email": "oivamyc@vimeo.com",
     "image": "http://dummyimage.com/207x100.png/ff4444/ffffff",
-    "tags": [{}, {}],
-    "links": [{}, {}, {}, {}],
-    "address": "91 Randy Circle"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Ozu",
     "email": "amundelld@soup.io",
     "image": "http://dummyimage.com/102x100.png/5fa2dd/ffffff",
-    "tags": [],
-    "links": [{}, {}, {}, {}, {}],
-    "address": "3 8th Center"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Skilith",
     "email": "mwilcockese@flickr.com",
     "image": "http://dummyimage.com/235x100.png/dddddd/000000",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}, {}, {}, {}],
-    "address": "26927 Melvin Avenue"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Devpoint",
     "email": "mlumbf@house.gov",
     "image": "http://dummyimage.com/150x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}],
-    "links": [{}],
-    "address": "81 Carberry Point"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Babbleblab",
     "email": "cbeldamg@slate.com",
     "image": "http://dummyimage.com/185x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}, {}, {}, {}],
-    "address": "2782 Hallows Trail"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Thoughtstorm",
     "email": "gfryersh@cnet.com",
     "image": "http://dummyimage.com/117x100.png/ff4444/ffffff",
-    "tags": [{}, {}, {}],
-    "links": [],
-    "address": "841 Esker Place"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Skinder",
     "email": "kbraunsi@linkedin.com",
     "image": "http://dummyimage.com/109x100.png/5fa2dd/ffffff",
-    "tags": [{}],
-    "links": [{}, {}, {}, {}, {}],
-    "address": "87580 Moulton Way"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   },
   {
     "name": "Viva",
     "email": "csallierej@hibu.com",
     "image": "http://dummyimage.com/198x100.png/cc0000/ffffff",
-    "tags": [{}, {}, {}, {}],
-    "links": [{}, {}, {}, {}],
-    "address": "3 Mendota Alley"
+    "links": [
+      { "main": "https://www.google.com/" },
+      { "twitter": "https://twitter.com/home" },
+      { "instagram": "https://www.instagram.com" }
+    ],
+    "address": { "number": 492, "street": "Manufacturers Pass" }
   }
 ]
