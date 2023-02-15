@@ -17,7 +17,6 @@ import businessRoutes from './routes/businessRoute.js';
 import singleUserRoutes from './routes/singleUserRoutes.js';
 import messageRoutes from './routes/messageRoutes.js'; */
 
-
 // connectDB
 
 /* import EmailSender from './methods/nodemailer.js'; */
@@ -31,9 +30,9 @@ app.use(express.json());
 app.use(cors()); */
 
 //routes
+app.use(`${baseApi}/bands`, bandRoutes);
 /* const baseApi = '/api/v1';
 
-app.use(`${baseApi}/bands`, bandRoutes);
 app.use(`${baseApi}/business`, businessRoutes);
 app.use(`${baseApi}/events`, eventRoutes);
 app.use(`${baseApi}/musicians`, musicianRoutes);
@@ -45,7 +44,7 @@ app.use(`${baseApi}/message`, messageRoutes); */
 // start server
 
 app.get('/', (req, res) => {
-  res.send("Hello World! 6");
+  res.send('Hello World! 7');
 });
 const startServer = async () => {
   try {
