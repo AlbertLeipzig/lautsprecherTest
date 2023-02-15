@@ -18,6 +18,7 @@ import singleUserRoutes from './routes/singleUserRoutes.js';
 import messageRoutes from './routes/messageRoutes.js'; */
 import { testRoute } from './routes/testRoute.js';
 
+
 // connectDB
 
 /* import EmailSender from './methods/nodemailer.js'; */
@@ -45,7 +46,7 @@ app.use(`${baseApi}/message`, messageRoutes); */
 // start server
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send(`Hello World! ${testRoute(5)}`);
 });
 const startServer = async () => {
   try {

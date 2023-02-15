@@ -1,3 +1,3 @@
-export const testRoute = () => {
-    return "TEST ROUTE"
+export const testRoute = (number) => {
+    return `${number}`
 }
