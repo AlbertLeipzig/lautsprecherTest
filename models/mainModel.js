@@ -126,7 +126,7 @@ const mainPersonNameSchema = {
   tolowercase: true,
   trim: true,
   minlength: [2, `a person's name must contain at least 2 characters`],
-  maxlength: [20, `a person's name must contain max 20 characters`],
+  maxlength: [30, `a person's name must contain max 30 characters`],
 };
 
 // ATENTION! priceSchema defines the schema for every entry in mainPriceSchema
