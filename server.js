@@ -8,29 +8,29 @@ dotenv.config();
 
 const PORT = 5000;
 import dbConnection from './db/dbConnection.js';
-import musicianRoutes from './routes/musicianRoutes.js';
+/* import musicianRoutes from './routes/musicianRoutes.js';
 import bandRoutes from './routes/bandRoutes.js';
 import eventRoutes from './routes/eventRoutes.js';
 import venueRoutes from './routes/venueRoutes.js';
 import organizerRoutes from './routes/organizerRoutes.js';
 import businessRoutes from './routes/businessRoute.js';
 import singleUserRoutes from './routes/singleUserRoutes.js';
-import messageRoutes from './routes/messageRoutes.js';
+import messageRoutes from './routes/messageRoutes.js'; */
 
 // connectDB
 
-import EmailSender from './methods/nodemailer.js';
+/* import EmailSender from './methods/nodemailer.js'; */
 
 const mongoUri = process.env.MONGOURI;
 
 // middleware
 
-app.use(bodyParser.urlencoded({ extended: true }));
+/* app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors());
+app.use(cors()); */
 
 //routes
-const baseApi = '/api/v1';
+/* const baseApi = '/api/v1';
 
 app.use(`${baseApi}/bands`, bandRoutes);
 app.use(`${baseApi}/business`, businessRoutes);
@@ -39,7 +39,7 @@ app.use(`${baseApi}/musicians`, musicianRoutes);
 app.use(`${baseApi}/organizers`, organizerRoutes);
 app.use(`${baseApi}/venues`, venueRoutes);
 app.use(`${baseApi}/user`, singleUserRoutes);
-app.use(`${baseApi}/message`, messageRoutes);
+app.use(`${baseApi}/message`, messageRoutes); */
 
 
 // start server

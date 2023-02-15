@@ -10,7 +10,7 @@ import {
   addManyBands,
   updateManyBands,
   deleteManyBands,
-} from '../controllers/BandController.js';
+} from '../controllers/bandController.js';
 
 router.route('/').get(getAllBands).post(addSingleBand);
 router.route("/many").post(addManyBands).patch(updateManyBands).delete(deleteManyBands);
