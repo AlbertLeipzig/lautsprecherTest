@@ -8,15 +8,14 @@ dotenv.config();
 
 const PORT = 5000;
 import dbConnection from './db/dbConnection.js';
-/* import musicianRoutes from './routes/musicianRoutes.js';
 import bandRoutes from './routes/bandRoutes.js';
+/* import musicianRoutes from './routes/musicianRoutes.js';
 import eventRoutes from './routes/eventRoutes.js';
 import venueRoutes from './routes/venueRoutes.js';
 import organizerRoutes from './routes/organizerRoutes.js';
 import businessRoutes from './routes/businessRoute.js';
 import singleUserRoutes from './routes/singleUserRoutes.js';
 import messageRoutes from './routes/messageRoutes.js'; */
-import { testRoute } from './routes/testRoute.js';
 
 
 // connectDB
@@ -46,7 +45,7 @@ app.use(`${baseApi}/message`, messageRoutes); */
 // start server
 
 app.get('/', (req, res) => {
-  res.send(`Hello World! ${testRoute(5)}`);
+  res.send("Hello World! 6");
 });
 const startServer = async () => {
   try {
