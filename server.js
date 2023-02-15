@@ -41,9 +41,11 @@ app.use(`${baseApi}/venues`, venueRoutes);
 app.use(`${baseApi}/user`, singleUserRoutes);
 app.use(`${baseApi}/message`, messageRoutes); */
 
-
 // start server
 
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
 const startServer = async () => {
   try {
     await dbConnection(mongoUri);
