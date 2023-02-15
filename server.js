@@ -30,8 +30,9 @@ app.use(express.json());
 app.use(cors()); */
 
 //routes
+const baseApi = '/api/v1';
 app.use(`${baseApi}/bands`, bandRoutes);
-/* const baseApi = '/api/v1';
+/* 
 
 app.use(`${baseApi}/business`, businessRoutes);
 app.use(`${baseApi}/events`, eventRoutes);
