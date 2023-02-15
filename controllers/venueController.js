@@ -1,4 +1,4 @@
-import Venue from '../models/VenueModel.js';
+import Venue from '../models/venueModel.js';
 
 import { server200, server404, server500 } from '../methods/methods.js';
 

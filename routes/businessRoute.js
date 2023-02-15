@@ -10,7 +10,7 @@ import {
   addManyBusiness,
   updateManyBusiness,
   deleteManyBusiness,
-} from '../controllers/BusinessController.js';
+} from '../controllers/businessController.js';
 
 router.route('/').get(getAllBusiness).post(addSingleBusiness);
 router

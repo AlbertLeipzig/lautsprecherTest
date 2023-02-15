@@ -10,7 +10,7 @@ import {
   addManyVenues,
   updateManyVenues,
   deleteManyVenues,
-} from '../controllers/VenueController.js';
+} from '../controllers/venueController.js';
 
 router.route('/').get(getAllVenues).post(addSingleVenue);
 router.route("/many").post(addManyVenues).patch(updateManyVenues).delete(deleteManyVenues)
