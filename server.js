@@ -16,6 +16,7 @@ import organizerRoutes from './routes/organizerRoutes.js';
 import businessRoutes from './routes/businessRoute.js';
 import singleUserRoutes from './routes/singleUserRoutes.js';
 import messageRoutes from './routes/messageRoutes.js'; */
+import { testRoute } from './routes/testRoute.js';
 
 // connectDB
 
