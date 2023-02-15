@@ -19,20 +19,18 @@ import messageRoutes from './routes/messageRoutes.js';
 
 // connectDB
 
-/* import EmailSender from './methods/nodemailer.js'; */
 
 const mongoUri = process.env.MONGOURI;
 
 // middleware
 
-/* app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors()); */
+app.use(cors());
 
 //routes
 const baseApi = '/api/v1';
 app.use(`${baseApi}/bands`, bandRoutes);
-/* 
 
 app.use(`${baseApi}/business`, businessRoutes);
 app.use(`${baseApi}/events`, eventRoutes);
@@ -40,13 +38,13 @@ app.use(`${baseApi}/musicians`, musicianRoutes);
 app.use(`${baseApi}/organizers`, organizerRoutes);
 app.use(`${baseApi}/venues`, venueRoutes);
 app.use(`${baseApi}/user`, singleUserRoutes);
-app.use(`${baseApi}/message`, messageRoutes); */
+app.use(`${baseApi}/message`, messageRoutes);
 
 // start server
 
-app.get('/', (req, res) => {
+/* app.get('/', (req, res) => {
   res.send('Hello World! 12');
-});
+}); */
 const startServer = async () => {
   try {
     await dbConnection(mongoUri);
