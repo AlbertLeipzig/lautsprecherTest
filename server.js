@@ -45,7 +45,7 @@ app.use(`${baseApi}/message`, messageRoutes); */
 // start server
 
 app.get('/', (req, res) => {
-  res.send('Hello World! 7');
+  res.send('Hello World! 8');
 });
 const startServer = async () => {
   try {
