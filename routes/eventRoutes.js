@@ -10,7 +10,7 @@ import {
   addManyEvents,
   updateManyEvents,
   deleteManyEvents,
-} from '../controllers/EventController.js';
+} from '../controllers/eventController.js';
 
 router.route('/').get(getAllEvents).post(addSingleEvent);
 router.route("/many").post(addManyEvents).patch(updateManyEvents).delete(deleteManyEvents)
