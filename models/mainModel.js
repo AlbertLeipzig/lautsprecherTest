@@ -12,7 +12,7 @@ const linkValidatorPattern =
   (http[s]?:\/\/)?[^\s(["<,>]*\.[^\s[",><]* 
   */
 
-const dateValidatorPattern = /^\d{4}-\d{2}-\d{2}$/;
+const dateValidatorPattern = "^(0[1-9]|[1-2][0-9]|3[0-1])/(0[1-9]|1[0-2])/(19|20)\d{2}$";
 
 // main schemas
 
@@ -51,12 +51,12 @@ const mainDateSchema = {
   type: String,
   required: [true, 'a date must contain a date'],
   trim: true,
-  /*  validate: {
+   validate: {
     validator: function (value) {
       return dateValidatorPattern.test(value);
     },
     message: (props) => `${props.value} is not a valid date!`,
-  }, */
+  },
 };
 
 const mainDescriptionSchema = {

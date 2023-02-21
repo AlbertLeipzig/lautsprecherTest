@@ -26,12 +26,12 @@ const mongoUri = process.env.MONGOURI;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors());
+app.use(cors( ));
 
 //routes
+
 const baseApi = '/api/v1';
 app.use(`${baseApi}/bands`, bandRoutes);
-
 app.use(`${baseApi}/business`, businessRoutes);
 app.use(`${baseApi}/events`, eventRoutes);
 app.use(`${baseApi}/musicians`, musicianRoutes);
