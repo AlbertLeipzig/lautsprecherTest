@@ -1,0 +1,137 @@
+[
+  {
+    "_id" : "63fcff848bb6c9a6aa99a69d",
+    "name": "Gewandhaus",
+    "email": "ticket@gewandhaus.de",
+    "image": "",
+    "links": "https://www.gewandhausorchester.de/",
+    "address": { "street": "Augustusplatz", "number": 8 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a69e",
+    "name": "Thommaskirche",
+    "email": "info@thomaskirche.org",
+    "image": "",
+    "links": "www.thomaskirche.org",
+    "address": { "street": "Thomaskirchhof", "number": 1 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a69f",
+    "name": "Oper Leipzig",
+    "email": "service@oper-leipzig.de",
+    "image": "https://images.unsplash.com/photo-1620418884068-c8c15a6e30d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8T3BlciUyMExlaXB6aWd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "links": "https://www.oper-leipzig.de/de",
+    "address": { "street": "Augustusplatz", "number": 12 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6a0",
+    "name": "Musikalische Komödie",
+    "email": "service@oper-leipzig.de",
+    "image": "",
+    "links": "https://www.oper-leipzig.de/de",
+    "address": { "street": "Dreilindenstraße ", "number": 30 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6a1",
+    "name": "Tonelli's",
+    "email": "info@tonellis.de",
+    "image": "",
+    "links": "https://www.tonellis.de/",
+    "address": { "street": "Neumarkt", "number": 9 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6a2",
+    "name": "Musikhochschule für Musik und Theater Felix Mendelssohn Bartholdy",
+    "email": "kbb@hmt-leipzig.de",
+    "image": "",
+    "links": "https://www.hmt-leipzig.de/",
+    "address": { "street": "Grassistraße", "number": 8 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6a3",
+    "name": "Felsenkeller",
+    "email": "info@felsenkeller-leipzig.com",
+    "image": "",
+    "links": "https://www.felsenkeller-leipzig.com/",
+    "address": { "street": "Karl-Heine-Straße", "number": 32 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6a4",
+    "name": "Tankbar",
+    "email": "hallo@tankbar-leipzig.de",
+    "image": "",
+    "links": "https://tankbar-leipzig.de/",
+    "address": { "street": "Jahnallee", "number": 52 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6a5",
+    "name": "Café Grundmann",
+    "email": "mainEmailSchema",
+    "image": "",
+    "links": "https://www.cafe-grundmann.de/",
+    "address": { "street": "August-Bebel-Straße", "number": 2 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6a6",
+    "name": "Horns Erben",
+    "email": "kultur@horns-erben.de",
+    "image": "",
+    "links": "https://horns-erben.de/",
+    "address": { "street": "Arndtstraße", "number": 33 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6a7",
+    "name": "UT Connewitz",
+    "email": "buero@utconnewitz.de",
+    "image": "",
+    "links": "https://utconnewitz.de/",
+    "address": { "street": "Wolfgang-Heinze-Straße", "number": 12 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6a8",
+    "name": "Ost Passage Theater",
+    "email": "webmaster@ost-passage-theater.de",
+    "image": "",
+    "links": "https://ost-passage-theater.de/",
+    "address": { "street": "Konradstraße", "number": 27 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6a9",
+    "name": "WERK 2",
+    "email": "info@werk-2.de",
+    "image": "",
+    "links": "https://www.werk-2.de/",
+    "address": { "street": "Kochstraße", "number": 132 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6aa",
+    "name": "Ilses Erika",
+    "email": "mainEmailSchema",
+    "image": "",
+    "address": { "street": "Bernhard-Göring-Straße", "number": 152 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6ab",
+    "name": "Villakeller",
+    "email": "hauszentrale@villa-leipzig.de",
+    "image": "",
+    "links": "https://villa-leipzig.de/jugendkulturkeller",
+    "address": { "street": "Lessingstraße", "number": 7 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6ac",
+    "name": "Institut für Zukunft",
+    "email": "lostinsound@ifz.me",
+    "image": "",
+    "links": "https://ifz.me/",
+    "address": { "street": "An den Tierkliniken", "number": 38 }
+  },
+  {
+    "_id": "63fcff848bb6c9a6aa99a6ad",
+    "name": "Distillery",
+    "email": "club@distillery.de",
+    "image": "",
+    "links": "https://www.distillery.de/ex/dates",
+    "address": { "Kurt-Eisner-Straße": "", "number": 91 }
+  }
+]

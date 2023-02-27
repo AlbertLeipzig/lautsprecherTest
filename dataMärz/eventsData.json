@@ -1,0 +1,812 @@
+[
+  {
+    "title": "",
+    "subtitle": "",
+    "description": "",
+    "date": ["-03-2023"],
+    "price": { "vorverkauf": 0, "abendkasse": 0, "ab": 0, "ermaessigt": 0 },
+    "image": "",
+    "tags": [""],
+    "link": [""],
+    "musicians": [""],
+    "bands": [""],
+    "venue": "",
+    "organizer": ""
+  },
+  {
+    "title": "Von Wasser und Schnee",
+    "subtitle": "",
+    "description": "",
+    "date": "01-03-2023",
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 12,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, zeitgenössisch"],
+    "link": "",
+    "musicians": ["Ralf Mielke Flöte"],
+    "bands": ["Ensemble Avantgarde"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "DER ALTE ZORN",
+    "subtitle": "Gewidmet den Opfern des Erdbebens in Syrien und der Türkei",
+    "description": "Es schien, als laste ein Fluch auf dem jüngsten Orchesterwerk der Gewandhauskomponistin Sofia Gubaidulina. Darf man ungestraft »Der Zorn Gottes« über ein Musikstück",
+    "date": ["02-03-2023", "03-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 12,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, symphonie"],
+    "link": [""],
+    "musicians": ["Andris Nelsons"],
+    "bands": ["Gewandhausorchester Leipzig"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Der Fall: Fanny & Felix",
+    "subtitle": "Eine haarsträubende Ermittlung",
+    "description": "",
+    "date": [" -03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 12,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [
+      "Anna Wiedemann Violine, Katharina Wachsmuth Violine, Moritz Klauk Violoncello, Nicolas Defranoux Violoncello, Vita Kan Klavier, Moritz Schwerin Puppenspiel, Hannes Kapsch Puppenspiel, Valentin Schaff Arrangements/Komposition"
+    ],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Die Nacht der Musicals",
+    "subtitle": "",
+    "description": "",
+    "date": [" -03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 39,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["musicals"],
+    "link": [""],
+    "musicians": [""],
+    "bands": ["Broadway Musical Dance Company"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "COFO Entertainment GmbH & Co.KG"
+  },
+  {
+    "title": "Dora Pejačević",
+    "subtitle": "Zum 100. Todestag der Komponistin (5. März 1923)",
+    "description": "",
+    "date": [" -03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 0,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, kammermusik"],
+    "link": [""],
+    "musicians": [
+      "Kyra Steckeweh Klavier, Tristan Thery Violine, Kıvanç Tire Violine, Anton Jivaev Viola, Kajana Pačko Violoncello"
+    ],
+    "bands": "",
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Zauber der Musik",
+    "subtitle": "",
+    "description": "",
+    "date": ["05-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 12,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": ["Alexander Shelley Dirigent, Laura Aikin Sopran"],
+    "bands": ["MDR-Sinfonieorchester"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Mitteldeutscher Rundfunk"
+  },
+  {
+    "title": "Saisonvorschau ",
+    "subtitle": "Präsentation der Saison 2023/2024 ",
+    "description": "",
+    "date": [" -03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 0,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [""],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Cairo Symphony Orchestra",
+    "subtitle": "",
+    "description": "",
+    "date": ["07-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 22.89,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [""],
+    "bands": ["Cairo Symphony Orchestra"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Cairo Symphony Orchestra"
+  },
+  {
+    "title": "Takina Takina Taki",
+    "subtitle": "Schulkonzert",
+    "description": "",
+    "date": ["08-03-2023, 09-30-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 4,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [
+      "Timo Klöckner Gitarre/Banjo/Akkordeon, Johannes Moritz Saxophon/Klarinette/Querflöte, Philipp Rohmer Kontrabass, Maike Lindemann Gesang, Patrick Schanze Trompete/ Banjo/ Ukulele/ Didgeridoo, Dominique 'Gaga' Ehlert Schlagzeug"
+    ],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Musikschule Leipzig Johann Sebastian Bach"
+  },
+  {
+    "title": "GEWANDHAUS-FÜHRUNG",
+    "subtitle": "",
+    "description": "",
+    "date": ["09-03-2023, 16-03-2023, 26-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 7,
+      "ermaessigt": 0
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [""],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Ein deutsches Requiem",
+    "subtitle": "",
+    "description": "",
+    "date": ["09-03-2023, 10-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 6,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, symphonie, chor"],
+    "link": [""],
+    "musicians": [
+      "Andris Nelsons Dirigent, Julia Kleiter Sopran, Christian Gerhaher Bariton"
+    ],
+    "bands": ["Gewandhausorchester, Chor des Bayerischen Rundfunks"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Mischpoke",
+    "subtitle": "Klezmer High Life",
+    "description": "",
+    "date": ["09-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 28.39,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["weltmusik"],
+    "link": [""],
+    "musicians": [
+      "Magdalena Abrams Klarinette, Bassklarinette, Gesang, Cornelia Gottesleben Violine, Frank Naruga Gitarre, Percussion, Maria Rothfuchs Kontrabass, Christoph Spangenberg Klavier"
+    ],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "WELTKONZERTE"
+  },
+  {
+    "title": "Michelle",
+    "subtitle": "30 JAHRE, DAS WARS - NOCH NICHT - DIE JUBILÄUMSTOURNEE ",
+    "description": "",
+    "date": ["11-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 47.4,
+      "ermaessigt": 0
+    },
+    "image": "",
+    "tags": ["pop"],
+    "link": [""],
+    "musicians": ["Michelle"],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "MAWI Concert GmbH"
+  },
+  {
+    "title": "Neues Bachisches Collegium Musicum",
+    "subtitle": "",
+    "description": "",
+    "date": ["11-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 28,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, barock"],
+    "link": [""],
+    "musicians": [
+      "Reinhard Goebel Dirigent, Maria Włoszczowska Violine, Maia Cabeza Violine, Hed Yaron Meyerson Violine"
+    ],
+    "bands": ["Neues Bachisches Collegium Musicum"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Choralkantaten",
+    "subtitle": "Max Reger zum 150. Geburtstag ",
+    "description": "",
+    "date": ["12-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 7,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, chor"],
+    "link": [""],
+    "musicians": [
+      "Veronika Starke Violine, Johanna Berndt Violine, Katharina Dargel Viola, Susanne Wettemann Oboe, Julia Sophie Wagner Sopran, Henriette Gödde Alt, Michael Schönheit Orgel, , Frank-Steffen Elster Leitung, Gregor Meyer Leitung"
+    ],
+    "bands": ["GewandhausKinderchor, GewandhausChor"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Gewandhaus-Quartett",
+    "subtitle": "",
+    "description": "",
+    "date": ["12-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 18,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, kammermusik"],
+    "link": [""],
+    "musicians": [
+      "Frank-Michael Erben Violine, Yun-Jin Cho Violine, Anton Jivaev Viola, Valentino Worlitzsch Violoncello), Gautier Capuçon Violoncello"
+    ],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Glenn Miller Orchestra directed by Wil Salden",
+    "subtitle": "",
+    "description": "",
+    "date": ["12-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 40,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["jazz, big band"],
+    "link": [""],
+    "musicians": ["Wil Salden"],
+    "bands": ["Glenn Miller Orchestra"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Schmidt & Salden GmbH & Co. Event KG"
+  },
+  {
+    "title": "After Work Concert",
+    "subtitle": "Himmelhoch jauchzend - zu Tode betrübt",
+    "description": "",
+    "date": ["13-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 17,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, kammermusik"],
+    "link": [""],
+    "musicians": [
+      "Moritz Klauk Violoncello, Nicolas Defranoux Violoncello, Pedro Pelaez Violoncello, Vincent Lo Violoncello"
+    ],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Musikcafé",
+    "subtitle": "",
+    "description": "",
+    "date": ["15-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 17,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, kammermusik"],
+    "link": [""],
+    "musicians": [
+      "Ulf Lehmann Trompete, Johann Clemens Trompete, Simen Fegran Horn, Stefan Wagner Posaune, Robert Schulz Tuba"
+    ],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Schulkonzert",
+    "subtitle": "Florentine Apfelblüte und ihre weite Reise",
+    "description": "",
+    "date": [" -03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 4,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [""],
+    "bands": ["Sächsische Bläserphilharmonie"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Musikschule Leipzig Johann Sebastian Bach"
+  },
+  {
+    "title": "Gewandhausorchester, Andris Nelsons Dirigent",
+    "subtitle": "",
+    "description": "",
+    "date": ["16-03-2023, 17-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 7,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, orchester, symphonie"],
+    "link": [""],
+    "musicians": ["Andris Nelsons Dirigent, Gautier Capuçon Violoncello"],
+    "bands": ["Gewandhausorchester"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Frühlingserwachen",
+    "subtitle": "",
+    "description": "",
+    "date": ["18-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 12,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": ["Frank-Steffen Elster Leitung"],
+    "bands": ["GewandhausJugendchor"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Jubiläumskonzert MDR Kinderchor",
+    "subtitle": "",
+    "description": "",
+    "date": ["19-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 24,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, kinder, chor, orchester, symphonie"],
+    "link": [""],
+    "musicians": [
+      "Alexander Schmitt Dirigent, Clara Bergert Dirigentin Vorchöre, Magyar Rádió Gyermekkórusa Ungarischer Radio-Kinderchor, Soma Dinyés Dirigent Ungarischer Radio-Kinderchor"
+    ],
+    "bands": ["MDR-Kinderchor, MDR-Sinfonieorchester"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Mitteldeutscher Rundfunk AöR"
+  },
+  {
+    "title": "Max Reger",
+    "subtitle": "Zum 150. Geburtstag ds Komponisten (19. März 1873)",
+    "description": "",
+    "date": ["19-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 12,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik, kammermusik"],
+    "link": [""],
+    "musicians": [
+      "Julius Bekesch Violine, Gotthold Schwarz Bass, Michael Schönheit Klavier"
+    ],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Schulkonzert",
+    "subtitle": "Bigband-Sound im Wandel der Zeit",
+    "description": "",
+    "date": ["21-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 4,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [
+      "Maike Lindemann Gesang, Friederike Barthel, Judith Kellner, Simon Bodensiek, Damian Dalla Torre, Johannes Moritz Saxofone, Klarinetten, Jannicke Hagen, Konrad Schreiter, Patrick Schanze, Vincent Hahn Trompete, Alma-Marie Trunk, Antonia Hausmann, Stephan Krause, Matthias Büttner Posaune, Florian Kästner Piano, Philipp Scholz Schlagzeug, Paula Wünsch Bass"
+    ],
+    "bands": ["Spielvereinigung Sued"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Musikschule Leipzig Johann Sebastian Bach"
+  },
+  {
+    "title": "Schulkonzert",
+    "subtitle": "Der Bigband-Sound von Glenn Miller bis Robbie Williams ",
+    "description": "",
+    "date": ["22-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 4,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [
+      "Maike Lindemann Gesang, Friederike Barthel, Judith Kellner, Simon Bodensiek, Damian Dalla Torre, Johannes Moritz Saxofone, Klarinetten, Jannicke Hagen, Konrad Schreiter, Patrick Schanze, Vincent Hahn Trompete, Alma-Marie Trunk, Antonia Hausmann, Stephan Krause, Matthias Büttner Posaune, Florian Kästner Piano, Philipp Scholz Schlagzeug, Paula Wünsch Bass"
+    ],
+    "bands": ["Spielvereinigung Sued"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Musikschule Leipzig Johann Sebastian Bach"
+  },
+  {
+    "title": "Große Romantik",
+    "subtitle": "Brahms und Mendelssohn mit der Philharmonie Leipzig",
+    "description": "",
+    "date": ["22-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 31.51,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": ["Michael Koehler Leitung, Holger Engelhardt Violine"],
+    "bands": ["Philharmonie Leipzig"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Philharmonie Leipzig e.V."
+  },
+  {
+    "title": "This is THE GREATEST SHOW!",
+    "subtitle": "Die größten MUSICAL HITS aller Zeiten",
+    "description": "",
+    "date": ["23-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 45.9,
+      "ermaessigt": 0
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [
+      "Jan Amman, Andreas Bieber, Drew Sarich, Maya Hakvoort, Michaela Schober, Jonas Hein, Friedrich Rau"
+    ],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Semmel Concerts Entertainment GmbH"
+  },
+  {
+    "title": "Die große Johann Strauss Revue",
+    "subtitle": "",
+    "description": "",
+    "date": ["24-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 49,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": ["Erik Schober Dirigent"],
+    "bands": ["Wiener-Walzer-Orchester"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "stagediver event GmbH"
+  },
+  {
+    "title": "Michael Schönheit Orgel",
+    "subtitle": "Musik entdecken Orgel",
+    "description": "",
+    "date": ["25-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 20,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": ["Michael Schönheit Orgel"],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Matineekonzert",
+    "subtitle": "Österreich",
+    "description": "",
+    "date": ["26-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 19,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": ["Dennis Russell Davies Dirigent"],
+    "bands": ["MDR-Sinfonieorchester"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Mitteldeutscher Rundfunk"
+  },
+  {
+    "title": "Yves Rechsteiner",
+    "subtitle": "Französische Orgelmusik ",
+    "description": "",
+    "date": ["26-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 7,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [""],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Tschaikowski & Brahms",
+    "subtitle": "Kammermusikaustausch mit der Sächsischen Staatskapelle Dresden",
+    "description": "",
+    "date": [" -03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 12,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [
+      "Robert Oberaigner Klarinette, Fritz Busch Quartett, Federico Kasik Violine, Tibor Gyenge Violine, Michael Horwath Viola, Titus Maack Violoncello"
+    ],
+    "bands": ["Staatskapelle Dresden"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "ELVIS - Das Musical",
+    "subtitle": "",
+    "description": "",
+    "date": ["27-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 53,
+      "ermaessigt": 0
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [""],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Concertbüro Zahlmann GmbH"
+  },
+  {
+    "title": "Schulkonzert",
+    "subtitle": "",
+    "description": "",
+    "date": ["28-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 4,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": ["Robbert van Steijn Dirigent"],
+    "bands": ["Leipziger Symphonieorchester"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Musikschule Leipzig Johann Sebastian Bach"
+  },
+  {
+    "title": "Bilder einer Ausstellung",
+    "subtitle": "Orgel-Zwergenkonzert",
+    "description": "",
+    "date": ["28-03-2023, 29-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 4,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": ["Michael Schönheit"],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Welt im Sucher",
+    "subtitle": "Planet Wüste",
+    "description": "",
+    "date": ["30-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 32.89,
+      "ermaessigt": 0
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [""],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Spezialbuchhandlung Reisefibel - Reisebüro & Buchhandlung"
+  },
+  {
+    "title": "Helge Schneider",
+    "subtitle": "",
+    "description": "",
+    "date": ["30-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 32.75,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["pop"],
+    "link": [""],
+    "musicians": ["Helge Schneider"],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Gewandhaus"
+  },
+  {
+    "title": "Beethoven 9. Sinfonie",
+    "subtitle": "",
+    "description": "",
+    "date": ["30-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 22.89,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [
+      "Igor Budinstein Dirigent, Nadja Korovina Sopran, Karin Lasa Alt, Hans-Georg Priese Tenor, Igor Storozhenko Bass"
+    ],
+    "bands": ["Deutsche Philharmonie Berlin, Konzertchor Leipzig"],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "WELTKONZERTE"
+  },
+  {
+    "title": "100. Geburtstag Ohan Durjan ",
+    "subtitle": "Armenisches Konzert",
+    "description": "",
+    "date": ["31-03-2023"],
+    "price": {
+      "vorverkauf": null,
+      "abendkasse": null,
+      "ab": 20.69,
+      "ermaessigt": 1
+    },
+    "image": "",
+    "tags": ["klasik"],
+    "link": [""],
+    "musicians": [
+      "David Haroutunian Violine, Mikayel Hakhnazaryan Violoncello, Sofya Melikyan Klavier"
+    ],
+    "bands": [""],
+    "venue": "63fcff848bb6c9a6aa99a69d",
+    "organizer": "Armenischen Kulturgemeinde Leipzig e.V."
+  }
+]

@@ -12,19 +12,13 @@ const linkValidatorPattern =
   (http[s]?:\/\/)?[^\s(["<,>]*\.[^\s[",><]* 
   */
 
-const dateValidatorPattern = "^(0[1-9]|[1-2][0-9]|3[0-1])/(0[1-9]|1[0-2])/(19|20)\d{2}$";
+const dateValidatorPattern =
+  '^(0[1-9]|[1-2][0-9]|3[0-1])/(0[1-9]|1[0-2])/(19|20)d{2}$';
 
 // main schemas
 
 const mainAddressSchema = {
-  street: {
-    type: String,
-    tolowercase: true,
-    required: [true, 'an address must contain a street'],
-    minlength: [2, `an address's street must contain at least 2 characters`],
-    maxlength: [40, `an address's street must contain max 40 characters`],
-    trim: true,
-  },
+  street: String,
   number: {
     type: String,
     required: [true, 'an address must contain a number'],
@@ -51,7 +45,7 @@ const mainDateSchema = {
   type: String,
   required: [true, 'a date must contain a date'],
   trim: true,
-   validate: {
+  validate: {
     validator: function (value) {
       return dateValidatorPattern.test(value);
     },
@@ -69,20 +63,19 @@ const mainEmailSchema = {
   tolowercase: true,
   trim: true,
   required: true,
-  validate: {
+  /* validate: {
     validator: function (value) {
       return mailValidatorPattern.test(value);
     },
     message: (props) => `${props.value} is not a valid email adress!`,
   },
-  minlength: [2, `an email adress must contain at least 5 characters`],
+   */ minlength: [2, `an email adress must contain at least 5 characters`],
   maxlength: [50, `an email adress must contain max 50 characters`],
 };
 
 const mainImageSchema = {
   type: String,
   trim: true,
-  minlength: [2, `an image url must contain at least 2 characters`],
   maxlength: [100, `an image url must contain max 100 characters`],
 };
 
@@ -94,17 +87,7 @@ const mainInstrumentSchema = {
 };
 
 const mainLinkSchema = {
-  street: {
-    type: String,
-    trim: true,
-    validate: {
-      validator: function (value) {
-        return linkValidatorPattern.test(value);
-      },
-      message: (props) => `${props.value} is not a valid link!`,
-    },
-    maxlength: [40, `a link must contain max 40 characters`],
-  },
+  street: String,
   number: {
     type: Number,
     trim: true,
@@ -133,6 +116,7 @@ const mainPersonNameSchema = {
 
 const priceSchema = {
   type: mongoose.Decimal128,
+  allowNull : true,
   trim: true,
   min: [0, `a price must be greater than 0`],
   maxlength: [5, `a price must contain max 5 characters`],
