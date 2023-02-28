@@ -45,12 +45,6 @@ const mainDateSchema = {
   type: String,
   required: [true, 'a date must contain a date'],
   trim: true,
-  validate: {
-    validator: function (value) {
-      return dateValidatorPattern.test(value);
-    },
-    message: (props) => `${props.value} is not a valid date!`,
-  },
 };
 
 const mainDescriptionSchema = {
@@ -116,7 +110,7 @@ const mainPersonNameSchema = {
 
 const priceSchema = {
   type: mongoose.Decimal128,
-  allowNull : true,
+  allowNull: true,
   trim: true,
   min: [0, `a price must be greater than 0`],
   maxlength: [5, `a price must contain max 5 characters`],

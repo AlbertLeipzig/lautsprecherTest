@@ -1,19 +1,5 @@
 [
   {
-    "title": "",
-    "subtitle": "",
-    "description": "",
-    "date": ["-03-2023"],
-    "price": { "vorverkauf": 0, "abendkasse": 0, "ab": 0, "ermaessigt": 0 },
-    "image": "",
-    "tags": [""],
-    "link": [""],
-    "musicians": [""],
-    "bands": [""],
-    "venue": "",
-    "organizer": ""
-  },
-  {
     "title": "Von Wasser und Schnee",
     "subtitle": "",
     "description": "",
@@ -25,7 +11,7 @@
       "ermaessigt": 1
     },
     "image": "",
-    "tags": ["klasik, zeitgenössisch"],
+    "tags": ["klasik", "zeitgenössisch"],
     "link": "",
     "musicians": ["Ralf Mielke Flöte"],
     "bands": ["Ensemble Avantgarde"],
@@ -44,7 +30,7 @@
       "ermaessigt": 1
     },
     "image": "",
-    "tags": ["klasik, symphonie"],
+    "tags": ["klasik", "symphonie"],
     "link": [""],
     "musicians": ["Andris Nelsons"],
     "bands": ["Gewandhausorchester Leipzig"],
@@ -103,7 +89,7 @@
       "ermaessigt": 1
     },
     "image": "",
-    "tags": ["klasik, kammermusik"],
+    "tags": ["klasik", "kammermusik"],
     "link": [""],
     "musicians": [
       "Kyra Steckeweh Klavier, Tristan Thery Violine, Kıvanç Tire Violine, Anton Jivaev Viola, Kajana Pačko Violoncello"
@@ -145,7 +131,7 @@
     "image": "",
     "tags": ["klasik"],
     "link": [""],
-    "musicians": [""],
+    "musicians": ["test"],
     "bands": [""],
     "venue": "63fcff848bb6c9a6aa99a69d",
     "organizer": "Gewandhaus"
@@ -203,7 +189,7 @@
     },
     "image": "",
     "tags": ["klasik"],
-    "link": [""],
+    "link": ["test"],
     "musicians": [""],
     "bands": [""],
     "venue": "63fcff848bb6c9a6aa99a69d",
@@ -529,7 +515,7 @@
     "tags": ["klasik"],
     "link": [""],
     "musicians": [
-      "Maike Lindemann Gesang, Friederike Barthel, Judith Kellner, Simon Bodensiek, Damian Dalla Torre, Johannes Moritz Saxofone, Klarinetten, Jannicke Hagen, Konrad Schreiter, Patrick Schanze, Vincent Hahn Trompete, Alma-Marie Trunk, Antonia Hausmann, Stephan Krause, Matthias Büttner Posaune, Florian Kästner Piano, Philipp Scholz Schlagzeug, Paula Wünsch Bass"
+      "Maike Lindemann Gesang, Friederike Barthel, Judith Kellner, Simon Bodensiek, Damian Dalla Torre, Johannes Moritz Saxofone, Klarinetten, Jannicke Hagen, Konrad Schreiter, Patrick Schanze, Vincent Hahn Trompete", "Alma-Marie Trunk, Antonia Hausmann, Stephan Krause, Matthias Büttner Posaune, Florian Kästner Piano, Philipp Scholz Schlagzeug, Paula Wünsch Bass"
     ],
     "bands": ["Spielvereinigung Sued"],
     "venue": "63fcff848bb6c9a6aa99a69d",
@@ -646,7 +632,7 @@
     "image": "",
     "tags": ["klasik"],
     "link": [""],
-    "musicians": [""],
+    "musicians": ["test"],
     "bands": [""],
     "venue": "63fcff848bb6c9a6aa99a69d",
     "organizer": "Gewandhaus"
@@ -666,7 +652,12 @@
     "tags": ["klasik"],
     "link": [""],
     "musicians": [
-      "Robert Oberaigner Klarinette, Fritz Busch Quartett, Federico Kasik Violine, Tibor Gyenge Violine, Michael Horwath Viola, Titus Maack Violoncello"
+      "Robert Oberaigner Klarinette",
+      "Fritz Busch Quartett",
+      "Federico Kasik Violine",
+      "Tibor Gyenge Violine",
+      "Michael Horwath Viola",
+      "Titus Maack Violoncello"
     ],
     "bands": ["Staatskapelle Dresden"],
     "venue": "63fcff848bb6c9a6aa99a69d",
@@ -686,7 +677,7 @@
     "image": "",
     "tags": ["klasik"],
     "link": [""],
-    "musicians": [""],
+    "musicians": ["test"],
     "bands": [""],
     "venue": "63fcff848bb6c9a6aa99a69d",
     "organizer": "Concertbüro Zahlmann GmbH"
@@ -743,7 +734,7 @@
     "image": "",
     "tags": ["klasik"],
     "link": [""],
-    "musicians": [""],
+    "musicians": ["test"],
     "bands": [""],
     "venue": "63fcff848bb6c9a6aa99a69d",
     "organizer": "Spezialbuchhandlung Reisefibel - Reisebüro & Buchhandlung"
@@ -782,9 +773,13 @@
     "tags": ["klasik"],
     "link": [""],
     "musicians": [
-      "Igor Budinstein Dirigent, Nadja Korovina Sopran, Karin Lasa Alt, Hans-Georg Priese Tenor, Igor Storozhenko Bass"
+      "Igor Budinstein Dirigent",
+      "Nadja Korovina Sopran",
+      "Karin Lasa Alt",
+      "Hans-Georg Priese Tenor",
+      "Igor Storozhenko Bass"
     ],
-    "bands": ["Deutsche Philharmonie Berlin, Konzertchor Leipzig"],
+    "bands": ["Deutsche Philharmonie Berlin", "Konzertchor Leipzig"],
     "venue": "63fcff848bb6c9a6aa99a69d",
     "organizer": "WELTKONZERTE"
   },
@@ -803,7 +798,9 @@
     "tags": ["klasik"],
     "link": [""],
     "musicians": [
-      "David Haroutunian Violine, Mikayel Hakhnazaryan Violoncello, Sofya Melikyan Klavier"
+      "David Haroutunian Violine",
+      "Mikayel Hakhnazaryan Violoncello",
+      "Sofya Melikyan Klavier"
     ],
     "bands": [""],
     "venue": "63fcff848bb6c9a6aa99a69d",

@@ -21,7 +21,12 @@ const atLeastOne = (musicians, bands) => {
 const eventSchema = new mongoose.Schema({
   /* name must be changed to title with $rename */
   title: mainArticleNameSchema,
-  subtitle: mainArticleNameSchema,
+  subtitle: {
+    type: String,
+    tolowercase: true,
+    trim: true,
+    maxlength: [120, `an article's subtitle must contain max 120 characters`],
+  },
   description: mainDescriptionSchema,
   date: [mainDateSchema],
   price: mainPriceSchema,
