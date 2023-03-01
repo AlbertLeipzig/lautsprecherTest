@@ -107,6 +107,7 @@
     "_id": "63fcff848bb6c9a6aa99a6aa",
     "name": "Ilses Erika",
     "email": "mainEmailSchema",
+    "links" : "https://www.ilseserika.de/termine-63.html",
     "image": "",
     "address": { "street": "Bernhard-Göring-Straße", "number": 152 }
   },
