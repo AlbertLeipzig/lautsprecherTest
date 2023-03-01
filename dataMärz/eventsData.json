@@ -1,809 +1,1105 @@
 [
   {
     "title": "Von Wasser und Schnee",
-    "subtitle": "",
-    "description": "",
-    "date": "01-03-2023",
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 12,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "date": ["01-03-2023"],
+    "price": 12,
     "tags": ["klasik", "zeitgenössisch"],
-    "link": "",
-    "musicians": ["Ralf Mielke Flöte"],
-    "bands": ["Ensemble Avantgarde"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "DER ALTE ZORN",
-    "subtitle": "Gewidmet den Opfern des Erdbebens in Syrien und der Türkei",
-    "description": "Es schien, als laste ein Fluch auf dem jüngsten Orchesterwerk der Gewandhauskomponistin Sofia Gubaidulina. Darf man ungestraft »Der Zorn Gottes« über ein Musikstück",
     "date": ["02-03-2023", "03-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 12,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 12,
     "tags": ["klasik", "symphonie"],
-    "link": [""],
-    "musicians": ["Andris Nelsons"],
-    "bands": ["Gewandhausorchester Leipzig"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Der Fall: Fanny & Felix",
-    "subtitle": "Eine haarsträubende Ermittlung",
-    "description": "",
     "date": [" -03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 12,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 12,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": [
-      "Anna Wiedemann Violine, Katharina Wachsmuth Violine, Moritz Klauk Violoncello, Nicolas Defranoux Violoncello, Vita Kan Klavier, Moritz Schwerin Puppenspiel, Hannes Kapsch Puppenspiel, Valentin Schaff Arrangements/Komposition"
-    ],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Die Nacht der Musicals",
-    "subtitle": "",
-    "description": "",
     "date": [" -03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 39,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 39,
     "tags": ["musicals"],
-    "link": [""],
-    "musicians": [""],
-    "bands": ["Broadway Musical Dance Company"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "COFO Entertainment GmbH & Co.KG"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Dora Pejačević",
-    "subtitle": "Zum 100. Todestag der Komponistin (5. März 1923)",
-    "description": "",
-    "date": [" -03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 0,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "date": ["05-03-2023"],
+    "price": 0,
     "tags": ["klasik", "kammermusik"],
-    "link": [""],
-    "musicians": [
-      "Kyra Steckeweh Klavier, Tristan Thery Violine, Kıvanç Tire Violine, Anton Jivaev Viola, Kajana Pačko Violoncello"
-    ],
-    "bands": "",
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Zauber der Musik",
-    "subtitle": "",
-    "description": "",
     "date": ["05-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 12,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 12,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["Alexander Shelley Dirigent, Laura Aikin Sopran"],
-    "bands": ["MDR-Sinfonieorchester"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Mitteldeutscher Rundfunk"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Saisonvorschau ",
-    "subtitle": "Präsentation der Saison 2023/2024 ",
-    "description": "",
-    "date": [" -03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 0,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "date": ["06-03-2023"],
+    "price": 0,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["test"],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Cairo Symphony Orchestra",
-    "subtitle": "",
-    "description": "",
     "date": ["07-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 22.89,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 22.89,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": [""],
-    "bands": ["Cairo Symphony Orchestra"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Cairo Symphony Orchestra"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Takina Takina Taki",
-    "subtitle": "Schulkonzert",
-    "description": "",
     "date": ["08-03-2023, 09-30-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 4,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 4,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": [
-      "Timo Klöckner Gitarre/Banjo/Akkordeon, Johannes Moritz Saxophon/Klarinette/Querflöte, Philipp Rohmer Kontrabass, Maike Lindemann Gesang, Patrick Schanze Trompete/ Banjo/ Ukulele/ Didgeridoo, Dominique 'Gaga' Ehlert Schlagzeug"
-    ],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Musikschule Leipzig Johann Sebastian Bach"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "GEWANDHAUS-FÜHRUNG",
-    "subtitle": "",
-    "description": "",
     "date": ["09-03-2023, 16-03-2023, 26-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 7,
-      "ermaessigt": 0
-    },
-    "image": "",
+    "price": 7,
     "tags": ["klasik"],
-    "link": ["test"],
-    "musicians": [""],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Ein deutsches Requiem",
-    "subtitle": "",
-    "description": "",
     "date": ["09-03-2023, 10-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 6,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["klasik, symphonie, chor"],
+    "price": 6,
+    "tags": ["klasik", "symphonie", "chor"],
     "link": [""],
-    "musicians": [
-      "Andris Nelsons Dirigent, Julia Kleiter Sopran, Christian Gerhaher Bariton"
-    ],
-    "bands": ["Gewandhausorchester, Chor des Bayerischen Rundfunks"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Mischpoke",
-    "subtitle": "Klezmer High Life",
-    "description": "",
     "date": ["09-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 28.39,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 28.39,
     "tags": ["weltmusik"],
-    "link": [""],
-    "musicians": [
-      "Magdalena Abrams Klarinette, Bassklarinette, Gesang, Cornelia Gottesleben Violine, Frank Naruga Gitarre, Percussion, Maria Rothfuchs Kontrabass, Christoph Spangenberg Klavier"
-    ],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "WELTKONZERTE"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Michelle",
-    "subtitle": "30 JAHRE, DAS WARS - NOCH NICHT - DIE JUBILÄUMSTOURNEE ",
-    "description": "",
     "date": ["11-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 47.4,
-      "ermaessigt": 0
-    },
-    "image": "",
+    "price": 47.4,
     "tags": ["pop"],
-    "link": [""],
-    "musicians": ["Michelle"],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "MAWI Concert GmbH"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Neues Bachisches Collegium Musicum",
-    "subtitle": "",
-    "description": "",
     "date": ["11-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 28,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["klasik, barock"],
-    "link": [""],
-    "musicians": [
-      "Reinhard Goebel Dirigent, Maria Włoszczowska Violine, Maia Cabeza Violine, Hed Yaron Meyerson Violine"
-    ],
-    "bands": ["Neues Bachisches Collegium Musicum"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "price": 28,
+    "tags": ["klasik", "barock"],
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Choralkantaten",
-    "subtitle": "Max Reger zum 150. Geburtstag ",
-    "description": "",
     "date": ["12-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 7,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["klasik, chor"],
-    "link": [""],
-    "musicians": [
-      "Veronika Starke Violine, Johanna Berndt Violine, Katharina Dargel Viola, Susanne Wettemann Oboe, Julia Sophie Wagner Sopran, Henriette Gödde Alt, Michael Schönheit Orgel, , Frank-Steffen Elster Leitung, Gregor Meyer Leitung"
-    ],
-    "bands": ["GewandhausKinderchor, GewandhausChor"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "price": 7,
+    "tags": ["klasik", "chor"],
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Gewandhaus-Quartett",
-    "subtitle": "",
-    "description": "",
     "date": ["12-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 18,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["klasik, kammermusik"],
-    "link": [""],
-    "musicians": [
-      "Frank-Michael Erben Violine, Yun-Jin Cho Violine, Anton Jivaev Viola, Valentino Worlitzsch Violoncello), Gautier Capuçon Violoncello"
-    ],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "price": 18,
+    "tags": ["klasik", "kammermusik"],
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Glenn Miller Orchestra directed by Wil Salden",
-    "subtitle": "",
-    "description": "",
     "date": ["12-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 40,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["jazz, big band"],
-    "link": [""],
-    "musicians": ["Wil Salden"],
-    "bands": ["Glenn Miller Orchestra"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Schmidt & Salden GmbH & Co. Event KG"
+    "price": 40,
+    "tags": ["jazz", "big band"],
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "After Work Concert",
-    "subtitle": "Himmelhoch jauchzend - zu Tode betrübt",
-    "description": "",
     "date": ["13-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 17,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["klasik, kammermusik"],
-    "link": [""],
-    "musicians": [
-      "Moritz Klauk Violoncello, Nicolas Defranoux Violoncello, Pedro Pelaez Violoncello, Vincent Lo Violoncello"
-    ],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "price": 17,
+    "tags": ["klasik", " kammermusik"],
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Musikcafé",
-    "subtitle": "",
-    "description": "",
     "date": ["15-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 17,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["klasik, kammermusik"],
-    "link": [""],
-    "musicians": [
-      "Ulf Lehmann Trompete, Johann Clemens Trompete, Simen Fegran Horn, Stefan Wagner Posaune, Robert Schulz Tuba"
-    ],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "price": 17,
+    "tags": ["klasik", " kammermusik"],
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Schulkonzert",
-    "subtitle": "Florentine Apfelblüte und ihre weite Reise",
-    "description": "",
     "date": [" -03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 4,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 4,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": [""],
-    "bands": ["Sächsische Bläserphilharmonie"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Musikschule Leipzig Johann Sebastian Bach"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Gewandhausorchester, Andris Nelsons Dirigent",
-    "subtitle": "",
-    "description": "",
     "date": ["16-03-2023, 17-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 7,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["klasik, orchester, symphonie"],
-    "link": [""],
-    "musicians": ["Andris Nelsons Dirigent, Gautier Capuçon Violoncello"],
-    "bands": ["Gewandhausorchester"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "price": 7,
+    "tags": ["klasik", " orchester", " symphonie"],
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Frühlingserwachen",
-    "subtitle": "",
-    "description": "",
     "date": ["18-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 12,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 12,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["Frank-Steffen Elster Leitung"],
-    "bands": ["GewandhausJugendchor"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Jubiläumskonzert MDR Kinderchor",
-    "subtitle": "",
-    "description": "",
     "date": ["19-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 24,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["klasik, kinder, chor, orchester, symphonie"],
-    "link": [""],
-    "musicians": [
-      "Alexander Schmitt Dirigent, Clara Bergert Dirigentin Vorchöre, Magyar Rádió Gyermekkórusa Ungarischer Radio-Kinderchor, Soma Dinyés Dirigent Ungarischer Radio-Kinderchor"
-    ],
-    "bands": ["MDR-Kinderchor, MDR-Sinfonieorchester"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Mitteldeutscher Rundfunk AöR"
+    "price": 24,
+    "tags": ["klasik", "kinder", "chor", " orchester", " symphonie"],
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Max Reger",
-    "subtitle": "Zum 150. Geburtstag ds Komponisten (19. März 1873)",
-    "description": "",
     "date": ["19-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 12,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["klasik, kammermusik"],
-    "link": [""],
-    "musicians": [
-      "Julius Bekesch Violine, Gotthold Schwarz Bass, Michael Schönheit Klavier"
-    ],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "price": 12,
+    "tags": ["klasik", "kammermusik"],
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Schulkonzert",
-    "subtitle": "Bigband-Sound im Wandel der Zeit",
-    "description": "",
     "date": ["21-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 4,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 4,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": [
-      "Maike Lindemann Gesang, Friederike Barthel, Judith Kellner, Simon Bodensiek, Damian Dalla Torre, Johannes Moritz Saxofone, Klarinetten, Jannicke Hagen, Konrad Schreiter, Patrick Schanze, Vincent Hahn Trompete, Alma-Marie Trunk, Antonia Hausmann, Stephan Krause, Matthias Büttner Posaune, Florian Kästner Piano, Philipp Scholz Schlagzeug, Paula Wünsch Bass"
-    ],
-    "bands": ["Spielvereinigung Sued"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Musikschule Leipzig Johann Sebastian Bach"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Schulkonzert",
-    "subtitle": "Der Bigband-Sound von Glenn Miller bis Robbie Williams ",
-    "description": "",
     "date": ["22-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 4,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 4,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": [
-      "Maike Lindemann Gesang, Friederike Barthel, Judith Kellner, Simon Bodensiek, Damian Dalla Torre, Johannes Moritz Saxofone, Klarinetten, Jannicke Hagen, Konrad Schreiter, Patrick Schanze, Vincent Hahn Trompete", "Alma-Marie Trunk, Antonia Hausmann, Stephan Krause, Matthias Büttner Posaune, Florian Kästner Piano, Philipp Scholz Schlagzeug, Paula Wünsch Bass"
-    ],
-    "bands": ["Spielvereinigung Sued"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Musikschule Leipzig Johann Sebastian Bach"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Große Romantik",
-    "subtitle": "Brahms und Mendelssohn mit der Philharmonie Leipzig",
-    "description": "",
     "date": ["22-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 31.51,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 31.51,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["Michael Koehler Leitung, Holger Engelhardt Violine"],
-    "bands": ["Philharmonie Leipzig"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Philharmonie Leipzig e.V."
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "This is THE GREATEST SHOW!",
-    "subtitle": "Die größten MUSICAL HITS aller Zeiten",
-    "description": "",
     "date": ["23-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 45.9,
-      "ermaessigt": 0
-    },
-    "image": "",
+    "price": 45.9,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": [
-      "Jan Amman, Andreas Bieber, Drew Sarich, Maya Hakvoort, Michaela Schober, Jonas Hein, Friedrich Rau"
-    ],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Semmel Concerts Entertainment GmbH"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Die große Johann Strauss Revue",
-    "subtitle": "",
-    "description": "",
     "date": ["24-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 49,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 49,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["Erik Schober Dirigent"],
-    "bands": ["Wiener-Walzer-Orchester"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "stagediver event GmbH"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Michael Schönheit Orgel",
-    "subtitle": "Musik entdecken Orgel",
-    "description": "",
     "date": ["25-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 20,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 20,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["Michael Schönheit Orgel"],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Matineekonzert",
-    "subtitle": "Österreich",
-    "description": "",
     "date": ["26-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 19,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 19,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["Dennis Russell Davies Dirigent"],
-    "bands": ["MDR-Sinfonieorchester"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Mitteldeutscher Rundfunk"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Yves Rechsteiner",
-    "subtitle": "Französische Orgelmusik ",
-    "description": "",
     "date": ["26-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 7,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 7,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["test"],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Tschaikowski & Brahms",
-    "subtitle": "Kammermusikaustausch mit der Sächsischen Staatskapelle Dresden",
-    "description": "",
-    "date": [" -03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 12,
-      "ermaessigt": 1
-    },
-    "image": "",
-    "tags": ["klasik"],
-    "link": [""],
-    "musicians": [
-      "Robert Oberaigner Klarinette",
-      "Fritz Busch Quartett",
-      "Federico Kasik Violine",
-      "Tibor Gyenge Violine",
-      "Michael Horwath Viola",
-      "Titus Maack Violoncello"
-    ],
-    "bands": ["Staatskapelle Dresden"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "date": ["26-03-2023"],
+    "price": 12,
+    "tags": ["klasik", "kammermusik"],
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "ELVIS - Das Musical",
-    "subtitle": "",
-    "description": "",
     "date": ["27-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 53,
-      "ermaessigt": 0
-    },
-    "image": "",
+    "price": 53,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["test"],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Concertbüro Zahlmann GmbH"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Schulkonzert",
-    "subtitle": "",
-    "description": "",
     "date": ["28-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 4,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 4,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["Robbert van Steijn Dirigent"],
-    "bands": ["Leipziger Symphonieorchester"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Musikschule Leipzig Johann Sebastian Bach"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Bilder einer Ausstellung",
-    "subtitle": "Orgel-Zwergenkonzert",
-    "description": "",
     "date": ["28-03-2023, 29-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 4,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 4,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["Michael Schönheit"],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Welt im Sucher",
-    "subtitle": "Planet Wüste",
-    "description": "",
     "date": ["30-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 32.89,
-      "ermaessigt": 0
-    },
-    "image": "",
+    "price": 32.89,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": ["test"],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Spezialbuchhandlung Reisefibel - Reisebüro & Buchhandlung"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Helge Schneider",
-    "subtitle": "",
-    "description": "",
     "date": ["30-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 32.75,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 32.75,
     "tags": ["pop"],
-    "link": [""],
-    "musicians": ["Helge Schneider"],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Gewandhaus"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Beethoven 9. Sinfonie",
-    "subtitle": "",
-    "description": "",
     "date": ["30-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 22.89,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 22.89,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": [
-      "Igor Budinstein Dirigent",
-      "Nadja Korovina Sopran",
-      "Karin Lasa Alt",
-      "Hans-Georg Priese Tenor",
-      "Igor Storozhenko Bass"
-    ],
-    "bands": ["Deutsche Philharmonie Berlin", "Konzertchor Leipzig"],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "WELTKONZERTE"
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "100. Geburtstag Ohan Durjan ",
-    "subtitle": "Armenisches Konzert",
-    "description": "",
     "date": ["31-03-2023"],
-    "price": {
-      "vorverkauf": null,
-      "abendkasse": null,
-      "ab": 20.69,
-      "ermaessigt": 1
-    },
-    "image": "",
+    "price": 20.69,
     "tags": ["klasik"],
-    "link": [""],
-    "musicians": [
-      "David Haroutunian Violine",
-      "Mikayel Hakhnazaryan Violoncello",
-      "Sofya Melikyan Klavier"
-    ],
-    "bands": [""],
-    "venue": "63fcff848bb6c9a6aa99a69d",
-    "organizer": "Armenischen Kulturgemeinde Leipzig e.V."
-  }
+    "link": "https://www.gewandhausorchester.de/",
+    "venue": "63fcff848bb6c9a6aa99a69d"
+  },
+  {
+    "title": "Motette",
+    "date": ["3-03-2023"],
+    "price": 3,
+    "tags": ["klasik", "kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Motette",
+    "date": ["4-03-2023"],
+    "price": 3,
+    "tags": ["klasik", "kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Motette",
+    "date": ["10-03-2023"],
+    "price": 3,
+    "tags": ["klasik", "kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Motette",
+    "date": ["11-03-2023"],
+    "price": 3,
+    "tags": ["klasik", "kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Motette",
+    "date": ["17-03-2023"],
+    "price": 3,
+    "tags": ["klasik", "kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Motette",
+    "date": ["18-03-2023"],
+    "price": 3,
+    "tags": ["klasik", "kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Motette",
+    "date": ["24-03-2023"],
+    "price": 3,
+    "tags": ["klasik", "kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Motette",
+    "date": ["25-03-2023"],
+    "price": 3,
+    "tags": ["klasik, kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Bach: Matthäuspassion",
+    "date": ["11-03-2023"],
+    "price": 17.7,
+    "tags": ["klasik", "kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Bach: Markuspassion",
+    "date": ["31-03-2023"],
+    "price": 30,
+    "tags": ["klasik", "kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Bach kommt an - Bewerbungskantaten 1723",
+    "date": ["31-03-2023"],
+    "price": 28.5,
+    "tags": ["klasik", "kirchenmusik"],
+    "link": "https://www.thomaskirche.org/erleben/kalender",
+    "venue": "63fcff848bb6c9a6aa99a69e"
+  },
+  {
+    "title": "Der kleine Prinz",
+    "date": ["04-03-2023-19:00", "12-03-2023-17:00", "17-03-2023-19:30"],
+    "price": 17,
+    "tags": ["klasik", "oper"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a69f"
+  },
+  {
+    "title": "Don Giovanni",
+    "date": ["21-03-2023-19:00"],
+    "price": 17,
+    "tags": ["klasik", "oper"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a69f"
+  },
+  {
+    "title": "Otello",
+    "date": ["11-03-2023-19:00", "24-03-2023-19:30"],
+    "price": 0,
+    "tags": ["klasik", "oper"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a69f"
+  },
+  {
+    "title": "Schneewittchen ",
+    "date": ["15-03-2023-19:30", "19-03-2023-15:00", "20-03-2023-11:00"],
+    "price": 12,
+    "tags": ["klasik", "oper"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a69f"
+  },
+  {
+    "title": "Der Liebestrank",
+    "date": ["11-03-2023-19:00", "24-03-2023-19:30"],
+    "price": 17,
+    "tags": ["klasik", "oper"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a69f"
+  },
+  {
+    "title": "Roter Teppich",
+    "date": ["31-03-2023-20:00"],
+    "price": 10,
+    "tags": ["klasik", "oper"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a6a0"
+  },
+  {
+    "title": "Der Graf von Monte Christo",
+    "date": ["04-03-2023-19:00", "05-03-2023-15:00", "07-03-2023-19:30"],
+    "price": 10,
+    "tags": ["klasik", "oper"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a6a0"
+  },
+  {
+    "title": "Poetry Slam ",
+    "date": ["10-03-2023-19:30"],
+    "price": 15,
+    "tags": ["poetry slam"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a6a0"
+  },
+  {
+    "title": "Anatevka - Der Fiedler auf dem Dach",
+    "date": ["11-03-2023-15:00", "12-03-2023-19:00"],
+    "price": 10,
+    "tags": ["musical"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a6a0"
+  },
+  {
+    "title": "Hape Kerkelings Kein Pardon - Das Musical",
+    "date": ["18-03-2023-19:00", "18-03-2023-15:00"],
+    "price": 10,
+    "tags": ["musical"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a6a0"
+  },
+  {
+    "title": "Peter und der Wolf",
+    "date": ["21-03-2023-10:00", "22-03-2023-10:00"],
+    "price": 10,
+    "tags": ["klasik", " oper"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a6a0"
+  },
+  {
+    "title": "Babykonzert Musikalische Komödie",
+    "date": ["28-03-2023-09:30", "28-03-2023-11:00"],
+    "price": 10,
+    "tags": ["klasik"],
+    "link": "https://www.oper-leipzig.de/de/programm",
+    "venue": "63fcff848bb6c9a6aa99a6a0"
+  },
+  {
+    "title": "Rock'n'Roll Stammtisch mit den Eisboys",
+    "date": ["01-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Blues Lounge mit Mama Basuto",
+    "date": ["02-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Dr. Woo's Rock'n'Roll Circus",
+    "date": ["04-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "New Guitar Night mit Yukee",
+    "date": ["07-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Rock'n'Roll Stammtisch mit ",
+    "date": ["08-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Blues Lounge mit Fabix Groove Club",
+    "date": ["09-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Jamstreet",
+    "date": ["10-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Quotime",
+    "date": ["11-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "New Guitar Night mit Tino Z",
+    "date": ["14-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Rock'n'Roll Stammtisch mit Weasel and the Cool Cats",
+    "date": ["15-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Blues Lounge mit Turning Wheelz",
+    "date": ["16-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Franky Dickens",
+    "date": ["17-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Franky Dickens",
+    "date": ["18-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Franky Dickens",
+    "date": ["21-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Franky Dickens",
+    "date": ["22-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Franky Dickens",
+    "date": ["23-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Just Brill",
+    "date": ["24-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Blue Rising Sun",
+    "date": ["25-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "New Guitar Night mit Navin Rebello",
+    "date": ["28-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Rock'n'Roll Stammtisch mit",
+    "date": ["29-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Groovy Funk Night mit",
+    "date": ["30-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+  {
+    "title": "Strom Ton Quartett",
+    "date": ["31-03-2023-20:00"],
+    "price": 5,
+    "tags": [""],
+    "link": "https://www.tonellis.de/termine/",
+    "venue": "63fcff848bb6c9a6aa99a6a1"
+  },
+
+
+  {
+    "title": "HERGETRÄUMT: WELTENBAU FIKTIVER KULTUREN DURCH MUSIK IN FILM UND FERNSEHEN",
+    "date": ["02-03-2023-18:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "60. Regionalwettbewerb 'Jugend musiziert' Leipzig - Preisträgerkonzert",
+    "date": ["04-03-2023-11:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klavier- und Kammermusik",
+    "date": ["04-03-2023-16:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "60. Regionalwettbewerb 'Jugend musiziert' Leipzig - Preisträgerkonzert",
+    "date": ["04-03-2023-17:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Wirtschaftsdaten als Quelle für Musikgeschichtsschreibung Repertoire- und Rezeptionsforschung mit der Musikverlagsdatenbank (mvdb)",
+    "date": ["09-03-2023-00:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klangpause - Mittagskonzert im Alten Rathaus mit Sudierenden der Fachrichtung Klavier/Dirigieren der HMT",
+    "date": ["10-03-2023-12:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Mara Wörner-Schönecker - Master-Projekt",
+    "date": ["12-03-2023-18:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klangpause - Mittagskonzert im Alten Rathaus mit Sudierenden der Fachrichtung Klavier/Dirigieren der HMT",
+    "date": ["17-03-2023-12:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Max Reger - Die Choralfantasien",
+    "date": ["19-03-2023-11:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Vortragsabend Violine",
+    "date": ["21-03-2023-19:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klassenabend der Kontrabassklassen",
+    "date": ["22-03-2023-19:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Podiumsgespräch Wege zur Vernetzung: Welche Rolle spielen Berufsverbände für Künstler:innen und Musiker:innen?",
+    "date": ["23-03-2023-14:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klangpause - Mittagskonzert im Alten Rathaus mit Sudierenden der Fachrichtung Klavier/Dirigieren der HMT",
+    "date": ["24-03-2023-12:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klassenabend Violoncello",
+    "date": ["24-03-2023-19:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "BOXENSTOPP Die Schauspielstudios präsentieren sich",
+    "date": ["25-03-2023-15:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Winterkonzert an der Taborkirche",
+    "date": ["25-03-2023-17:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "PODIUM im Schumann-Haus",
+    "date": ["25-03-2023-19:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "BACH IN DER BOX",
+    "date": ["26-30-2023-19:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Probenworkshop - Giuseppe Verdi: Streichquartett e-Moll (Erstfassung 1873)",
+    "date": ["28-03-2023-11:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klassenabend Gesang",
+    "date": ["28-03-2023-19:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klassenabend Gesang",
+    "date": ["28-03-2023-19:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klassenabend Klavier",
+    "date": ["29-03-2023-19:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klassenabend Klavier",
+    "date": ["30-03-2023-19:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klassenkonzert Schlagzeug",
+    "date": ["30-03-2023-19:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Johann Sebastian Bach: Das Leipziger Orgelwerk Symposium I - Der Dritte Teil der Clavierübung",
+    "date": ["31-03-2023-00:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Klangpause - Mittagskonzert im Alten Rathaus mit Sudierenden der Fachrichtung Klavier/Dirigieren der HMT",
+    "date": ["31-03-2023-12:00"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+  {
+    "title": "Konzert des Hochschulsinfonieorchesters",
+    "date": ["31-03-2023-19:30"],
+    "price": 0,
+    "tags": ["klassik"],
+    "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
+    "venue": "63fcff848bb6c9a6aa99a6a2"
+  },
+
+
+
+
+  {
+    "title": "ERRA",
+    "date": ["02-03-2023-19:00"],
+    "price": 28.11,
+    "tags": ["metal"],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Le Fly & Das Pack",
+    "date": ["02-03-2023-20:00"],
+    "price": 27.95,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "makko",
+    "date": ["03-03-2023-20:00"],
+    "price": 35.55,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Rhythm & Blues goes Rock & Roll",
+    "date": ["03-03-2023-22:30"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "GLITZER GLITZER PARTY",
+    "date": ["04-03-2023-22:00"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Balkanbeat",
+    "date": ["04-03-2023-22:30"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Beast in Black",
+    "date": ["10-03-2023-20:00"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "FETE POUR LE FRANCOPHILE",
+    "date": ["10-03-2023-22:30"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Marathonmann",
+    "date": ["19-03-2023-19:30"],
+    "price": 19.95,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "CUM ON FEEL THE NOIZE",
+    "date": ["11-03-2023-22:30"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Heldmaschine",
+    "date": ["12-03-2023-20:00"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Henry Rollins",
+    "date": ["14-03-2023-00:00"],
+    "price": 45,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Nand",
+    "date": ["15-03-2023-20:00"],
+    "price": 20.50,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "SHARAKTAH",
+    "date": ["16-03-2023-20:00"],
+    "price": 23.70,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Rhythm & Blues goes Rock & Roll",
+    "date": ["17-03-2023-22:30"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "NAUMANNS TANZT!",
+    "date": ["18-03-2023-21:00"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Westbam",
+    "date": ["18-03-2023-23:00"],
+    "price": 13.90,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "CUM ON FEEL THE NOIZE",
+    "date": ["24-03-2023-22:30"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Kool Savas",
+    "date": ["25-03-2023-19:30"],
+    "price": 37.5,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Monet192",
+    "date": ["25-03-2023-20:00"],
+    "price": 29.90,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Karo Lynn & Michael Benjamin",
+    "date": ["26-03-2023-20:00"],
+    "price": 20.80,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Mehnersmoos",
+    "date": ["30-03-2023-19:00"],
+    "price": 29.90,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Die Kassierer",
+    "date": ["31-03-2023-20:00"],
+    "price": 35.75,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  {
+    "title": "Lostboi Lino",
+    "date": ["31-03-2023-20:00"],
+    "price": 26,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
+  
+  {
+    "title": "",
+    "date": ["-03-2023"],
+    "price": 0,
+    "tags": [""],
+    "link": "https://www.felsenkeller-leipzig.com/programm/",
+    "venue": "63fcff848bb6c9a6aa99a6a3"
+  },
 ]

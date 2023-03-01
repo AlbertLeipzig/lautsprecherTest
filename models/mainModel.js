@@ -81,13 +81,9 @@ const mainInstrumentSchema = {
 };
 
 const mainLinkSchema = {
-  street: String,
-  number: {
-    type: Number,
-    trim: true,
-    min: [0, `a street number must be greater than 0`],
-    maxlength: [3, `a street number must contain max 3 characters`],
-  },
+  type: String,
+  trim: true,
+  maxlength: [100, `a link must contain max 100 characters`],
 };
 
 const mainPersonIdSchema = {
@@ -112,7 +108,7 @@ const priceSchema = {
   type: mongoose.Decimal128,
   allowNull: true,
   trim: true,
-  min: [0, `a price must be greater than 0`],
+  min: [0, `a price must be at least 0`],
   maxlength: [5, `a price must contain max 5 characters`],
 };
 
