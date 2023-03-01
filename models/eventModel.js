@@ -27,7 +27,7 @@ const eventSchema = new mongoose.Schema({
     trim: true,
     length: [24, `an ID must contain 24 characters`],
   },
-  link: mainLinkSchema,
+  link: String,
 });
 
 const eventModel = mongoose.model('Event', eventSchema);

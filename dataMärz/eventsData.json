@@ -17,7 +17,7 @@
   },
   {
     "title": "Der Fall: Fanny & Felix",
-    "date": [" -03-2023"],
+    "date": ["04-03-2023-16:00"],
     "price": 12,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Die Nacht der Musicals",
-    "date": [" -03-2023"],
+    "date": ["04-03-2023-20:00"],
     "price": 39,
     "tags": ["musicals"],
     "link": "https://www.gewandhausorchester.de/",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Dora Pejačević",
-    "date": ["05-03-2023"],
+    "date": ["05-03-2023-18:00"],
     "price": 0,
     "tags": ["klasik", "kammermusik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -41,15 +41,15 @@
   },
   {
     "title": "Zauber der Musik",
-    "date": ["05-03-2023"],
+    "date": ["04-03-2023-19:30"],
     "price": 12,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
     "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
-    "title": "Saisonvorschau ",
-    "date": ["06-03-2023"],
+    "title": "Saisonvorschau",
+    "date": ["06-03-2023-19:00"],
     "price": 0,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -57,7 +57,7 @@
   },
   {
     "title": "Cairo Symphony Orchestra",
-    "date": ["07-03-2023"],
+    "date": ["07-03-2023-19:30"],
     "price": 22.89,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -65,31 +65,44 @@
   },
   {
     "title": "Takina Takina Taki",
-    "date": ["08-03-2023, 09-30-2023"],
+    "date": [
+      "08-03-2023-09:00",
+      "09-03-2023-11:00",
+      "09-30-2023-09:00",
+      "09-30-2023-11:00"
+    ],
     "price": 4,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
     "venue": "63fcff848bb6c9a6aa99a69d"
   },
+
+
+
+
+
   {
     "title": "GEWANDHAUS-FÜHRUNG",
-    "date": ["09-03-2023, 16-03-2023, 26-03-2023"],
+    "date": ["09-03-2023-12:30", "16-03-2023-12:30", "26-03-2023-14:00"],
     "price": 7,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
     "venue": "63fcff848bb6c9a6aa99a69d"
   },
+
+
+  
   {
     "title": "Ein deutsches Requiem",
-    "date": ["09-03-2023, 10-03-2023"],
+    "date": ["09-03-2023-20:00", "10-03-2023-20:00"],
     "price": 6,
     "tags": ["klasik", "symphonie", "chor"],
-    "link": [""],
+    "link": "https://www.gewandhausorchester.de/",
     "venue": "63fcff848bb6c9a6aa99a69d"
   },
   {
     "title": "Mischpoke",
-    "date": ["09-03-2023"],
+    "date": ["09-03-2023-20:00"],
     "price": 28.39,
     "tags": ["weltmusik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -97,7 +110,7 @@
   },
   {
     "title": "Michelle",
-    "date": ["11-03-2023"],
+    "date": ["11-03-2023-20:00"],
     "price": 47.4,
     "tags": ["pop"],
     "link": "https://www.gewandhausorchester.de/",
@@ -105,7 +118,7 @@
   },
   {
     "title": "Neues Bachisches Collegium Musicum",
-    "date": ["11-03-2023"],
+    "date": ["11-03-2023-20:00"],
     "price": 28,
     "tags": ["klasik", "barock"],
     "link": "https://www.gewandhausorchester.de/",
@@ -113,7 +126,7 @@
   },
   {
     "title": "Choralkantaten",
-    "date": ["12-03-2023"],
+    "date": ["12-03-2023-16:00"],
     "price": 7,
     "tags": ["klasik", "chor"],
     "link": "https://www.gewandhausorchester.de/",
@@ -121,7 +134,7 @@
   },
   {
     "title": "Gewandhaus-Quartett",
-    "date": ["12-03-2023"],
+    "date": ["12-03-2023-18:00"],
     "price": 18,
     "tags": ["klasik", "kammermusik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -129,7 +142,7 @@
   },
   {
     "title": "Glenn Miller Orchestra directed by Wil Salden",
-    "date": ["12-03-2023"],
+    "date": ["12-03-2023-20:00"],
     "price": 40,
     "tags": ["jazz", "big band"],
     "link": "https://www.gewandhausorchester.de/",
@@ -137,7 +150,7 @@
   },
   {
     "title": "After Work Concert",
-    "date": ["13-03-2023"],
+    "date": ["13-03-2023-19:00"],
     "price": 17,
     "tags": ["klasik", " kammermusik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -145,7 +158,7 @@
   },
   {
     "title": "Musikcafé",
-    "date": ["15-03-2023"],
+    "date": ["15-03-2023-16:00"],
     "price": 17,
     "tags": ["klasik", " kammermusik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -153,7 +166,7 @@
   },
   {
     "title": "Schulkonzert",
-    "date": [" -03-2023"],
+    "date": ["16-03-2023-09:00", "16-03-2023-11:00"],
     "price": 4,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -161,7 +174,7 @@
   },
   {
     "title": "Gewandhausorchester, Andris Nelsons Dirigent",
-    "date": ["16-03-2023, 17-03-2023"],
+    "date": ["16-03-2023, 20:00", "17-03-2023-20:00"],
     "price": 7,
     "tags": ["klasik", " orchester", " symphonie"],
     "link": "https://www.gewandhausorchester.de/",
@@ -169,7 +182,7 @@
   },
   {
     "title": "Frühlingserwachen",
-    "date": ["18-03-2023"],
+    "date": ["18-03-2023-20:00"],
     "price": 12,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -177,7 +190,7 @@
   },
   {
     "title": "Jubiläumskonzert MDR Kinderchor",
-    "date": ["19-03-2023"],
+    "date": ["19-03-2023-16:00"],
     "price": 24,
     "tags": ["klasik", "kinder", "chor", " orchester", " symphonie"],
     "link": "https://www.gewandhausorchester.de/",
@@ -185,7 +198,7 @@
   },
   {
     "title": "Max Reger",
-    "date": ["19-03-2023"],
+    "date": ["19-03-2023-18:00"],
     "price": 12,
     "tags": ["klasik", "kammermusik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -193,7 +206,7 @@
   },
   {
     "title": "Schulkonzert",
-    "date": ["21-03-2023"],
+    "date": ["21-03-2023-09:00", "21-03-2023-11:00"],
     "price": 4,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -201,7 +214,7 @@
   },
   {
     "title": "Schulkonzert",
-    "date": ["22-03-2023"],
+    "date": ["22-03-2023-09:00", "22-03-2023-11:00"],
     "price": 4,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -209,7 +222,7 @@
   },
   {
     "title": "Große Romantik",
-    "date": ["22-03-2023"],
+    "date": ["22-03-2023-20:00"],
     "price": 31.51,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -217,15 +230,18 @@
   },
   {
     "title": "This is THE GREATEST SHOW!",
-    "date": ["23-03-2023"],
+    "date": ["23-03-2023-20:00"],
     "price": 45.9,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
     "venue": "63fcff848bb6c9a6aa99a69d"
   },
+
+
+
   {
     "title": "Die große Johann Strauss Revue",
-    "date": ["24-03-2023"],
+    "date": ["24-03-2023-19:30"],
     "price": 49,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -233,7 +249,7 @@
   },
   {
     "title": "Michael Schönheit Orgel",
-    "date": ["25-03-2023"],
+    "date": ["25-03-2023-16:00"],
     "price": 20,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -241,7 +257,7 @@
   },
   {
     "title": "Matineekonzert",
-    "date": ["26-03-2023"],
+    "date": ["26-03-2023-11:00"],
     "price": 19,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -249,7 +265,7 @@
   },
   {
     "title": "Yves Rechsteiner",
-    "date": ["26-03-2023"],
+    "date": ["26-03-2023-16:00"],
     "price": 7,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -257,7 +273,7 @@
   },
   {
     "title": "Tschaikowski & Brahms",
-    "date": ["26-03-2023"],
+    "date": ["26-03-2023-18:00"],
     "price": 12,
     "tags": ["klasik", "kammermusik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -265,7 +281,7 @@
   },
   {
     "title": "ELVIS - Das Musical",
-    "date": ["27-03-2023"],
+    "date": ["27-03-2023-20:00"],
     "price": 53,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -273,7 +289,7 @@
   },
   {
     "title": "Schulkonzert",
-    "date": ["28-03-2023"],
+    "date": ["28-03-2023-09:00", "28-03-2023-11:00"],
     "price": 4,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -281,7 +297,7 @@
   },
   {
     "title": "Bilder einer Ausstellung",
-    "date": ["28-03-2023, 29-03-2023"],
+    "date": ["28-03-2023-09:00", "29-03-2023-11:00"],
     "price": 4,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -289,7 +305,7 @@
   },
   {
     "title": "Welt im Sucher",
-    "date": ["30-03-2023"],
+    "date": ["30-03-2023-19:00"],
     "price": 32.89,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -297,7 +313,7 @@
   },
   {
     "title": "Helge Schneider",
-    "date": ["30-03-2023"],
+    "date": ["30-03-2023-20:00"],
     "price": 32.75,
     "tags": ["pop"],
     "link": "https://www.gewandhausorchester.de/",
@@ -305,7 +321,7 @@
   },
   {
     "title": "Beethoven 9. Sinfonie",
-    "date": ["30-03-2023"],
+    "date": ["30-03-2023-20:00"],
     "price": 22.89,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -313,7 +329,7 @@
   },
   {
     "title": "100. Geburtstag Ohan Durjan ",
-    "date": ["31-03-2023"],
+    "date": ["31-03-2023-20:00"],
     "price": 20.69,
     "tags": ["klasik"],
     "link": "https://www.gewandhausorchester.de/",
@@ -321,7 +337,7 @@
   },
   {
     "title": "Motette",
-    "date": ["3-03-2023"],
+    "date": ["03-03-2023-18:00"],
     "price": 3,
     "tags": ["klasik", "kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -329,7 +345,7 @@
   },
   {
     "title": "Motette",
-    "date": ["4-03-2023"],
+    "date": ["4-03-2023-15:00"],
     "price": 3,
     "tags": ["klasik", "kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -337,7 +353,7 @@
   },
   {
     "title": "Motette",
-    "date": ["10-03-2023"],
+    "date": ["10-03-2023-18:00"],
     "price": 3,
     "tags": ["klasik", "kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -345,7 +361,7 @@
   },
   {
     "title": "Motette",
-    "date": ["11-03-2023"],
+    "date": ["11-03-2023-15:00"],
     "price": 3,
     "tags": ["klasik", "kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -353,7 +369,7 @@
   },
   {
     "title": "Motette",
-    "date": ["17-03-2023"],
+    "date": ["17-03-2023-18:00"],
     "price": 3,
     "tags": ["klasik", "kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -361,7 +377,7 @@
   },
   {
     "title": "Motette",
-    "date": ["18-03-2023"],
+    "date": ["18-03-2023-15:00"],
     "price": 3,
     "tags": ["klasik", "kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -369,7 +385,7 @@
   },
   {
     "title": "Motette",
-    "date": ["24-03-2023"],
+    "date": ["24-03-2023-18:00"],
     "price": 3,
     "tags": ["klasik", "kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -377,7 +393,7 @@
   },
   {
     "title": "Motette",
-    "date": ["25-03-2023"],
+    "date": ["25-03-2023-15:00"],
     "price": 3,
     "tags": ["klasik, kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -385,7 +401,7 @@
   },
   {
     "title": "Bach: Matthäuspassion",
-    "date": ["11-03-2023"],
+    "date": ["11-03-2023-19:00"],
     "price": 17.7,
     "tags": ["klasik", "kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -393,7 +409,7 @@
   },
   {
     "title": "Bach: Markuspassion",
-    "date": ["31-03-2023"],
+    "date": ["31-03-2023-20:00"],
     "price": 30,
     "tags": ["klasik", "kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -401,7 +417,7 @@
   },
   {
     "title": "Bach kommt an - Bewerbungskantaten 1723",
-    "date": ["31-03-2023"],
+    "date": ["31-03-2023-19:00"],
     "price": 28.5,
     "tags": ["klasik", "kirchenmusik"],
     "link": "https://www.thomaskirche.org/erleben/kalender",
@@ -507,7 +523,7 @@
     "title": "Rock'n'Roll Stammtisch mit den Eisboys",
     "date": ["01-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["rock"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -515,7 +531,7 @@
     "title": "Blues Lounge mit Mama Basuto",
     "date": ["02-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["blue"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -523,7 +539,7 @@
     "title": "Dr. Woo's Rock'n'Roll Circus",
     "date": ["04-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["rock"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -531,7 +547,7 @@
     "title": "New Guitar Night mit Yukee",
     "date": ["07-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["guitar"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -539,7 +555,7 @@
     "title": "Rock'n'Roll Stammtisch mit ",
     "date": ["08-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["rock"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -547,7 +563,7 @@
     "title": "Blues Lounge mit Fabix Groove Club",
     "date": ["09-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["blue"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -555,7 +571,7 @@
     "title": "Jamstreet",
     "date": ["10-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["pop", "rock", "funk"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -563,7 +579,7 @@
     "title": "Quotime",
     "date": ["11-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["pop", "rock"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -571,7 +587,7 @@
     "title": "New Guitar Night mit Tino Z",
     "date": ["14-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["guitar"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -579,7 +595,7 @@
     "title": "Rock'n'Roll Stammtisch mit Weasel and the Cool Cats",
     "date": ["15-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["rock"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -587,7 +603,7 @@
     "title": "Blues Lounge mit Turning Wheelz",
     "date": ["16-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["blues"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -595,39 +611,39 @@
     "title": "Franky Dickens",
     "date": ["17-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["funk"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
   {
-    "title": "Franky Dickens",
+    "title": "Nostalgie Club, Helge und Udo",
     "date": ["18-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["commedy"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
   {
-    "title": "Franky Dickens",
+    "title": "Mathieu Clement Sextett",
     "date": ["21-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["jazz"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
   {
-    "title": "Franky Dickens",
+    "title": "Rock'n'Roll Stammtisch mit ",
     "date": ["22-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["rock"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
   {
-    "title": "Franky Dickens",
+    "title": " Mr. Merchant",
     "date": ["23-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["pop", "rock", "funk"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -635,7 +651,7 @@
     "title": "Just Brill",
     "date": ["24-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["cover"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -643,7 +659,7 @@
     "title": "Blue Rising Sun",
     "date": ["25-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["rock", "blue", "funk"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -651,7 +667,7 @@
     "title": "New Guitar Night mit Navin Rebello",
     "date": ["28-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["guitar"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -659,7 +675,7 @@
     "title": "Rock'n'Roll Stammtisch mit",
     "date": ["29-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["rock"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -667,7 +683,7 @@
     "title": "Groovy Funk Night mit",
     "date": ["30-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["funk"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -675,7 +691,7 @@
     "title": "Strom Ton Quartett",
     "date": ["31-03-2023-20:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["cover"],
     "link": "https://www.tonellis.de/termine/",
     "venue": "63fcff848bb6c9a6aa99a6a1"
   },
@@ -713,7 +729,7 @@
     "venue": "63fcff848bb6c9a6aa99a6a2"
   },
   {
-    "title": "Wirtschaftsdaten als Quelle für Musikgeschichtsschreibung Repertoire- und Rezeptionsforschung mit der Musikverlagsdatenbank (mvdb)",
+    "title": "Wirtschaftsdaten als Quelle für Musikgeschichtsschreibung Repertoire",
     "date": ["09-03-2023-00:00"],
     "price": 0,
     "tags": ["klassik"],
@@ -896,7 +912,6 @@
     "link": "https://www.hmt-leipzig.de/hmt/veranstaltungen",
     "venue": "63fcff848bb6c9a6aa99a6a2"
   },
-
   {
     "title": "ERRA",
     "date": ["02-03-2023-19:00"],
@@ -909,7 +924,7 @@
     "title": "Le Fly & Das Pack",
     "date": ["02-03-2023-20:00"],
     "price": 27.95,
-    "tags": [""],
+    "tags": ["hip hop", "rock"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -917,7 +932,7 @@
     "title": "makko",
     "date": ["03-03-2023-20:00"],
     "price": 35.55,
-    "tags": [""],
+    "tags": ["hip hop"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -925,7 +940,7 @@
     "title": "Rhythm & Blues goes Rock & Roll",
     "date": ["03-03-2023-22:30"],
     "price": 0,
-    "tags": [""],
+    "tags": ["Rhythm & Blues", "rock"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -933,7 +948,7 @@
     "title": "GLITZER GLITZER PARTY",
     "date": ["04-03-2023-22:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["pop"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -941,7 +956,7 @@
     "title": "Balkanbeat",
     "date": ["04-03-2023-22:30"],
     "price": 0,
-    "tags": [""],
+    "tags": ["balkan"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -949,7 +964,7 @@
     "title": "Beast in Black",
     "date": ["10-03-2023-20:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["metal"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -957,7 +972,7 @@
     "title": "FETE POUR LE FRANCOPHILE",
     "date": ["10-03-2023-22:30"],
     "price": 0,
-    "tags": [""],
+    "tags": ["french beat"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -965,7 +980,7 @@
     "title": "Marathonmann",
     "date": ["19-03-2023-19:30"],
     "price": 19.95,
-    "tags": [""],
+    "tags": ["pop", "rock", "indie"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -973,7 +988,7 @@
     "title": "CUM ON FEEL THE NOIZE",
     "date": ["11-03-2023-22:30"],
     "price": 0,
-    "tags": [""],
+    "tags": ["80", "punk"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -981,15 +996,7 @@
     "title": "Heldmaschine",
     "date": ["12-03-2023-20:00"],
     "price": 0,
-    "tags": [""],
-    "link": "https://www.felsenkeller-leipzig.com/programm/",
-    "venue": "63fcff848bb6c9a6aa99a6a3"
-  },
-  {
-    "title": "Henry Rollins",
-    "date": ["14-03-2023-00:00"],
-    "price": 45,
-    "tags": [""],
+    "tags": ["metal"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -997,7 +1004,7 @@
     "title": "Nand",
     "date": ["15-03-2023-20:00"],
     "price": 20.5,
-    "tags": [""],
+    "tags": ["indie"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1005,7 +1012,7 @@
     "title": "SHARAKTAH",
     "date": ["16-03-2023-20:00"],
     "price": 23.7,
-    "tags": [""],
+    "tags": ["pop", "rock"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1013,7 +1020,7 @@
     "title": "Rhythm & Blues goes Rock & Roll",
     "date": ["17-03-2023-22:30"],
     "price": 0,
-    "tags": [""],
+    "tags": ["rhythm & blues", "rock"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1021,7 +1028,7 @@
     "title": "NAUMANNS TANZT!",
     "date": ["18-03-2023-21:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["Powerpop", "Britpop", "Electropop", "Neo Soul"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1029,7 +1036,7 @@
     "title": "Westbam",
     "date": ["18-03-2023-23:00"],
     "price": 13.9,
-    "tags": [""],
+    "tags": ["dj"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1037,15 +1044,7 @@
     "title": "CUM ON FEEL THE NOIZE",
     "date": ["24-03-2023-22:30"],
     "price": 0,
-    "tags": [""],
-    "link": "https://www.felsenkeller-leipzig.com/programm/",
-    "venue": "63fcff848bb6c9a6aa99a6a3"
-  },
-  {
-    "title": "Kool Savas",
-    "date": ["25-03-2023-19:30"],
-    "price": 37.5,
-    "tags": [""],
+    "tags": ["80", "punk"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1053,7 +1052,7 @@
     "title": "Monet192",
     "date": ["25-03-2023-20:00"],
     "price": 29.9,
-    "tags": [""],
+    "tags": ["rap", "hip hop"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1061,7 +1060,7 @@
     "title": "Karo Lynn & Michael Benjamin",
     "date": ["26-03-2023-20:00"],
     "price": 20.8,
-    "tags": [""],
+    "tags": ["pop"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1069,7 +1068,7 @@
     "title": "Mehnersmoos",
     "date": ["30-03-2023-19:00"],
     "price": 29.9,
-    "tags": [""],
+    "tags": ["hip hop"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1077,7 +1076,7 @@
     "title": "Die Kassierer",
     "date": ["31-03-2023-20:00"],
     "price": 35.75,
-    "tags": [""],
+    "tags": ["punk"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1085,7 +1084,7 @@
     "title": "Lostboi Lino",
     "date": ["31-03-2023-20:00"],
     "price": 26,
-    "tags": [""],
+    "tags": ["pop", "rock", "punk"],
     "link": "https://www.felsenkeller-leipzig.com/programm/",
     "venue": "63fcff848bb6c9a6aa99a6a3"
   },
@@ -1102,15 +1101,7 @@
     "title": "Liederzyklus zum 80.Jahrestages des Aufstandes im Warschauer Ghetto",
     "date": ["08-03-2023-20:00"],
     "price": 11,
-    "tags": [""],
-    "link": "https://horns-erben.de/veranstaltungen/",
-    "venue": "63fcff848bb6c9a6aa99a6a6"
-  },
-  {
-    "title": "Geschichten im Zauber des Moments",
-    "date": ["10-03-2023-20:00"],
-    "price": 8.8,
-    "tags": [""],
+    "tags": ["klasik", "lieder"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
@@ -1118,15 +1109,15 @@
     "title": "Die Andacht (Special Guest: Malo Moray)",
     "date": ["11-03-2023-20:00"],
     "price": 8.8,
-    "tags": [""],
+    "tags": ["electro", "minimalism"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
   {
-    "title": "Die Andacht (Special Guest: Malo Moray)",
+    "title": "Immortal Onion x Michał Jan",
     "date": ["15-03-2023-20:00"],
     "price": 11,
-    "tags": [""],
+    "tags": ["Filmmusik", "Jazz", "Minimal", "Fusion", "Electro"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
@@ -1134,15 +1125,15 @@
     "title": "Andreas Pientka Tentett",
     "date": ["18-03-2023-20:00"],
     "price": 11,
-    "tags": [""],
+    "tags": ["jazz"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
   {
     "title": "Loom & Thread",
-    "date": ["20-03-2023-20:00"],
+    "date": ["22-03-2023-20:00"],
     "price": 11,
-    "tags": [""],
+    "tags": ["jazz"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
@@ -1150,7 +1141,7 @@
     "title": "Carlos Cipa",
     "date": ["24-03-2023-20:00"],
     "price": 13.2,
-    "tags": [""],
+    "tags": ["klavier"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
@@ -1158,7 +1149,7 @@
     "title": "Laurids-Richter-Quintett",
     "date": ["25-03-2023-20:00"],
     "price": 11,
-    "tags": [""],
+    "tags": ["jazz"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
@@ -1166,7 +1157,7 @@
     "title": "forbes/deller/roth",
     "date": ["29-03-2023-20:00"],
     "price": 8.8,
-    "tags": [""],
+    "tags": ["jazz", "free-jazz"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
@@ -1174,7 +1165,7 @@
     "title": "Doppelkonzert: Frau Lehmann + Susa Berivan",
     "date": ["31-03-2023-20:00"],
     "price": 11,
-    "tags": [""],
+    "tags": ["pop", "rock"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
@@ -1182,7 +1173,7 @@
     "title": "The Big Horns Message",
     "date": ["01-03-2023-20:00"],
     "price": 11,
-    "tags": [""],
+    "tags": ["jazz"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
@@ -1190,7 +1181,7 @@
     "title": "KARLA",
     "date": ["03-03-2023-20:00"],
     "price": 11,
-    "tags": [""],
+    "tags": ["pop"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
@@ -1198,7 +1189,7 @@
     "title": "Uli Huebner Trio feat. Howard Curtis",
     "date": ["04-03-2023-20:00"],
     "price": 9.9,
-    "tags": [""],
+    "tags": ["jazz"],
     "link": "https://horns-erben.de/veranstaltungen/",
     "venue": "63fcff848bb6c9a6aa99a6a6"
   },
@@ -1206,7 +1197,7 @@
     "title": "BRANDT BRAUER FRICK",
     "date": ["03-03-2023-21:00"],
     "price": 24.2,
-    "tags": [""],
+    "tags": ["pop", "indie"],
     "link": "https://utconnewitz.de/index.php?article_id=1&clang=0&category=MUSIK",
     "venue": "63fcff848bb6c9a6aa99a6a7"
   },
@@ -1214,7 +1205,7 @@
     "title": "HEDVIG MOLLESTAD TRIO",
     "date": ["11-03-2023-20:00"],
     "price": 16.5,
-    "tags": [""],
+    "tags": ["jazz"],
     "link": "https://utconnewitz.de/index.php?article_id=1&clang=0&category=MUSIK",
     "venue": "63fcff848bb6c9a6aa99a6a7"
   },
@@ -1222,7 +1213,7 @@
     "title": "Lost and Found. Wiederentdeckungen von Enescu und Debussy ",
     "date": ["12-03-2023-19:00"],
     "price": 11,
-    "tags": [""],
+    "tags": ["klassik", "klavier"],
     "link": "https://utconnewitz.de/index.php?article_id=1&clang=0&category=MUSIK",
     "venue": "63fcff848bb6c9a6aa99a6a7"
   },
@@ -1230,7 +1221,7 @@
     "title": "FELIX KUBIN, ÚJ BALA, KARL MARX STADT ft. JAN KUMMER, ROZI MAKO, PRELL, LXC vs. Zonic Zound",
     "date": ["18-03-2023-20:00"],
     "price": 13.2,
-    "tags": [""],
+    "tags": ["pop", "electro", "tecno", "jazz"],
     "link": "https://utconnewitz.de/index.php?article_id=1&clang=0&category=MUSIK",
     "venue": "63fcff848bb6c9a6aa99a6a7"
   },
@@ -1238,15 +1229,7 @@
     "title": "LONG DISTANCE CALLING",
     "date": ["21-03-2023-20:00"],
     "price": 11,
-    "tags": [""],
-    "link": "https://utconnewitz.de/index.php?article_id=1&clang=0&category=MUSIK",
-    "venue": "63fcff848bb6c9a6aa99a6a7"
-  },
-  {
-    "title": "TAMIKREST",
-    "date": ["-03-2023"],
-    "price": 0,
-    "tags": [""],
+    "tags": ["rock", "post-rock"],
     "link": "https://utconnewitz.de/index.php?article_id=1&clang=0&category=MUSIK",
     "venue": "63fcff848bb6c9a6aa99a6a7"
   },
@@ -1254,7 +1237,7 @@
     "title": "DRY CLEANING (uk/ 4AD) & DEAD FINKS (b)",
     "date": ["28-03-2023-20:00"],
     "price": 24.2,
-    "tags": [""],
+    "tags": ["post-punk", "punk"],
     "link": "https://utconnewitz.de/index.php?article_id=1&clang=0&category=MUSIK",
     "venue": "63fcff848bb6c9a6aa99a6a7"
   },
@@ -1263,7 +1246,7 @@
     "title": "Tuishi Pamoja - Eine Freundschaft in der Savanne",
     "date": ["09-03-2023-09:30", "10-03-2023-09:30", "12-03-2023-15:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["musik theater"],
     "link": "https://ost-passage-theater.de/spielplan/",
     "venue": "63fcff848bb6c9a6aa99a6a8"
   },
@@ -1271,7 +1254,7 @@
     "title": "Lets Sing and Dance Together - Interkultureller Familiennachmittag",
     "date": ["11-03-2023:15"],
     "price": 0,
-    "tags": [""],
+    "tags": ["gesang"],
     "link": "https://ost-passage-theater.de/spielplan/",
     "venue": "63fcff848bb6c9a6aa99a6a8"
   },
@@ -1279,7 +1262,7 @@
     "title": "2. Offene Bühne Harfe",
     "date": ["24-03-2023-19:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["harfe"],
     "link": "https://ost-passage-theater.de/spielplan/",
     "venue": "63fcff848bb6c9a6aa99a6a8"
   },
@@ -1287,7 +1270,7 @@
     "title": "let me LIED you",
     "date": ["26-03-2023-20:00"],
     "price": 6,
-    "tags": [""],
+    "tags": ["gesang"],
     "link": "https://ost-passage-theater.de/spielplan/",
     "venue": "63fcff848bb6c9a6aa99a6a8"
   },
@@ -1295,7 +1278,7 @@
     "title": "Campaign for Musical Destruction Tour 2022/23",
     "date": ["01-03-2023-19:00"],
     "price": 34,
-    "tags": [""],
+    "tags": ["metal"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
@@ -1303,15 +1286,15 @@
     "title": "DEVIN TOWNSEND 'Lightwork European Tour'",
     "date": ["07-03-2023-19:30"],
     "price": 36.5,
-    "tags": [""],
+    "tags": ["metal"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
   {
     "title": "Che Sudaka",
-    "date": ["09-03-2023-20:00"],
+    "date": ["08-03-2023-20:00"],
     "price": 19.8,
-    "tags": [""],
+    "tags": ["cumbia", "ska", "merengue", "reggae"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
@@ -1319,7 +1302,7 @@
     "title": "Dilla",
     "date": ["09-03-2023-20:00"],
     "price": 24.55,
-    "tags": [""],
+    "tags": ["Pop", "Hip-Hop", "Funk", "Techno"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
@@ -1327,7 +1310,7 @@
     "title": "Kabuff Clikk & friends (Record Release Party)",
     "date": ["10-03-2023-21:00"],
     "price": 12,
-    "tags": [""],
+    "tags": ["hip hop"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
@@ -1335,7 +1318,7 @@
     "title": "Alyona Alyona",
     "date": ["13-03-2023-20:00"],
     "price": 15.4,
-    "tags": [""],
+    "tags": ["hip hop"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
@@ -1343,7 +1326,7 @@
     "title": "Sing Dela Sing - Frühlings-Mitsing-Konzert",
     "date": ["14-03-2023-20:00"],
     "price": 14.2,
-    "tags": [""],
+    "tags": ["gesang"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
@@ -1351,7 +1334,7 @@
     "title": "Irish Spring - Festival of Irish Folk Music 2023",
     "date": ["21-03-2023-20:00"],
     "price": 29.6,
-    "tags": [""],
+    "tags": ["irish", "folk"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
@@ -1359,7 +1342,7 @@
     "title": "TRUCKFIGHTERS",
     "date": ["22-03-2023-20:00"],
     "price": 27.5,
-    "tags": [""],
+    "tags": ["rock"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
@@ -1367,7 +1350,7 @@
     "title": "Geoff Tate",
     "date": ["24-03-2023-19:30"],
     "price": 39.4,
-    "tags": [""],
+    "tags": ["metal"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
@@ -1375,32 +1358,23 @@
     "title": "All Good Undones: Spiral Drive + Alocasia",
     "date": ["28-03-2023-19:30"],
     "price": 13.2,
-    "tags": [""],
+    "tags": ["rock", "neo-psych-rock"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
   },
-
   {
     "title": "Tequila and the Sunrise Gang, Support: Grundhass",
     "date": ["31-03-2023-20:00"],
     "price": 18.2,
-    "tags": [""],
+    "tags": ["Ska", " Punk", "Offbeat"],
     "link": "https://www.werk-2.de/",
     "venue": "63fcff848bb6c9a6aa99a6a9"
-  },
-  {
-    "title": "",
-    "date": ["-03-2023-"],
-    "price": 0,
-    "tags": [""],
-    "link": "https://www.ilseserika.de/termine-63.html",
-    "venue": "63fcff848bb6c9a6aa99a6aa"
   },
   {
     "title": "KAMALA live @ Ilses Erika, support: MALLORCA (+ FRIDAY ON MY MIND - die Mutter aller Partys)",
     "date": ["02-03-2023-21:30"],
     "price": 8.8,
-    "tags": [""],
+    "tags": ["rock", "indie"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1408,7 +1382,7 @@
     "title": "outronom pres. TAKTbaden",
     "date": ["03-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["House", "Disco", "Trance"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1416,7 +1390,7 @@
     "title": "INDIE DISCO w/ DEAD DISCO & MAX FERDINAND",
     "date": ["04-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["dico"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1424,15 +1398,7 @@
     "title": "OMAD - Open Mic am Dienstag - Soundclash",
     "date": ["07-03-2023-20:30"],
     "price": 5,
-    "tags": [""],
-    "link": "https://www.ilseserika.de/termine-63.html",
-    "venue": "63fcff848bb6c9a6aa99a6aa"
-  },
-  {
-    "title": "Die verrückte und wortgewaltige Filmauktion im Ilses Erika - mit Ben Ebelt & Ralf Donis",
-    "date": ["08-03-2023-20:00"],
-    "price": 0,
-    "tags": [""],
+    "tags": ["hip hop", "rap", "open mic"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1440,7 +1406,7 @@
     "title": "FRIDAY ON MY MIND - die Mutter aller Partys - Hip Hop Spezial w/ TEO (Record Release)",
     "date": ["09-03-2023-21:30"],
     "price": 0,
-    "tags": [""],
+    "tags": ["Indie", "Pop", "HipHop"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1448,7 +1414,7 @@
     "title": "pain & pleasure LIVE: Hammershøi / Accident Sentimental + Party!!!",
     "date": ["10-03-2023-21:30"],
     "price": 14.3,
-    "tags": [""],
+    "tags": ["pop", "electro"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1456,7 +1422,7 @@
     "title": "POP.SICLE - Pop Music all night long w/ Max Kinski & Karl Blau",
     "date": ["-03-2023-"],
     "price": 0,
-    "tags": [""],
+    "tags": ["pop"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1464,7 +1430,7 @@
     "title": "NIL (Leipzig) live @ Ilses Erika, support: VATI (Leipzig)",
     "date": ["15-03-2023-21:30"],
     "price": 8.8,
-    "tags": [""],
+    "tags": ["rock", "indie"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1472,7 +1438,7 @@
     "title": "FRIDAY ON MY MIND - die Mutter aller Partys w/ TONEY THE LONELY",
     "date": ["16-03-2023-22:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["Indie", "Pop", "HipHop"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1480,7 +1446,7 @@
     "title": "ELOTRANCE RAVE - trance, hard dance, bootlegs",
     "date": ["17-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["electro", "trance", "hard dance"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1488,7 +1454,7 @@
     "title": "INDIE AIR TONIGHT",
     "date": ["18-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["indie"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1496,7 +1462,7 @@
     "title": "FRIDAY ON MY MIND - die Mutter aller Partys w/ COURTNEY LOST",
     "date": ["23-03-2023-20:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["Indie", "Pop", "HipHop"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1504,7 +1470,7 @@
     "title": "KREUZGUT.DISKO",
     "date": ["24-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["Post-Punk", "Britpop", "New Wave", "Indie"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1512,7 +1478,7 @@
     "title": "Rock the 90s - Leipzigs große 90er Rock Party auf 2 Floors",
     "date": ["25-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["rock"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1520,7 +1486,7 @@
     "title": "FRIDAY ON MY MIND - die Mutter aller Partys w/ eavo (Take Me Out)",
     "date": ["30-03-2023-22:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["Indie", "Pop", "HipHop"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1528,7 +1494,7 @@
     "title": "E I S B Æ R Leipzig // New Wave & Postpunk",
     "date": ["31-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["punk", "new wave", "post punk"],
     "link": "https://www.ilseserika.de/termine-63.html",
     "venue": "63fcff848bb6c9a6aa99a6aa"
   },
@@ -1536,7 +1502,7 @@
     "title": "Jam Session",
     "date": ["06-03-2023-20:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["pop", "rock", "funk", "blues", "jazz"],
     "link": "https://villa-leipzig.de/",
     "venue": "63fcff848bb6c9a6aa99a6ab"
   },
@@ -1544,7 +1510,7 @@
     "title": "Elektro Jam Session",
     "date": ["15-03-2023-20:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["electro"],
     "link": "https://villa-leipzig.de/",
     "venue": "63fcff848bb6c9a6aa99a6ab"
   },
@@ -1552,16 +1518,15 @@
     "title": "Offener Singkreis: Herzenslieder aus aller Welt ",
     "date": ["17-03-2023-18:00"],
     "price": 5,
-    "tags": [""],
+    "tags": ["gesang"],
     "link": "https://villa-leipzig.de/",
     "venue": "63fcff848bb6c9a6aa99a6ab"
   },
-
   {
     "title": "INPUT",
     "date": ["02-03-2023-"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1569,7 +1534,7 @@
     "title": "'UNWRITTEN' - SUBKUTAN RECORD-RELEASE PARTY",
     "date": ["03-03-2023-23:59"],
     "price": 14.65,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1577,7 +1542,7 @@
     "title": "CLUBNACHT",
     "date": ["14-03-2023-23:59"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1585,7 +1550,7 @@
     "title": "Rillendisco",
     "date": ["05-03-2023-14:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1593,7 +1558,7 @@
     "title": "INPUT",
     "date": ["09-03-2023-22:00"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1601,7 +1566,7 @@
     "title": "Club.Mach3",
     "date": ["10-03-2023-23:59"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1609,7 +1574,7 @@
     "title": "SEA-WATCH & FRIENDS SOLITOUR",
     "date": ["11-03-2023-23:00"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1617,7 +1582,7 @@
     "title": "INPUT",
     "date": ["16-03-2023-22:00"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1625,7 +1590,7 @@
     "title": "HERRENSAUNA x PULSÅR",
     "date": ["17-03-2023-23:59"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1633,7 +1598,7 @@
     "title": "CLUBNACHT -LIVE-",
     "date": ["18-03-2023-23:59"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1641,7 +1606,7 @@
     "title": "INPUT",
     "date": ["23-03-2023-22:00"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1649,7 +1614,7 @@
     "title": "AEQUALIS X EXIL KOLLEKTIV",
     "date": ["25-03-2023-23:59"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1657,7 +1622,7 @@
     "title": "ABLETON LIVE WORKSHOP",
     "date": ["29-03-2023-19:00"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1665,7 +1630,7 @@
     "title": "INPUT X DISTANZ",
     "date": ["30-03-2023-22:00"],
     "price": 10,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1673,7 +1638,7 @@
     "title": "FÖRDERHINWEIS",
     "date": ["17-03-2023-12:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://ifz.me/",
     "venue": "63fcff848bb6c9a6aa99a6ac"
   },
@@ -1681,7 +1646,7 @@
     "title": "FRIDAY RAVE",
     "date": ["03-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://www.distillery.de/ex/dates",
     "venue": "63fcff848bb6c9a6aa99a6ad"
   },
@@ -1689,7 +1654,7 @@
     "title": "SATURDAY RAVE",
     "date": ["04-03-2023-23:00"],
     "price": 16.75,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://www.distillery.de/ex/dates",
     "venue": "63fcff848bb6c9a6aa99a6ad"
   },
@@ -1697,7 +1662,7 @@
     "title": "KONZERTABEND: STAY / MEKONG AIRLINES / PEEKGOOSE",
     "date": ["10-03-2023-20:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://www.distillery.de/ex/dates",
     "venue": "63fcff848bb6c9a6aa99a6ad"
   },
@@ -1705,7 +1670,7 @@
     "title": "OXIDATION",
     "date": ["17-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://www.distillery.de/ex/dates",
     "venue": "63fcff848bb6c9a6aa99a6ad"
   },
@@ -1713,7 +1678,7 @@
     "title": "SATURDAY RAVE",
     "date": ["18-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://www.distillery.de/ex/dates",
     "venue": "63fcff848bb6c9a6aa99a6ad"
   },
@@ -1721,7 +1686,7 @@
     "title": "BOUNDLESS BEATZ",
     "date": ["24-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://www.distillery.de/ex/dates",
     "venue": "63fcff848bb6c9a6aa99a6ad"
   },
@@ -1729,7 +1694,7 @@
     "title": "SATURDAY RAVE X VOXNOX",
     "date": ["25-03-2023-23:00"],
     "price": 0,
-    "tags": [""],
+    "tags": ["tecno"],
     "link": "https://www.distillery.de/ex/dates",
     "venue": "63fcff848bb6c9a6aa99a6ad"
   }

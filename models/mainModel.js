@@ -123,7 +123,6 @@ const mainTagSchema = {
   type: String,
   trim: true,
   tolowercase: true,
-  maxlength: [10, `a tag must contain max 10 characters`],
 };
 
 export {
