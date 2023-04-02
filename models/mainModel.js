@@ -113,10 +113,7 @@ const priceSchema = {
 };
 
 const mainPriceSchema = {
-  vorverkauf: priceSchema,
-  abendkasse: priceSchema,
-  ab: priceSchema,
-  ermaessigt: priceSchema,
+  type : Number
 };
 
 const mainTagSchema = {

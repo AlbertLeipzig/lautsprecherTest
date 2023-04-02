@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 dotenv.config();
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 import dbConnection from './db/dbConnection.js';
 import bandRoutes from './routes/bandRoutes.js';
 import musicianRoutes from './routes/musicianRoutes.js';
@@ -19,14 +19,17 @@ import messageRoutes from './routes/messageRoutes.js';
 
 // connectDB
 
-
 const mongoUri = process.env.MONGOURI;
 
 // middleware
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors( ));
+app.use(
+  cors({
+    origin: 'https://melodic-kulfi-fc3b2f.netlify.app/events',
+  })
+);
 
 //routes
 
@@ -35,13 +38,12 @@ app.use(`${baseApi}/bands`, bandRoutes);
 app.use(`${baseApi}/business`, businessRoutes);
 app.use(`${baseApi}/events`, eventRoutes);
 app.use(`${baseApi}/musicians`, musicianRoutes);
-app.use(`${baseApi}/organizers`, organizerRoutes);
+app.use(`${baseApi}/organ izers`, organizerRoutes);
 app.use(`${baseApi}/venues`, venueRoutes);
 app.use(`${baseApi}/user`, singleUserRoutes);
 app.use(`${baseApi}/message`, messageRoutes);
 
 // start server
-
 
 const startServer = async () => {
   try {

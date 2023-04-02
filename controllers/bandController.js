@@ -23,7 +23,7 @@ const addSingleBand = async (req, res) => {
     } else if (existingBand && confirmationStatus === undefined) {
       res.status(200).json({
         message: 'You are trying to add a band that already exists.',
-        payload : existingBand
+        payload: existingBand,
       });
     } else if (existingBand && confirmationStatus) {
       updateSingleBand(req, res);
@@ -75,8 +75,14 @@ const getAllBands = async (req, res) => {
 
 const addManyBands = async (req, res) => {
   try {
-    const bands = await Band.insertMany(req.body);
-    server200(res, bands);
+    const bands = await Band.find();
+    const rawBands = req.body;
+    const bandsToBeAdded = rawBands.filter((band) => {
+      const existingBand = bands.find((b) => b.name === band.name);
+      return !existingBand;
+    });
+    const newBands = await Band.insertMany(bandsToBeAdded);
+    server200(res, newBands);
   } catch (error) {
     server500(res, error);
   }
@@ -84,10 +90,26 @@ const addManyBands = async (req, res) => {
 
 const updateManyBands = async (req, res) => {
   try {
-    const bands = await Band.updateMany(req.body.filter, req.body.update, {
-      new: true,
-      runValidators: true,
+    const bands = await Band.find();
+
+    const rawBands = req.body;
+    const bandsToBeUpdated = rawBands.filter((band) => {
+      const existingBand = bands.find((b) => b.name === band.name);
+      return existingBand;
     });
+
+    const updatedBands = bandsToBeUpdated.map(async (band) => {
+      const updatedBand = await Band.findOneAndUpdate(
+        { name: band.name },
+        band,
+        {
+          new: true,
+          runValidators: true,
+        }
+      );
+      return updatedBand;
+    });
+
     server200(res, bands);
   } catch (error) {
     server500(res, error);
