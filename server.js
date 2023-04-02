@@ -27,7 +27,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(
   cors({
-    origin: 'https://melodic-kulfi-fc3b2f.netlify.app/events',
+    origin: [
+      'https://melodic-kulfi-fc3b2f.netlify.app/events',
+      'http://localhost:5000/api/v1/events.',
+    ],
   })
 );
 
